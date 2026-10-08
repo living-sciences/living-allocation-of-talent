@@ -1,0 +1,66 @@
+{
+  "instruction_summary": "Corrective study for the HHJK (2019) post-2010 living-update (001/002/003): report failed gates honestly (Gate 3b FAILED), pair L4/L4b under both deflator conventions and lead with the convention-robust absolute friction contribution, complete the dropped deliverables (LivingDefl L6, group_shares, L7/L2-young/L8-earn/L9-annual), make Gate 2b(ii) a real array check, recompute Gate 4 with script 04, rebuild tau_paths/fig1 from the Octave estimator, fix robustness_summary labels, and correct the 003 theory wording.",
+  "completed": true,
+  "steps": [
+    {"description": "Read provenance audit (authoritative fix list §8), spec, and prior 001/002/003 artifacts/reports/cards", "command": "Read hhjk-provenance.md, spec-living-update.md, 002/003 report.md + result_card.json", "exit_code": 0, "outputs": []},
+    {"description": "Rebuilt venv (pandas/numpy/matplotlib/scipy/pyarrow); Octave 6.4.0 present; no gnuplot (install forbidden) so wrote no-op graphics shims so the numeric pipeline runs headless (verified meanlogtau byte-identical to prior run -> shims numerically clean)", "command": "uv pip install ...; gshims/*.m", "exit_code": 0, "outputs": ["workspace/gshims/*.m"]},
+    {"description": "FIX 1 Gate-3b level-scale sensitivity: re-ran Living S1-S3 + t6_7 c1 with 2023 earnings scaled 1/1.019 and 1/1.016 (+ reverse +1.9% and intermediate pce2010=104.0). tau-hat invariant (meanlogtau identical); L4 moves only via the growth denominator", "command": "run_stage.sh Benchmark (EARN2023_SCALE / PCE2010_override)", "exit_code": 0, "outputs": ["gates/gate3b_anchor.json", "workspace/cases/Living_s1019", "workspace/cases/Living_s1016", "workspace/cases/Living_defl104"]},
+    {"description": "FIX 3 LivingDefl L6: ran t6_7 chunks c3/c4/c5 (corrected-deflator group split) reusing existing .mat; filled group_shares.csv", "command": "run_stage.sh Benchmark HMPChunk=3/4/5 t6_7 (LivingDefl)", "exit_code": 0, "outputs": ["results/group_shares.csv"]},
+    {"description": "FIX 4 Gate 2b(ii): dumped the ACTUAL TauW_alt/TauH_alt/Z_alt arrays from production how_much_poorer.m at t0=1970 and t0=2010 and diffed vs the rule (PASS), covering the t0>1 incumbent path L4 depends on", "command": "how_much_poorer_dump.m + python verify", "exit_code": 0, "outputs": ["results/gate2b_assignment_arraydump.json", "results/tau_assignment_t0_1970_t1_2010.csv"]},
+    {"description": "FIX 5 Gate 4: ran scripts/04 in-run; (a) 96.46% unambiguous/0% unmapped, (b) Duncan 0.0103 vs 0.0114, (c) group ratios 0.80-0.99 -> PASS; quantified R4 as argmax-split proxy (5/538 codes)", "command": "python scripts/04_resolve_and_audit_crosswalk.py", "exit_code": 0, "outputs": ["gates/gate4_crosswalk.json", "gates/gate4_script04_output.txt", "gates/gate4_R4_proxy.json"]},
+    {"description": "FIX 6 tau_paths/fig1/stability: rebuilt tau_paths.csv + fig1 from the Octave 'Mean(weighted)' estimator (BW 1960 7.90->6.685); verified raw tau-hat 1960-2010 identical 6v7 (max rel 4.6e-16) so the masked GetTExperience re-run is moot; added the t1=6 L3/L6 stability rows", "command": "python (parse Octave logs) + run_stage t1_6 chunks (Living_stab)", "exit_code": 0, "outputs": ["results/tau_paths.csv", "results/fig1_tauhat_by_group_1960_2023.png", "results/stability_1960_2010.csv", "results/stability_1960_2010_shares.csv", "results/stability_trace.txt"]},
+    {"description": "FIX 7 robustness_summary.csv: relabeled columns to the true tauH-only/tauW-only Ymkt shares (prior columns held Ywkr/Cons)", "command": "python (extract true shares from logs)", "exit_code": 0, "outputs": ["results/robustness_summary.csv"]},
+    {"description": "FIX 8 dropped deliverables: L7 (WW tau by occupation), L2 (young relative-propensity SD), L8 (earnings/worker + LFP data vs model 2023), L9 (annual relative-propensity SD 2017-19, 2021-24 from parquets), figure CSVs", "command": "python from .mat + parquets", "exit_code": 0, "outputs": ["results/L7_WW_tau_by_occupation.csv", "results/L2_sd_ln_relprop_young.csv", "results/L8_tableIV_fit_2023.csv", "results/L9_annual_sd_ln_relprop.csv", "results/fig1_*.csv", "results/fig2_*.csv"]},
+    {"description": "FIX 2 + 9: card leads with the both-conventions absolute contribution (0.04 vs 0.06 pp/yr); 003 wording corrected (tauW not flat for WW; HRS paraphrase; [PROJECTED] tags; error band; post-hoc cut-off)", "command": "write report/findings/card/corrections", "exit_code": 0, "outputs": ["report.md", "results/findings.md", "result_card.json", "results/card_corrections.csv", "results/003_theory_corrections.md"]}
+  ],
+  "key_results": {
+    "absolute_friction_contribution_pp_per_yr_2000_10": "0.04 (both conventions)",
+    "absolute_friction_contribution_pp_per_yr_2010_23": "0.06 (both conventions, and all 2023 level scales)",
+    "L4_share_2010_23_paper_deflator": "7.0%",
+    "L4_share_2010_23_corrected_deflator": "5.2%",
+    "L4b_share_2000_10_paper": "7.3%",
+    "L4b_share_2000_10_corrected": "29.2%",
+    "L4_level_scale_sensitivity_range": "6.1-8.4% across +/-1.9% 2023-level correction; pce2010~104.0 gives 5.9%",
+    "L5_remaining_gain_2023": "9.0% (invariant to deflator and 2023 level scale)",
+    "gate3b_verdict": "FAILED ((d) earnings tolerance missed under every route: 1.80% pre-registered / 0.59% post-hoc ADJINC-only / 1.92% 3-year)",
+    "gate2b_ii_verdict": "PASS (real array dump vs rule; incumbent cohorts at t0=2010 correctly keep own estimates)",
+    "gate4_verdict": "PASS recomputed in-run (a 96.46%/0%, b 0.0103 vs 0.0114, c ratios 0.80-0.99)",
+    "mean_tauhat_BW_1960_Octave": "6.685 (was 7.90 Python)",
+    "LivingDefl_L6_2010_23_WW_BM_BW": "3.8 / 0.5 / 0.8",
+    "L7_WW_tau_2023_doctors_lawyers_construction_secretaries": "1.01 / 1.04 / 6.33 / 0.38",
+    "L8_earnings_per_worker_2023_data_model": "84836 / 78193 (model 7.8% low, a 2023 level-convention symptom)",
+    "R4_relabel": "argmax-split proxy; differs from modal in 5 of 538 codes"
+  },
+  "comparison_to_original": [
+    {"quantity": "Gate 3b label", "original": "semantic PASS (CONDITIONAL PASS)", "followup": "FAILED", "source_file": "002-living-update-cont/result_card.json notes / anchor_3b.json", "note": "No 'semantic pass' category exists; (d) fails every route"},
+    {"quantity": "L4b (2000-10) corrected deflator on the card", "original": "omitted from card (29.2% only in report)", "followup": "29.2% paired with L4 5.2% on the card", "source_file": "002-living-update-cont/result_card.json", "note": "Spec pairing rule"},
+    {"quantity": "Lead statement on 2010-23 friction contribution", "original": "'essentially unchanged from 7.3% in 2000-2010' (share, unconditional)", "followup": "absolute 0.04->0.06 pp/yr under BOTH conventions; share is deflator-sensitive (L4b 7.3 vs 29.2)", "source_file": "002-living-update-cont/report.md L65-74", "note": "Only the denominator (actual growth) moves with the deflator"},
+    {"quantity": "mean tau-hat BW 1960 (tau_paths.csv, fig1)", "original": "7.90 (Python estimator)", "followup": "6.685 (Octave 'Mean(weighted)')", "source_file": "002-living-update-cont/results/tau_paths.csv", "note": "Paper-estimator mismatch; fig1 inherited it"},
+    {"quantity": "robustness_summary.csv tauH/tauW columns", "original": "held Ywkr/Cons (primary 29.2/60.5, 11.3/17.4)", "followup": "true tauH-only/tauW-only Ymkt (L3 34.2/6.2; L4 5.4/1.5)", "source_file": "002-living-update-cont/results/robustness_summary.csv", "note": "Mislabeled"},
+    {"quantity": "Gate 4 (b),(c)", "original": "cited Phase-2a staged values, run after the model", "followup": "recomputed in-run: 0.0103/0.0114; group ratios 0.80-0.99", "source_file": "002-living-update-cont/results/audit_crosswalk.json", "note": "PASS; matches staged values"},
+    {"quantity": "Gate 2b(ii)", "original": "assignment table generated from the rule (tautological)", "followup": "arrays dumped from production code and diffed vs rule (PASS)", "source_file": "002-living-update-cont/results/tau_assignment_t0_1970_t1_2010.csv", "note": "t0>1 incumbent path now exercised"},
+    {"quantity": "group_shares.csv", "original": "header-only (empty)", "followup": "filled (L3 & L4 both conventions)", "source_file": "002-living-update-cont/results/group_shares.csv", "note": "LivingDefl L6 run in this study"},
+    {"quantity": "R4 label", "original": "SPLIT crosswalk", "followup": "argmax-split proxy (5/538 codes)", "source_file": "002-living-update-cont/report.md", "note": "Not a true fractional SPLIT"},
+    {"quantity": "003 'tauW flat'", "original": "labour-market wedge tauW flat (all groups)", "followup": "flat for BM, minor for BW, ~half of WW's decline (47%; 51% R5)", "source_file": "003-theory-update/report.md L90-100", "note": "False for WW"},
+    {"quantity": "003 '~8.8% unrealised' + projection", "original": "no [PROJECTED] tag, no error band", "followup": "[PROJECTED] tag added; band shown (WW backtest 0.193 >> projected 0.049 decline)", "source_file": "003-theory-update/result_card.json", "note": "B3 label + forecast-power caveat"}
+  ],
+  "artifacts": [
+    "report.md", "results/findings.md", "result_card.json", "results/card_corrections.csv",
+    "results/tau_paths.csv", "results/group_shares.csv", "results/robustness_summary.csv",
+    "results/stability_1960_2010.csv", "results/stability_1960_2010_shares.csv", "results/stability_trace.txt",
+    "results/tau_assignment_t0_1970_t1_2010.csv", "results/gate2b_assignment_arraydump.json",
+    "results/L2_sd_ln_relprop_young.csv", "results/L7_WW_tau_by_occupation.csv",
+    "results/L8_tableIV_fit_2023.csv", "results/L9_annual_sd_ln_relprop.csv",
+    "results/fig1_tauhat_by_group_1960_2023.png", "results/fig1_tauhat_by_group_1960_2023.csv",
+    "results/fig2_L4_deflator_share_vs_absolute.png", "results/fig2_L4_deflator_share_vs_absolute.csv",
+    "results/stage_timings.csv", "results/003_theory_corrections.md",
+    "gates/gate3b_anchor.json", "gates/gate4_crosswalk.json", "gates/gate4_script04_output.txt", "gates/gate4_R4_proxy.json"
+  ],
+  "deviations": [
+    "Gate 3b is reported FAILED but the 2023 model results are retained (the spec's honest-partial path): the failure is the earnings LEVEL convention, which is quantified by the level-scale sensitivity (L4 6.1-8.4%, L5 invariant) rather than re-fetching data. This is a deliberate, disclosed departure from the literal stop rule, matching the audit's framing.",
+    "R4 'SPLIT' is relabeled (not re-run as a true fractional allocation): a true fractional SPLIT would require rebuilding the 2023 data pipeline; the honest relabel option permitted by the audit was taken, with the 5/538-code scope stated.",
+    "No gnuplot available and installs are forbidden, so Octave figures are stubbed with no-op graphics shims; all figures are re-plotted in Python per the spec. Numeric invariance verified (meanlogtau byte-identical).",
+    "003 theory corrections are written as results/003_theory_corrections.md and incorporated into card_corrections.csv rather than editing the read-only 003 directory.",
+    "pce(2010)~104.0 ('~2011 dollars' hypothesis) was run as an optional extra (L4=5.9, L4b=12.1), stated as a hypothesis not a finding."
+  ]
+}

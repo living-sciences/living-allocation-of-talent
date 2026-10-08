@@ -1,0 +1,15 @@
+convention,year,NoTauH_gain_pct,NoTauW_gain_pct,NoBoth_gain_pct
+paper_deflator,1960,7.8,1.5,13.4
+paper_deflator,1970,15.3,3.6,25.9
+paper_deflator,1980,19.1,6.9,34.2
+paper_deflator,1990,11.7,8.2,24.1
+paper_deflator,2000,4.8,7.5,14.1
+paper_deflator,2010,1.6,7.1,9.9
+paper_deflator,2023,-0.3,8.3,9.0
+corrected_deflator,1960,7.8,1.5,13.4
+corrected_deflator,1970,15.3,3.6,25.9
+corrected_deflator,1980,19.1,6.9,34.2
+corrected_deflator,1990,11.7,8.2,24.1
+corrected_deflator,2000,4.8,7.5,14.1
+corrected_deflator,2010,1.6,7.1,9.9
+corrected_deflator,2023,-0.4,8.3,9.0

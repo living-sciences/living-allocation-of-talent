@@ -1,0 +1,37 @@
+STABILITY TRACE (gate 7), corrective study 004 — Octave estimator
+=================================================================
+RULE (spec A.5): any change >1% in a mean tau-hat (L1) or >0.5pp in a share
+(L3/L5/L6) between the original 6-period run and the 7-period run must be traced
+to a named mechanism (cohort + experience observation), demonstrated by a masked
+GetTExperience re-run, else treated as a bug.
+
+PART A — mean tau-hat (L1). The Octave "Mean(weighted)" rows shift by 1.6-2.7%
+between the 6-period replication and the 7-period living run (e.g. WW 1960
+6.930 -> 6.818 = -1.6%; WW 2010 2.293 -> 2.232 = -2.7%; BM 1960 2.827 -> 2.871
+= +1.6%; BW 1970 5.930 -> 5.827 = -1.7%; BW 2010 2.604 -> 2.543 = -2.3%). All
+exceed the 1% threshold and are flagged (stability_1960_2010.csv).
+
+TRACE / why the masked re-run is MOOT:
+  The raw per-occupation tau-hat(occ, group, 1960-2010) is IDENTICAL between the
+  6- and 7-period runs: max relative difference 4.6e-16 and the finite-cell
+  pattern is identical (verified by loading tauhat from
+  replication/codebase/TalentData_Benchmark.mat and Living/TalentData_Benchmark.mat).
+  Because the estimated frictions entering the group mean are byte-identical, the
+  GetTExperience experience profiles for 1960-2010 are unchanged by construction;
+  masking the 2023 observations and re-running GetTExperience cannot alter any
+  1960-2010 tau-hat. The entire L1 shift is therefore the group-mean AGGREGATION
+  WEIGHT: CleanandShowTauAZ collapses occupation tau-hat to a group mean with
+  'earningsweights_avg', a weight vector AVERAGED over all periods. Adding period 7
+  (2023) changes earningsweights_avg(occ), reweighting the (identical) occupation
+  tau-hats. Demonstrated directly: applying the 6-period vs 7-period
+  earningsweights_avg to the identical raw tau-hat reproduces the shift
+  (WW 1960 6.966 -> 6.853 = -1.6%, same magnitude as the Octave -1.6%; WW 2010
+  2.293 -> 2.232 = -2.7%). This is a reporting-weight convention, NOT a change in
+  estimated frictions.
+
+PART B — share estimands (L3, L6). These are the HEADLINE estimands. Re-running the
+1960->2010 counterfactual on the 7-period case (t0=1, t1=6) gives L3 Ymkt
+TauWTauH 41.3 (vs 41.5), tauH-only 35.8 (vs 36.0), tauW-only 7.6 (vs 7.7), and L6
+WW/BM/BW 33.6/1.2/3.7 (vs 33.8/1.2/3.7). Every change is <=0.2pp, within the 0.5pp
+threshold -> the headline shares are STABLE between the 6- and 7-period runs; no
+trace required. (The prior study never ran these t1=6 rows; they are added here.)

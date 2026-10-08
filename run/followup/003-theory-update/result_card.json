@@ -1,0 +1,146 @@
+{
+  "schema": "sai.followup.result_card/v1",
+  "headline": "Extending HHJK (2019)'s frictions to 2023 and fitting a convergence law: the post-2010 talent-allocation slowdown is NOT a stall or reversal (WW continued (borderline, study-chosen cut-off), BM & BW slowed) but the exponential approach to a non-zero floor the model always implied; the remaining decline is tauH-dominated for BM/BW, while for WW tauW is ~half of it; and the projected forward friction 'dividend' is ~0.08%/decade of market GDP/person [PROJECTED, conditional on the fitted law, A, phi, z-tilde and q held at 2023 values], ~90x below the ~0.7%/yr of 1960-2010.",
+  "status": "completed",
+  "metrics": [
+    {
+      "label": "Stall classification (mean ln tau-hat): white women",
+      "value": "continued",
+      "baseline": "qualitative 'less optimistic after 2010' (HHJK C12)",
+      "baseline_label": "paper C12",
+      "note": "2010-23 decline = 34% of 1960-2010 rate; 2023 within law band b=0.19"
+    },
+    {
+      "label": "Stall classification: Black men / Black women",
+      "value": "slowed / slowed",
+      "baseline": "no quantitative baseline",
+      "baseline_label": "this study",
+      "note": "neither stalled nor reversed; 2023 within own law's band (BM backtest tight e=0.010; BW wide e=0.125)"
+    },
+    {
+      "label": "Post-2010 friction decline attributed to pre-market tauH",
+      "value": "WW 53% / BM 126% / BW 88%",
+      "baseline": "tauW (labour-market) share = rest",
+      "baseline_label": "this study, exact decomposition",
+      "note": "tauH-dominated for BM/BW with tauW flat; for WW tauW is ~47% of the decline (51% under R5). HRS (2024): the adjusted Black-white male wage gap stayed roughly flat even as measured discrimination fell. [corrected per 004 addendum]"
+    },
+    {
+      "label": "Projected forward friction dividend (market GDP/person) [PROJECTED]",
+      "value": "+0.08% by 2033, +0.23% at tau->tau_inf",
+      "baseline": "~0.69%/yr (6.9%/decade) in 1960-2010",
+      "baseline_label": "41.5% x 1.66%/yr, replication",
+      "note": "~90x smaller; conditional on fitted law with A,phi,z,q held at 2023; NOT a growth forecast"
+    },
+    {
+      "label": "Output permanently unrealised even at full convergence (tau->tau_inf)",
+      "value": "~8.8% [PROJECTED, conditional on the fitted law, A, phi, z-tilde and q held at 2023 values]",
+      "baseline": "9.0% (remove ALL frictions, 2023)",
+      "baseline_label": "001 remaining_gain.csv (L5)",
+      "note": "floors tau_inf ~1.28-1.60 are well above frictionless 1.0"
+    }
+  ],
+  "tables": [
+    {
+      "title": "Convergence law per group (fit 1960-2010, true midpoints) + 2023 out-of-sample",
+      "columns": [
+        "Group",
+        "lambda (/yr)",
+        "half-life",
+        "tau_inf",
+        "obs 2023",
+        "law pred 2023",
+        "band b",
+        "class"
+      ],
+      "rows": [
+        [
+          "WW",
+          "0.040",
+          "17.2 yr",
+          "1.28",
+          "0.397",
+          "0.352",
+          "0.193",
+          "continued"
+        ],
+        [
+          "BM",
+          "0.098",
+          "7.1 yr",
+          "1.42",
+          "0.332",
+          "0.351",
+          "0.046",
+          "slowed"
+        ],
+        [
+          "BW",
+          "0.050",
+          "13.9 yr",
+          "1.60",
+          "0.566",
+          "0.524",
+          "0.125",
+          "slowed"
+        ]
+      ],
+      "highlight_row": 0
+    },
+    {
+      "title": "Falling-tau contribution to market GDP/person: historical vs projected [PROJECTED]",
+      "columns": [
+        "Window",
+        "Contribution",
+        "note"
+      ],
+      "rows": [
+        [
+          "1960-2010 (per decade)",
+          "~6.9%",
+          "41.5% of growth (HHJK)"
+        ],
+        [
+          "2023->2033",
+          "+0.08%",
+          "fitted law"
+        ],
+        [
+          "2023->2043",
+          "+0.13%",
+          "fitted law"
+        ],
+        [
+          "2023->tau_inf",
+          "+0.23%",
+          "full convergence to floor"
+        ]
+      ],
+      "highlight_row": 3
+    }
+  ],
+  "figures": [
+    {
+      "file": "results/fig1_convergence_law.png",
+      "caption": "Friction convergence law fit on 1960-2010 (solid = extrapolated law, dotted = fitted floor tau_inf) with the 2023 estimate as an out-of-sample test (diamonds, +/- band b). All 2023 points sit within the law's own band, so the post-2010 slowdown is the convergence the model implied, not a stall.",
+      "alt": "Three decaying curves (WW, BM, BW) for mean ln tau-hat from 1960 falling toward floors; 2023 diamonds near each curve with error bars."
+    },
+    {
+      "file": "results/fig2_split_and_projection.png",
+      "caption": "Left: the 2010-2023 friction decline is tauH-dominated (pre-market), with tauW flat for BM/BW (for WW tauW is ~half the decline). Right: the projected forward friction dividend (~0.08%/decade [PROJECTED, conditional on the fitted law, A, phi, z-tilde and q held at 2023 values]; error band: WW backtest error 0.193 exceeds its projected decline 0.049) dwarfed by the ~6.9%/decade measured 1960-2010 historical contribution (and the measured 2010-23 contribution of ~0.06%/yr, ~8x the projection's annualized rate).",
+      "alt": "Left stacked bars of tauH vs tauW share of decline by group; right bars comparing 6.9% historical to 0.08/0.13/0.23% projected gains."
+    }
+  ],
+  "notes": [
+    "No new data fetched; reuses 001 (living-update) 7-period friction estimates from saved .mat files. Items 1,2,4 are pure Python analysis; item 3 is 4 new Octave SolveForEqm solves per spec, stage-split (<=66s each), never backgrounded; a zero-shift run reproduces 001's 2023 baseline to the digit.",
+    "Pre-registered: law form, stall thresholds, band b=max(R1-R4 spread, backtest error), consistent 7-period inputs (B2), 1960-2000->2010 backtest (B1), [PROJECTED] labels (B3). WW/BW backtest errors are large (0.19/0.13) so their 'not stalled' verdict is low-power; BM's is confident.",
+    "All projection numbers are conditional illustrations of the fitted law (A, phi, z-tilde, q held at 2023), not a GDP growth forecast, and are not placed next to one."
+  ],
+  "report_file": "report.md",
+  "corrections": [
+    {
+      "date": "2026-10-07",
+      "source": "004-gate-conformance/results/003_theory_corrections.md",
+      "note": "card fields updated per the audited corrections addendum (tauW-not-flat-for-WW, HRS paraphrase, PROJECTED tags, error band, cut-off disclosure); applied by the orchestrator, logged in 004 fix_log"
+    }
+  ]
+}

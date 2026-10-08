@@ -1,0 +1,17 @@
+{
+  "Wstar": {
+    "unmapped_worker_weight_share": 0.0,
+    "n_persons": 2768726,
+    "total_weight": 98852864.0
+  },
+  "W_NH": {
+    "unmapped_worker_weight_share": 0.0,
+    "n_persons": 2422274,
+    "total_weight": 84490382.0
+  },
+  "W_lit": {
+    "unmapped_worker_weight_share": 0.0,
+    "n_persons": 2532821,
+    "total_weight": 88826107.33333333
+  }
+}

@@ -1,0 +1,11 @@
+case,stage,rc,seconds
+Proj_primary,projzero,0,66
+Proj_primary,p2033,0,56
+Proj_primary,p2043,0,55
+Proj_primary,pinf,0,56
+Proj_R5,p2033,0,57
+Proj_R5,p2043,0,56
+Proj_R5,pinf,0,56
+Proj_R8,p2033,0,55
+Proj_R8,p2043,0,56
+Proj_R8,pinf,0,55

@@ -1,0 +1,5 @@
+quantity,period,data,model,note
+earnings_mkt_after_tauw,2010,55304,57257,"Living log 'Earnings (market, after tauw)'; equals replication 2010 Table IV 41541/42717 x (135.33/101.653) 2023-dollar conversion (same convention)"
+earnings_mkt_after_tauw,2023,64080,60918,Living log; model 4.9% below data
+LFP,2010,0.759,0.748,Living log
+LFP,2023,0.792,0.79,data within sanity band 0.78-0.82 (gate 6)

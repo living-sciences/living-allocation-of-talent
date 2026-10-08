@@ -1,0 +1,86 @@
+{
+ "t0_2_t1_6": {
+  "t0": 2,
+  "t1": 6,
+  "t0young": 6,
+  "Nyears": 7,
+  "Noccs": 67,
+  "Ncohorts": 9,
+  "tauW_source_by_period": {
+   "1": "own",
+   "2": "own",
+   "3": "held@t0=2(1970)",
+   "4": "held@t0=2(1970)",
+   "5": "held@t0=2(1970)",
+   "6": "held@t0=2(1970)",
+   "7": "held@t0=2(1970)"
+  },
+  "tauH_source_by_cohort": {
+   "1": "t0young_coh6",
+   "2": "t0young_coh6",
+   "3": "t0young_coh6",
+   "4": "t0young_coh6",
+   "5": "t0young_coh6",
+   "6": "own",
+   "7": "own",
+   "8": "own",
+   "9": "own"
+  },
+  "Z_source_by_cohort": {
+   "1": "t0young_coh6",
+   "2": "t0young_coh6",
+   "3": "t0young_coh6",
+   "4": "t0young_coh6",
+   "5": "t0young_coh6",
+   "6": "own",
+   "7": "own",
+   "8": "own",
+   "9": "own"
+  },
+  "violations": [],
+  "PASS": true
+ },
+ "t0_6_t1_7": {
+  "t0": 6,
+  "t1": 7,
+  "t0young": 2,
+  "Nyears": 7,
+  "Noccs": 67,
+  "Ncohorts": 9,
+  "tauW_source_by_period": {
+   "1": "own",
+   "2": "own",
+   "3": "own",
+   "4": "own",
+   "5": "own",
+   "6": "own",
+   "7": "held@t0=6(2010)"
+  },
+  "tauH_source_by_cohort": {
+   "1": "t0young_coh2",
+   "2": "own",
+   "3": "own",
+   "4": "own",
+   "5": "own",
+   "6": "own",
+   "7": "own",
+   "8": "own",
+   "9": "own"
+  },
+  "Z_source_by_cohort": {
+   "1": "t0young_coh2",
+   "2": "own",
+   "3": "own",
+   "4": "own",
+   "5": "own",
+   "6": "own",
+   "7": "own",
+   "8": "own",
+   "9": "own"
+  },
+  "violations": [],
+  "PASS": true
+ },
+ "rule": "tauW: periods p>t0 -> held at period-t0 value; p<=t0 keep own. tauH & z: cohorts 1..Nyears-t0 (young after t0) -> t0-young cohort (Nyears+1-t0); cohorts >Nyears-t0 (incumbents) keep own. Source: production how_much_poorer.m arrays (not re-encoded).",
+ "overall_PASS": true
+}

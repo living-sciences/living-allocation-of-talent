@@ -1,0 +1,8 @@
+{
+  "lfp_2023_Wstar_B": 0.7919,
+  "target": "0.78-0.82",
+  "spec_dryrun": 0.792,
+  "pass": true,
+  "model_lfp_2023": 0.789,
+  "note": "data-side LFP full=1,part=0.5; model fit excellent"
+}

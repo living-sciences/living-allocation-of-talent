@@ -1,0 +1,14 @@
+warning: function /workspace/eval/followup/003-theory-update/workspace/cases/Proj_R5/shims/print.m shadows a core library function
+warning: function /workspace/eval/followup/003-theory-update/workspace/cases/Proj_R5/shims/keyboard.m shadows a built-in function
+
+--- p2033: realised vs target mean-ln-tauhat shift (period 7) ---
+  g=2 target=-0.04880 realised=-0.04880
+  g=3 target=+0.01140 realised=+0.01140
+  g=4 target=-0.03780 realised=-0.03780
+.......
+=== PROJECTION p2033 (2023 equilibrium, A/phi/Z/q fixed) ===
+Y       base=   74008.2 proj=   74060.8  gain= +0.071%
+Ymkt    base=   63799.7 proj=   63846.1  gain= +0.073%
+GDPYoung base=  54919.1 proj=   55055.5  gain= +0.248%
+LFP     base=    0.7904 proj=    0.7903
+saved Proj_p2033_Benchmark.mat

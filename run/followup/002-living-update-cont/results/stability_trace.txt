@@ -1,0 +1,15 @@
+STABILITY TRACE (spec A.5) — 1960-2010 estimates in the 7-period run.
+FINDING: The per-occupation estimated frictions tauhat(occ,group,period) for every
+1960-2010 period are NUMERICALLY IDENTICAL between the 6-period (Refac) and 7-period
+(Living) runs: max|rel diff| = 4.6e-16 (machine precision), median 0. The estimated
+tauW, tauH, Z arrays for cohorts present 1960-2010 are therefore unchanged by adding 2023.
+MECHANISM of the <=2.7% shift in the earnings-WEIGHTED MEAN tauhat (L1): it is entirely
+driven by `earningsweights_avg`, which the paper defines as the across-PERIOD average of
+each occupation's earnings weight. The 7-period run averages over 7 periods (incl. 2023),
+the 6-period over 6, so the weight VECTOR differs (max 32% per occ). DEMONSTRATION:
+re-weighting the 7-period 1960-2010 tauhat with the 6-period weight vector reproduces the
+6-period weighted means EXACTLY (e.g. WW 2010: 2.2928 vs 2.2928; BW 2010: 2.6070 vs 2.6070).
+CONCLUSION: no change in estimated frictions; the mean-tauhat shift is a mechanical
+aggregation-weight effect, fully traced and demonstrated. Not a bug. The 1960-2010
+growth-accounting (L3 1960-2010 component, L5 1960-2010 column 13.4..9.9 identical except
+1970 25.8->25.9 = 0.1pp, same weight mechanism, < 0.5pp threshold) is preserved.

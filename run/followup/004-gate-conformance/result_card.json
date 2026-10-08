@@ -1,0 +1,119 @@
+{
+  "schema": "sai.followup.result_card/v1",
+  "headline": "Corrected HHJK (2019) post-2010 extension: the ABSOLUTE contribution of falling frictions to market-GDP-per-person growth was 0.04 pp/yr in 2000-2010 and 0.06 pp/yr in 2010-2023 under BOTH deflator conventions (not slowing); the SHARE (L4) is deflator-sensitive \u2014 7.0% paper / 5.2% corrected, paired with L4b 7.3% / 29.2% \u2014 and Gate 3b FAILED its pre-registered earnings tolerance under every route.",
+  "status": "completed",
+  "metrics": [
+    {
+      "label": "Absolute friction contribution to mkt-GDP/person growth (deflator-INVARIANT)",
+      "value": "0.06 pp/yr (2010-23)",
+      "baseline": "0.04 pp/yr (2000-10)",
+      "baseline_label": "Difference rows, Living & LivingDefl t5_6/t6_7 logs",
+      "note": "identical under paper AND corrected deflator and under every 2023 level scale; this is the convention-robust statement"
+    },
+    {
+      "label": "Share of 2010-23 growth from falling tau (L4), paired with L4b (2000-10)",
+      "value": "7.0% paper / 5.2% corrected",
+      "baseline": "L4b 7.3% paper / 29.2% corrected",
+      "baseline_label": "this study, both conventions (Living / LivingDefl)",
+      "note": "deflator-sensitive because ONLY the actual-growth denominator moves; 'essentially unchanged' holds only when convention-qualified"
+    },
+    {
+      "label": "Gate 3b (end-to-end PUMS-route anchor)",
+      "value": "FAILED",
+      "baseline": "pre-registered (d) earnings tolerance <=1%",
+      "baseline_label": "spec A.6 / anchor_3b.json",
+      "note": "(d) missed under EVERY route: 1.80% pre-registered, 0.59% post-hoc ADJINC-only, 1.92% 3-year; prior 'semantic PASS' relabel removed; results kept via the spec's honest-partial path"
+    },
+    {
+      "label": "L4 sensitivity to the 2023 earnings-level convention",
+      "value": "6.1-8.4%",
+      "baseline": "7.0% (paper, unscaled)",
+      "baseline_label": "Living S1-S3 + t6_7 re-run with 2023 level scaled",
+      "note": "~+/-0.5 pp per 1% of 2023 level (L5 exactly invariant at 9.0); pce(2010)~104.0 'about-2011-dollars' hypothesis gives L4=5.9"
+    },
+    {
+      "label": "Mean composite friction tau-hat, Black women 1960 (estimator fix)",
+      "value": "6.69 (Octave)",
+      "baseline": "7.90 (prior Python)",
+      "baseline_label": "prior tau_paths.csv / fig1",
+      "note": "tau_paths.csv and fig1 rebuilt from the paper's Octave 'Mean(weighted)' estimator"
+    }
+  ],
+  "tables": [
+    {
+      "title": "Friction contribution to market-GDP/person growth, by window and deflator convention",
+      "columns": [
+        "Window",
+        "Share % (paper)",
+        "Share % (corrected)",
+        "Absolute pp/yr (both)"
+      ],
+      "rows": [
+        [
+          "2000-2010 (L4b)",
+          "7.3",
+          "29.2",
+          "0.04"
+        ],
+        [
+          "2010-2023 (L4)",
+          "7.0",
+          "5.2",
+          "0.06"
+        ]
+      ],
+      "highlight_row": 1
+    },
+    {
+      "title": "Honest gate labels (this corrective study)",
+      "columns": [
+        "Gate",
+        "Verdict",
+        "Key number / fix"
+      ],
+      "rows": [
+        [
+          "3b PUMS anchor",
+          "FAILED",
+          "(d) earnings >1% every route (1.80/0.59/1.92%)"
+        ],
+        [
+          "2b(ii) assignment",
+          "PASS (real)",
+          "arrays dumped from code, diffed vs rule; t0=2010 incumbents keep own"
+        ],
+        [
+          "4 crosswalk",
+          "PASS (recomputed)",
+          "a 96.46%/0%; b 0.0103 vs 0.0114; c ratios 0.80-0.99"
+        ],
+        [
+          "1,2,2b(i),2b(iii),3,5,6",
+          "PASS",
+          "unchanged from prior (audit confirmed)"
+        ]
+      ],
+      "highlight_row": 0
+    }
+  ],
+  "figures": [
+    {
+      "file": "results/fig1_tauhat_by_group_1960_2023.png",
+      "caption": "Earnings-weighted mean composite friction tau-hat by group, 1960-2023, rebuilt from the paper's Octave estimator (solid/diamond) with the prior Python values overlaid (dotted x). The correction is largest for Black women in 1960 (7.90 -> 6.69). The 2010->2023 segment is dashed (12-year step).",
+      "alt": "Three decaying curves (white women, Black men, Black women) for mean tau-hat from 1960 toward the white-men reference of 1; faint dotted prior-Python points sit above the corrected Octave curve for Black women in early years."
+    },
+    {
+      "file": "results/fig2_L4_deflator_share_vs_absolute.png",
+      "caption": "Why L4 looks deflator-sensitive. Left: the SHARE of growth from falling tau swings with the deflator (L4b 7.3% -> 29.2%) because the corrected 2010 deflator compresses 2000-2010 actual growth. Right: the ABSOLUTE friction contribution (0.04 and 0.06 pp/yr) is identical under both conventions. Only the denominator moves.",
+      "alt": "Two bar panels: left shows shares diverging between paper and corrected deflators (especially 2000-10); right shows the absolute pp/yr contributions equal under both conventions."
+    }
+  ],
+  "notes": [
+    "A FAILED gate is reported FAILED. Gate 3b failed its own pre-registered earnings-level tolerance under every route; the prior 'semantic PASS' category does not exist in the spec. The 2023 results are retained via the spec's honest-partial path, with the consequence quantified: the level convention moves L4 within 6.1-8.4% (L5 invariant at 9.0) and never approaches the ~40% historical share. The out-of-trigger 2010-2012 3-year PUMS fetch is disclosed (two tolerances were failing, not population-shares-only).",
+    "Completed dropped deliverables: LivingDefl L6 (2010-23 WW/BM/BW = 3.8/0.5/0.8), filled group_shares.csv, L7 (WW tau 2023: doctors 1.01, lawyers 1.04, construction 6.33, secretaries 0.38), L2 young relative-propensity SD, L8 earnings/worker + LFP data-vs-model 2023 (64080/60918; 0.792/0.790), L9 annual relative-propensity SD 2017-19 & 2021-24. robustness_summary.csv columns relabeled to the true tauH-only/tauW-only shares (prior held Ywkr/Cons). R4 relabeled an argmax-split proxy (differs from the modal map in only 5 of 538 codes).",
+    "Stability (gate 7): raw per-occupation tau-hat for 1960-2010 is identical between the 6- and 7-period runs (max rel 4.6e-16, identical finite-cell pattern), so the masked GetTExperience re-run is moot; the 1.6-2.7% mean-tau-hat shifts are a pure earningsweights_avg reweighting. The headline SHARE estimands are stable: 1960->2010 L3=41.3 (vs 41.5), L6 WW/BM/BW=33.6/1.2/3.7 (vs 33.8/1.2/3.7), all <=0.2 pp.",
+    "003 theory corrections (results/003_theory_corrections.md): tauW is NOT flat for white women (47% of their 2010-23 decline; 51% under R5) \u2014 only flat for Black men and minor for Black women; the Hurst-Rubinstein-Shimizu paraphrase is corrected (flat adjusted gap EVEN AS discrimination fell); [PROJECTED, conditional] tags added to the headline projection and the ~8.8%-unrealised metric; the projection carries no forecast power for white women (backtest error 0.193 >> the projected 0.049 ln-tau decline), so the ~0.08%/decade sits inside the law's own error band; the continued/slowed cut-off is the study's own post-hoc choice (white women borderline at 0.341 vs 1/3); the forward 0.0075%/yr is now also compared with the measured 2010-23 ~0.06%/yr, not only 1960-2010.",
+    "Reuses 001/002/003 .mat files and the staged Octave stage-split tooling; foreground only; no installs/fetches. Octave figures stubbed with no-op graphics shims (gnuplot unavailable, installs forbidden); numeric invariance verified. Longest Octave stage ~283 s (< 540 s backstop)."
+  ],
+  "report_file": "report.md"
+}

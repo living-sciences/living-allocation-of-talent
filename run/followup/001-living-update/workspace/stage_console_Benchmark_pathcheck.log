@@ -1,0 +1,62 @@
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/legend.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/colorbar.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/drawnow.m shadows a built-in function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/plot.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/text.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/stem.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/xticklabels.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/zlabel.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/axes.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/hist.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/quiver.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/get.m shadows a built-in function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/line.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/scatter.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/zlim.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/yticks.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/plot3.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/cla.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/colormap.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/xlabel.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/subplot.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/title.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/errorbar.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/area.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/surf.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/plotyy.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/hold.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/bar.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/set.m shadows a built-in function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/gca.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/ylim.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/shading.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/axis.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/annotation.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/loglog.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/semilogx.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/caxis.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/mesh.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/clf.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/fill.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/semilogy.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/contour.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/gcf.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/yticklabels.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/grid.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/box.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/xlim.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/stairs.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/ylabel.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/saveas.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/figure.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/patch.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/barh.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/rectangle.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/pie.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/view.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/clabel.m shadows a core library function
+warning: function /workspace/eval/followup/001-living-update/workspace/nographics/xticks.m shadows a core library function
+warning: addpath: /workspace/eval/followup/001-living-update/workspace/shims: No such file or directory
+/workspace/eval/followup/001-living-update/workspace/nographics/figure.m
+/workspace/eval/followup/001-living-update/workspace/nographics/set.m
+/workspace/eval/followup/001-living-update/workspace/nographics/plot.m

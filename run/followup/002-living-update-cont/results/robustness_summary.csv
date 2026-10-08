@@ -1,0 +1,9 @@
+variant,L3_1960_2023_Ymkt,L3_tauH,L3_tauW,L4_2010_2023_Ymkt,L4_tauH,L4_tauW,L5_remaining_2023
+"primary (W*, paper deflator)",38.5,29.2,60.5,7.0,11.3,17.4,9.0
+R6 corrected deflator,38.5,29.2,60.1,5.2,6.7,12.5,9.0
+R1 non-Hispanic white,38.7,29.8,58.4,4.4,6.0,9.8,9.4
+R2 literal white (RAC1P==1),38.7,29.7,59.2,5.2,7.4,12.3,9.3
+R3 2024-only,38.4,29.2,59.6,7.1,11.3,16.6,8.9
+R4 SPLIT crosswalk,38.6,29.1,60.7,6.9,10.7,17.9,9.0
+R5 unscaled 12yr interval,37.2,27.8,54.9,5.2,6.9,17.4,9.1
+R8 cohort-following bands,38.7,29.6,58.1,7.8,13.6,17.4,8.8

@@ -1,0 +1,12 @@
+{
+ "total_2018_codes": 538,
+ "ambiguous_codes": 19,
+ "argmax_vs_modal_diff_codes": [
+  2545,
+  3545,
+  5040,
+  6835,
+  7905
+ ],
+ "n_diff": 5
+}

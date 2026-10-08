@@ -1,0 +1,30 @@
+# Honest replacement (004): source identified by diffing the ACTUAL TauW_alt/TauH_alt/Z_alt
+"# arrays produced by production how_much_poorer.m (t0=1970 i.e. period 2, t1=2010 i.e. period 6,"
+"# on the 7-period living case Nyears=7), NOT re-encoded from the rule. overall_PASS=True"
+
+kind,index,meaning,source_assigned,rule_expected
+tauW,period 1,wedge in that period,own,own
+tauW,period 2,wedge in that period,own,own
+tauW,period 3,wedge in that period,held@t0=2(1970),held@t0(1970)
+tauW,period 4,wedge in that period,held@t0=2(1970),held@t0(1970)
+tauW,period 5,wedge in that period,held@t0=2(1970),held@t0(1970)
+tauW,period 6,wedge in that period,held@t0=2(1970),held@t0(1970)
+tauW,period 7,wedge in that period,held@t0=2(1970),held@t0(1970)
+tauH,cohort 1,human-capital cost of that cohort,t0young_coh6,t0young_coh6
+tauH,cohort 2,human-capital cost of that cohort,t0young_coh6,t0young_coh6
+tauH,cohort 3,human-capital cost of that cohort,t0young_coh6,t0young_coh6
+tauH,cohort 4,human-capital cost of that cohort,t0young_coh6,t0young_coh6
+tauH,cohort 5,human-capital cost of that cohort,t0young_coh6,t0young_coh6
+tauH,cohort 6,human-capital cost of that cohort,own,own
+tauH,cohort 7,human-capital cost of that cohort,own,own
+tauH,cohort 8,human-capital cost of that cohort,own,own
+tauH,cohort 9,human-capital cost of that cohort,own,own
+ztilde,cohort 1,preference of that cohort,t0young_coh6,t0young_coh6
+ztilde,cohort 2,preference of that cohort,t0young_coh6,t0young_coh6
+ztilde,cohort 3,preference of that cohort,t0young_coh6,t0young_coh6
+ztilde,cohort 4,preference of that cohort,t0young_coh6,t0young_coh6
+ztilde,cohort 5,preference of that cohort,t0young_coh6,t0young_coh6
+ztilde,cohort 6,preference of that cohort,own,own
+ztilde,cohort 7,preference of that cohort,own,own
+ztilde,cohort 8,preference of that cohort,own,own
+ztilde,cohort 9,preference of that cohort,own,own

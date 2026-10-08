@@ -1,0 +1,80 @@
+{
+ "gate": "3b end-to-end PUMS-route anchor",
+ "verdict": "FAILED",
+ "relabel_note": "Prior study recorded GATE3B_PASS=false then added a non-spec 'semantic_pass=true' field and called it a 'CONDITIONAL/semantic PASS'. That category does not exist in the spec. Reported here as FAILED. The spec's stop rule ('if 3b fails, stop; do not proceed to 2023') was overridden by the prior study; this corrective study keeps the 2023 results but reports the gate honestly and quantifies the consequence (level-scale sensitivity below).",
+ "rule": "passes only if the 1-year pool OR the 3-year file passes ALL of (a)<=1% pop-share, (b)<=0.0114 Duncan, (c)<=0.02 ln-wage, (d)<=1% Table-IV earnings",
+ "routes": [
+  {
+   "route": "1-year pool, pre-registered recipe (ADJINC x PCE2012/PCEy), W_lit",
+   "a_popshare_maxrel": "1.18%",
+   "b_duncan_max": 0.0018,
+   "c_lnwage_max": 0.0168,
+   "d_tableIV_maxrel": "1.80%",
+   "pass_all": false
+  },
+  {
+   "route": "1-year pool, ADJINC-only (post-hoc 'primary'), W_lit",
+   "a_popshare_maxrel": "1.18%",
+   "b_duncan_max": 0.0018,
+   "c_lnwage_max": 0.0079,
+   "d_tableIV_maxrel": "0.59%",
+   "pass_all": false,
+   "note": "(d) passes but adopted AFTER results seen; (a) still fails"
+  },
+  {
+   "route": "2012 1-year alone",
+   "a_popshare_maxrel": "2.82%",
+   "b_duncan_max": 0.0174,
+   "c_lnwage_max": 0.0212,
+   "d_tableIV_maxrel": "1.34%",
+   "pass_all": false
+  },
+  {
+   "route": "3-year file (fetched)",
+   "a_popshare_maxrel": "0.0000",
+   "b_duncan_max": 0.0,
+   "c_lnwage_max": 0.019,
+   "d_tableIV_maxrel": "1.92%",
+   "pass_all": false,
+   "note": "(d) 1.92% fails every group uniformly"
+  }
+ ],
+ "conclusion": "(d) earnings-level fails under EVERY route; therefore 3b FAILS by its own pre-registered rule.",
+ "out_of_trigger_fetch_disclosure": "The 2010-2012 3-year PUMS (1,610,918,446 B) was fetched by the prior study. The spec permits this fetch only if the failure is population-shares-ONLY. At fetch time two tolerances were failing ((a) pop share 1.18% AND (d) earnings ~1.6%), so the literal trigger was NOT met. The population-shares-only clause was satisfied only after a post-hoc switch to the ADJINC-only recipe. This out-of-trigger fetch is disclosed here.",
+ "level_scale_sensitivity": {
+  "design": "Re-ran Living S1-S3 + the t6_7 c1 chunk with the 2023 real earnings LEVEL rescaled by the Gate-3b level gap (the 2023 ADJINC*PCE build sits ~1.6-1.9% above the shipped-2010 convention). A uniform 2023 level scale leaves tau-hat exactly invariant (meanlogtau byte-identical, verified), so L4 moves ONLY through the 2010->2023 actual-growth denominator. L5 is a within-2023 ratio and is invariant.",
+  "results_Ymkt_TauWTauH": [
+   {
+    "scale_2023": "1.000 (paper, unchanged)",
+    "L4": 7.0,
+    "L4_tauH": 5.4,
+    "L4_tauW": 1.5,
+    "L5_2023": 9.0
+   },
+   {
+    "scale_2023": "1/1.016 (-1.6%)",
+    "L4": 8.1,
+    "L4_tauH": 6.2,
+    "L4_tauW": 1.8,
+    "L5_2023": 9.0
+   },
+   {
+    "scale_2023": "1/1.019 (-1.9%)",
+    "L4": 8.4,
+    "L4_tauH": 6.4,
+    "L4_tauW": 1.8,
+    "L5_2023": 9.0
+   },
+   {
+    "scale_2023": "1.019 (+1.9%, opposite)",
+    "L4": 6.1,
+    "L4_tauH": 4.6,
+    "L4_tauW": 1.3,
+    "L5_2023": 9.0,
+    "note": "reverse-direction check"
+   }
+  ],
+  "finding": "L4 ranges ~6.1-8.4% across +/-1.9% level corrections (about +/-0.5 pp per 1% of 2023 level); L5 is exactly unchanged (9.0). The level convention does NOT overturn the qualitative conclusion (L4 is an order of magnitude below the ~40% historical share). The absolute friction contribution (Difference-row Ymkt) is 0.06 pp/yr in every scaled case."
+ },
+ "pce2010_overcorrection_hypothesis": "STATED AS HYPOTHESIS, NOT A FINDING: the 3b evidence (ADJINC-only matches the shipped 2010 rows to 0.49%, while 2012 dollars run 1.6-1.9% high) is consistent with the shipped '2010' earnings being ~2011 survey-year dollars rather than 2012 dollars. If so the corrected pce(2010)=106.17 (which assumes 2012 dollars) over-corrects; a ~2011 basis would be ~104.0, placing the economically-correct L4 between the paper (7.0) and corrected (5.2) values. This is not verified in-run."
+}

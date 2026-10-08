@@ -1,0 +1,60 @@
+{
+  "rows_compared": 1340,
+  "per_column": {
+    "num": {
+      "max_rel_err": 0.0016489711934156378,
+      "missing_mismatch": 0,
+      "n_value_mismatch": 0
+    },
+    "occ_income": {
+      "max_rel_err": 4.319216219545824e-07,
+      "missing_mismatch": 0,
+      "n_value_mismatch": 0
+    },
+    "occ_grade": {
+      "max_rel_err": 4.4972724151554516e-07,
+      "missing_mismatch": 0,
+      "n_value_mismatch": 0
+    },
+    "occ_wage": {
+      "max_rel_err": 5.354488037729362e-07,
+      "missing_mismatch": 0,
+      "n_value_mismatch": 0
+    },
+    "occ_ln_income_arith": {
+      "max_rel_err": 5.11908824332295e-07,
+      "missing_mismatch": 0,
+      "n_value_mismatch": 0
+    },
+    "occ_ln_income_geo": {
+      "max_rel_err": 5.108316461474636e-07,
+      "missing_mismatch": 0,
+      "n_value_mismatch": 0
+    },
+    "occ_ln_wage_arith": {
+      "max_rel_err": 2.393250484144882e-07,
+      "missing_mismatch": 0,
+      "n_value_mismatch": 0
+    },
+    "occ_ln_wage_geo": {
+      "max_rel_err": 2.678200821916299e-07,
+      "missing_mismatch": 0,
+      "n_value_mismatch": 0
+    },
+    "occ_var_ln_income": {
+      "max_rel_err": 3.916063264826005e-06,
+      "missing_mismatch": 0,
+      "n_value_mismatch": 0
+    },
+    "occ_var_ln_wage": {
+      "max_rel_err": 3.1043595841517195e-06,
+      "missing_mismatch": 0,
+      "n_value_mismatch": 0
+    }
+  },
+  "mismatches": 0,
+  "missing_mismatch": 0,
+  "note": "tolerance = max(1e-5, reference stored-precision); 2 num cells stored in 3-sig-fig sci notation",
+  "pass": true,
+  "examples": []
+}

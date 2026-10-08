@@ -1,0 +1,6 @@
+file,quantity,type,spacing_rule,note
+GetTExperience.m,experience life-cycle rescale,MODEL,"true midpoint spacing: 2010->2023 step=12yr, exponent ^(10/12); 2000->2023 old-factor ^(10/11); census steps=10 (paper convention left intact)","affects TExperience for cohorts 2,3 at 2023; R5 reports unscaled variant"
+how_much_poorer.m,growth-share window Decades(t1)-Decades(t0),RATE(share-invariant),label spacing (e.g. 2023-2010=13); SHARE = 1-gImodel/gIactual cancels the window so L3/L4 shares are spacing-invariant,headline shares unaffected by label-vs-true spacing
+ReadCohortData.m,pce deflation to pce(Nyears),MODEL(level),pce(2023)=135.33=101.653*120.505/90.514 spliced; LivingDefl overrides pce(2010)=106.17,affects real earnings levels; co-reported two conventions
+figure 2 per-decade annualization,decade contribution bars,DISPLAY,shares are per-decade ratios (spacing-invariant); 2010-23 bar spans the 12yr step,display only
+"LookatCohortData.m l.74,89",back-of-envelope growth rate /(2010-1960),DISPLAY ONLY,hardcoded 50-yr denominator in a diagnostic print; NOT used in estimation/counterfactuals,no effect on any estimand (verified: raw tauhat 1960-2010 identical to 6-period)

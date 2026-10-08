@@ -1,0 +1,43 @@
+{
+    "environment": {
+        "octave_version": "6.4.0",
+        "python_version": "3.12.8",
+        "gpu_available": true,
+        "gpu_model": "NVIDIA RTX A6000 (x4, 49140 MiB each)",
+        "gpu_used": false,
+        "note": "Replication is CPU-only Octave work; the GPU is irrelevant to this MATLAB codebase. Code run under Octave 6.4.0 via the shipped compat layer (octave_port.patch + shims/). No MATLAB license needed.",
+        "graphics_stack": "gnuplot 6.0.5 (installed via micromamba, no root); Octave ft-font renderer fixed with an LD_PRELOAD interposer redirecting the compiled-in missing FreeSans path to DejaVu; a ghostscript-based drop-in epstool for tight EPS bounding boxes.",
+        "key_tools": {"octave-cli": "6.4.0", "gnuplot": "6.0.5", "ghostscript": "10.08.0", "uv": "0.5.11"}
+    },
+    "paper": "Hsieh, Hurst, Jones & Klenow, 'The Allocation of Talent and U.S. Economic Growth', Econometrica 87(5), 2019",
+    "data": "chad_output_file_2019_01_24.csv (8040 rows x 14 cols), the aggregated model-input CSV (not the large .dta microdata).",
+    "pipeline_per_case": "SetParameters -> ReadCohortData -> EstimateTauZ_main -> CleanandShowTauAZ -> SolveEqmBasic -> HowMuchPoorer",
+    "steps_completed": "1-8 (all)",
+    "headline_results": {
+        "Table_V_Ymkt_TauWTauH_share_pct": 41.5,
+        "Table_V_decomposition_Ymkt": {"TauH_only": 36.0, "TauW_only": 7.7, "Both+Z": 40.8, "MeansOnly": 43.5, "DispersionOnly": 8.7},
+        "Table_VII_group_Ymkt_TauWTauH_pct": {"WhiteWomen": 33.8, "BlackMen": 1.2, "BlackWomen": 3.7},
+        "zero_friction_2010_NoTauHW_GDP_gain_pct_C5": 9.9,
+        "delta_IV_long_difference": 0.2427,
+        "delta_OLS_median": 0.1266,
+        "Table_VIII_Ymkt_TauWTauH_share_pct": {"Benchmark_theta2": 41.5, "Theta4": 32.2, "ThetaLow_1p5": 45.3, "Eta20": 44.4, "Eta05": 39.8, "Sigma10": 42.9, "SigmaCobb_1p05": 22.2},
+        "Table_X_Ymkt_TauWTauH_over_delta": {"Delta0": 41.5, "EstimateDelta_0p2427": 37.4, "DeltaHalf": 28.3, "Delta1": 5.6},
+        "Table_X_Ymkt_BothplusZ_over_delta": {"Delta0": 40.8, "EstimateDelta": 38.9, "DeltaHalf": 33.7, "Delta1": 19.8},
+        "Table_XI_Ymkt_TauWTauH_share_pct": {"Benchmark": 41.5, "NoBrawny": 38.7, "NoFrictions2010": 35.8},
+        "opening_fact_WM_share_doctors_lawyers": {"1960": 0.9448, "2010": 0.5766, "paper_1960": 0.94, "paper_2010_approx": 0.62}
+    },
+    "artifacts": {
+        "figures_eps": 32,
+        "figures_png": 1,
+        "HowMuchPoorer_logs": 13,
+        "required_step3_figures_present": true,
+        "mat_files": "per-case TalentData/EstimateTauZData/CleanandShowTauAZ/SolveEqmBasic/HowMuchPoorer/CohortData .mat"
+    },
+    "known_limitations": [
+        "theta is calibrated to 2 in SetParameters; the MLE of theta*(1-eta) (paper reports ~1.24-1.42) is NOT shipped in the provided code, so that structural estimate was not reproduced (no code path exists for it).",
+        "Step 3 supplementary figures BlauKahn.eps and CharlesGuryan.eps (not in the plan's figure list) were not produced due to a known Octave gnuplot-toolkit hang on labeled scatter plots; all plan-required Fig1-Fig7 were produced.",
+        "Step 4 scatter figures (estimatedeltaYWM_*) not written: those runs used the no-op print shim to guarantee numeric completion; the numeric delta estimates fully reproduce.",
+        "Step 8 opening fact has no shipped script; reconstructed with an all-cohort, population-weighted convention. 1960 matches the paper's 94% exactly; 2010 is 57.7% vs the paper's ~62% (aggregation-convention difference, reported faithfully, not tuned)."
+    ],
+    "suspicions": "none (suspicions.json = []); the shipped code reproduces all plan claims faithfully."
+}

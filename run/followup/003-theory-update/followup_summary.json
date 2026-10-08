@@ -1,0 +1,49 @@
+{
+  "instruction_summary": "Study B (002/003 theory-update): fit a friction-convergence law to HHJK's group frictions extended to 2023 (001), backtest it and classify each group as continued/slowed/stalled/reversed, split the 2010-23 change into tauH/tauW, project remaining output gains to 2033/2043/tau_inf, and write down the updated model. Reuse 001 only; fetch nothing; new Octave only for projections.",
+  "completed": true,
+  "steps": [
+    {"description": "Read 001 living-update deliverables (finished by 002-living-update-cont): report, result_card, tau_paths, growth_shares, remaining_gain, robustness_summary", "command": "cat 002-living-update-cont/results/*.csv", "exit_code": 0, "outputs": []},
+    {"description": "Create venv; extract meanlogtau/varlogtau/TauH_T/TauW/baseline GDP from 001's saved .mat (Living,R1-R5,R8)", "command": "python3 (scipy.io.loadmat)", "exit_code": 0, "outputs": ["results/friction_series.json"]},
+    {"description": "Item 1: fit convergence law per group (1960-2010, true midpoints), backtest 1960-2000->2010, out-of-sample 2023, per-decade rates, pre-registered stall classification", "command": "python3 analyze_theory.py", "exit_code": 0, "outputs": ["results/convergence_law.csv", "results/decade_rates_and_stall.csv", "results/theory_analysis.json"]},
+    {"description": "Item 2: exact tauH/tauW decomposition of the 2010-23 ln tau-hat change (primary, R5, R8)", "command": "python3 analyze_theory.py", "exit_code": 0, "outputs": ["results/tauWtauH_split_2010_2023.csv"]},
+    {"description": "Item 3 validation: zero-shift projection reproduces 001's 2023 baseline (Ymkt 61793.1, gain 0.000%)", "command": "run_stage.sh Benchmark project_tau (dWW=dBM=dBW=0)", "exit_code": 0, "outputs": ["workspace/cases/Proj_primary/Proj_zero_Benchmark.mat"]},
+    {"description": "Item 3: 3 projection solves x 3 specs (primary/R5/R8) at 2033,2043,tau_inf; stage-split, <=66s each, never backgrounded", "command": "run_stage.sh Benchmark project_tau", "exit_code": 0, "outputs": ["workspace/cases/Proj_*/Proj_p*_Benchmark.mat", "results/projection_results.csv", "results/stage_timings.csv"]},
+    {"description": "Figures + item 4 written model + deliverables", "command": "python3 make_figs.py", "exit_code": 0, "outputs": ["results/fig1_convergence_law.png", "results/fig2_split_and_projection.png", "report.md", "result_card.json", "results/findings.md"]}
+  ],
+  "key_results": {
+    "stall_classification": "WW=continued, BM=slowed, BW=slowed (none stalled or reversed)",
+    "WW_lambda_tauinf": "0.040 /yr, floor 1.28 (half-life 17.2 yr)",
+    "BM_lambda_tauinf": "0.098 /yr, floor 1.42 (half-life 7.1 yr; tight backtest e=0.010)",
+    "BW_lambda_tauinf": "0.050 /yr, floor 1.60 (half-life 13.9 yr)",
+    "post2010_split_tauH_share": "WW 53%, BM 126%, BW 88% (tauW flat; robust R5/R8)",
+    "projection_2033_Ymkt_pct_PROJECTED": "+0.075% (R5 +0.073, R8 +0.081)",
+    "projection_2043_Ymkt_pct_PROJECTED": "+0.126% (R5 +0.122, R8 +0.135)",
+    "projection_tau_inf_Ymkt_pct_PROJECTED": "+0.227% (R5 +0.220, R8 +0.244)",
+    "forward_vs_historical_friction_contribution": "~0.008%/yr forward vs ~0.69%/yr in 1960-2010 (~90x smaller)",
+    "permanent_unrealised_output_at_floor": "~8.8% (vs L5 9.0% remove-all-frictions)"
+  },
+  "comparison_to_original": [
+    {"quantity": "Falling-tau share of 1960-2010 market-GDP/person growth", "original": "41.5%", "followup": "context baseline (not re-estimated here)", "source_file": "replication HowMuchPoorer_Benchmark.log (via 001)", "note": "historical anchor for the forward comparison"},
+    {"quantity": "Falling-tau share of 2010-2023 growth (L4)", "original": "7.0% (001)", "followup": "consistent; law shows this is on-trend deceleration, not a stall", "source_file": "002-living-update-cont/results/growth_shares.csv", "note": "001 input"},
+    {"quantity": "Remaining gain if all frictions removed, 2023 (L5)", "original": "9.0% (001)", "followup": "~8.8% stays permanently unrealised even at tau->tau_inf", "source_file": "002-living-update-cont/results/remaining_gain.csv", "note": "floors tau_inf well above frictionless"},
+    {"quantity": "Forward friction contribution to growth", "original": "~0.69%/yr (1960-2010)", "followup": "~0.008%/yr [PROJECTED]", "source_file": "derived from replication mkt-GDP series", "note": "~90x slowdown; quantifies HHJK C12"},
+    {"quantity": "Qualitative 'less optimistic after 2010' (C12)", "original": "qualitative", "followup": "continued(WW)/slowed(BM,BW); no stall; forward dividend ~0.08%/decade", "source_file": "paper C12", "note": "turned into a conditional number"}
+  ],
+  "artifacts": [
+    "report.md", "result_card.json",
+    "results/findings.md",
+    "results/convergence_law.csv", "results/decade_rates_and_stall.csv",
+    "results/tauWtauH_split_2010_2023.csv", "results/projection_results.csv",
+    "results/projection_deltas.json", "results/projection_deltas_R5.json", "results/projection_deltas_R8.json",
+    "results/theory_analysis.json", "results/friction_series.json",
+    "results/stage_timings.csv",
+    "results/fig1_convergence_law.png", "results/fig2_split_and_projection.png",
+    "workspace/cases/Proj_primary/", "workspace/cases/Proj_R5/", "workspace/cases/Proj_R8/"
+  ],
+  "deviations": [
+    "Projection realises the composite-friction decline through the labour-market wedge tauW in period 7 only (keeps it a clean comparative static; zero-shift reproduces baseline exactly); realising via tauH would modestly change output levels. Dispersion held at 2023 (parallel mean shift); the fitted variance law is reported but not imposed on the projection. All projection numbers labelled [PROJECTED, conditional].",
+    "WW/BW stall verdict is low-power (large backtest errors 0.19/0.13 -> wide bands b); BM's is confident. Stated explicitly.",
+    "R5/R8 projections run in addition to the required primary (spec budget anticipated them); R7 (theta sweep) optional, not run.",
+    "Study A (§A/001) out of this launch's scope; its artifacts used as inputs, not re-run."
+  ]
+}

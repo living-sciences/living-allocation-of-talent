@@ -1,0 +1,136 @@
+--- a/CleanandShowTauAZ.m
++++ b/CleanandShowTauAZ.m
+@@ -871,7 +871,7 @@
+ cshow(ShortNames,squeeze(AlphaSplitYoung(:,2,:)),'%8.3f','1960 1970 1980 1990 2000 2010');
+ for g=2:Ngroups;
+     meansplit(g,:)=squeeze(nansum(mult(squeeze(AlphaSplitYoung(:,g,:)),earningsweights_avg)));
+-    stdsplit(g,:) =squeeze(std(squeeze(AlphaSplitYoung(:,g,:)),earningsweights_avg,'omitnan'));
++    stdsplit(g,:) =squeeze(wstd_compat(squeeze(AlphaSplitYoung(:,g,:)),earningsweights_avg,'omitnan'));
+ end;
+ nonWMweights=earningsweights_g./sum(earningsweights_g(2:Ngroups));
+ nonWMweights(WM)=NaN;
+@@ -902,7 +902,7 @@
+ % In particular, reload and fix the missing Tau's to 0.99 etc....
+ 
+ HAllData=H;
+-save(['CleanandShowTauAZ_' CaseName],'A','GDP','GDP_mkt','GDPwkr','LFPData','WageGapData','ConsumpYoungData','EarningsYoungData',...
++save(['CleanandShowTauAZ_' CaseName '.mat'],'A','GDP','GDP_mkt','GDPwkr','LFPData','WageGapData','ConsumpYoungData','EarningsYoungData',...
+      'AlphaSplitYoung','GDPYoung','GDPYoung_mkt','LaborIncomeReceived','LaborIncomeReceived_mkt','H','HAllData','Higt','Hit','HYoungData');
+ 
+ % Load data
+--- a/EstimateTauZ.m
++++ b/EstimateTauZ.m
+@@ -344,7 +344,7 @@
+ HAllData=H;
+ mgEstimated=mg
+ 
+-save(['EstimateTauZData_' CaseName],'TauW','TauH','TauH_C','TauH_T','Z','phi_C', 'TigYMO', 'GeoArith_adjust', 'mgEstimated',...
++save(['EstimateTauZData_' CaseName '.mat'],'TauW','TauH','TauH_C','TauH_T','Z','phi_C', 'TigYMO', 'GeoArith_adjust', 'mgEstimated',...
+      'AvgQuality','H','HAllData','Higt','Hit','tauhat','tauhat_all','tauhat_y', ...
+      'w','phi','s','mwm','earningsweights','Tig','TExperience','Tbar','GroupExpAdjustment','WageGrowthRelative','Nymo');
+ 
+--- a/EstimateTauZ_main.m
++++ b/EstimateTauZ_main.m
+@@ -344,7 +344,7 @@
+ HAllData=H;
+ mgEstimated=mg
+ 
+-save(['EstimateTauZData_' CaseName],'TauW','TauH','TauH_C','TauH_T','Z','phi_C', 'TigYMO', 'GeoArith_adjust', 'mgEstimated',...
++save(['EstimateTauZData_' CaseName '.mat'],'TauW','TauH','TauH_C','TauH_T','Z','phi_C', 'TigYMO', 'GeoArith_adjust', 'mgEstimated',...
+      'AvgQuality','H','HAllData','Higt','Hit','tauhat','tauhat_all','tauhat_y', ...
+      'w','phi','s','mwm','earningsweights','Tig','TExperience','Tbar','GroupExpAdjustment','WageGrowthRelative','Nymo');
+ 
+--- a/HowMuchPoorer.m
++++ b/HowMuchPoorer.m
+@@ -63,7 +63,7 @@
+     how_much_poorer('TauW',    TauH,TauW,Z,TExperience,A,phi,q,wH_T,gam,GammaBase,beta,eta,theta,dlta,mu,sigma,Tbar,BW,ShowTimeBreakdown);
+ end;
+     
+-save(['HowMuchPoorer_' CaseName]);
++save(['HowMuchPoorer_' CaseName '.mat']);
+ 
+ diary off;
+ 
+--- a/HowMuchPoorer_VaryTheta.m
++++ b/HowMuchPoorer_VaryTheta.m
+@@ -40,7 +40,7 @@
+ chadfig2('Theta','Share of growth due to tau_w and tau_h',1,0)
+ print HowMuchPoorer_VaryTheta.eps
+     
+-save(['HowMuchPoorer_VaryTheta']);
++save('HowMuchPoorer_VaryTheta.mat');
+ diary off;
+ 
+ 
+--- a/LookatCohortData.m
++++ b/LookatCohortData.m
+@@ -564,4 +564,4 @@
+ % Note, clearing stuff...
+ clear data*
+ clear c Cohort i decindx fmt fname g group occnum tf tle total xNumPeople year yrs yy
+-save(['CohortData_' CaseName]);
+\ No newline at end of file
++save(['CohortData_' CaseName '.mat']);
+\ No newline at end of file
+--- a/ReadCohortData.m
++++ b/ReadCohortData.m
+@@ -24,8 +24,8 @@
+ % Version 6 code
+ fname='chad_output_file_2019_01_24.csv'
+ fmt='%f %f %f %f %f %f %f %f %f %f %f %f %f %f';
+-[year,group,cohort,occnum,dataNumPeople,dataEarnings,dataEducation,dataWage,dataLnEarn_arith,dataLnEarn_geo,dataLnWage_arith,dataLnWage_geo,datavar_lninc,datavar_lnwage]...
+-   =textread(fname,fmt,'headerlines',1,'delimiter',',','emptyvalue',NaN);
++D_=dlmread(fname,',',1,0,'emptyvalue',NaN); D_=[D_ NaN(rows(D_),14-columns(D_))];
++year=D_(:,1);group=D_(:,2);cohort=D_(:,3);occnum=D_(:,4);dataNumPeople=D_(:,5);dataEarnings=D_(:,6);dataEducation=D_(:,7);dataWage=D_(:,8);dataLnEarn_arith=D_(:,9);dataLnEarn_geo=D_(:,10);dataLnWage_arith=D_(:,11);dataLnWage_geo=D_(:,12);datavar_lninc=D_(:,13);datavar_lnwage=D_(:,14);
+ year(year==2012)=2010; % In latest version of Erik's csv file, he records year as 2012
+ 
+ occnum=occnum+1;  % So Home=1 rather than Home=0
+--- a/SolveEqmBasic.m
++++ b/SolveEqmBasic.m
+@@ -38,7 +38,7 @@
+ EarningsYoungBaseline=EarningsYoungModel;
+ GDPYoungBaseline=GDPYoungModel;
+ UtilityBaseline=Utility;
+-save(['SolveEqmBasic_' CaseName],'GDPBaseline','GDPMktBaseline','GDPwkrBaseline','GDPBaseline_Young','EarningsBaseline','EarningsBaseline_g',...
++save(['SolveEqmBasic_' CaseName '.mat'],'GDPBaseline','GDPMktBaseline','GDPwkrBaseline','GDPBaseline_Young','EarningsBaseline','EarningsBaseline_g',...
+      'ConsumpYoungBaseline','EarningsYoungBaseline','GDPYoungBaseline','LFPBaseline','WageGapBaseline','UtilityBaseline',...
+      'wModel','HModel','HModelAll','pModel');
+ 
+--- a/ChadMatlab/addnames.m
++++ b/ChadMatlab/addnames.m
+@@ -80,7 +80,7 @@
+     else;
+         txt=['  ' cutspace(names(i,:)) '  '];
+     end;
+-    text(x(i),y(i),txt,'horizontal',horiz,'vertical',vert,'FontSize',fsize,'Color',color);
++    text(x(i),y(i),txt,'HorizontalAlignment',horiz,'VerticalAlignment',vert,'FontSize',fsize,'Color',color);
+   end;
+    % names(i,:)
+    % rc01
+--- a/ChadMatlab/plotnamesym2.m
++++ b/ChadMatlab/plotnamesym2.m
+@@ -92,7 +92,7 @@
+     else;
+         txt=['  ' cutspace(names(i,:)) '  '];
+     end;
+-    text(x(i),y(i),txt,'horizontal',horiz,'vertical',vert,'FontSize',fsize,'Color',color);
++    text(x(i),y(i),txt,'HorizontalAlignment',horiz,'VerticalAlignment',vert,'FontSize',fsize,'Color',color);
+   end;
+    % names(i,:)
+    % rc01
+--- a/ChadMatlab/stdw.m
++++ b/ChadMatlab/stdw.m
+@@ -9,9 +9,9 @@
+ if exist('flag')~=1; flag='includenan'; end;
+ 
+ if size(w,2)==1;
+-    s=std(x,w,flag);
++    s=wstd_compat(x,w,flag);
+ else;
+     for i=1:size(w,2);
+-        s(i)=std(x(:,i),w(:,i),flag);
++        s(i)=wstd_compat(x(:,i),w(:,i),flag);
+     end;
+ end;
+\ No newline at end of file
+# NOTE: ChadMatlab/lookup.m renamed away (shadows Octave builtin lookup used by ismember)

@@ -1,0 +1,9 @@
+{
+  "unambiguous_weight_share_2022_24": 0.9653,
+  "unmapped_weight_share": 0.0,
+  "threshold_a": "unamb>=0.95 & unmapped<=0.005",
+  "a_pass": true,
+  "wm_2023_nonempty_categories": 66,
+  "d_pass": true,
+  "note": "Duncan recode audit (b,c) per recency audit; unmapped recomputed 0.0, unambiguous recomputed here"
+}

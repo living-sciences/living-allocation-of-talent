@@ -1,0 +1,85 @@
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/box.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/errorbar.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/orient.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/stem.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/plot.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/text.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/whitebg.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/gcf.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/line.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/ylabel.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/clf.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/colorbar.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/scatter.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/subplot.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/figure.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/drawnow.m shadows a built-in function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/print.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/keyboard.m shadows a built-in function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/hold.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/axis.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/xlabel.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/ylim.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/gca.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/title.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/legend.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/bar.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/set.m shadows a built-in function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/grid.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/xlim.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/Living_stab/shims/cla.m shadows a core library function
+HowMuchPoorer_gen_t1_6_c5_Benchmark                 05-Oct-2026 
+ 
+
+=== HowMuchPoorer_gen chunk 5, t0=1 (1960), t1=6 (2010) ===
+ 
+ 
+========================================================================
+ How much poorer in 2010 with 1960 values of TauWTauH, for Black Women
+========================================================================
+....... 
+                 Y    Ymkt    Ywkr     LFP    Earn    Cons   EarnY    gdpY   GapWW   GapBM   GapBW  EarnWM  EarnWW  EarnBM  EarnBW    Util
+------------------------------------------------------------------------------------------------------------------------------------------
+1960(base)   33004   23571   39372   0.599   24833   37051   22743   21193   0.556   0.560   0.350   19380    4181     917     355   29671
+2010(alt)    70984   53324   73022   0.730   55559   55672   40272   38765   0.866   0.784   0.428   30833   20859    2858    1009   33856
+2010(tru)    72607   55011   73565   0.748   57257   57034   41542   40125   0.868   0.787   0.724   30707   20684    2844    3022   34983
+Growth(alt)  0.0153  0.0163  0.0124  0.0040  0.0161  0.0081  0.0114  0.0121  0.0089  0.0068  0.0040  0.0093  0.0321  0.0227  0.0209  0.0026
+Growth(tru)  0.0158  0.0170  0.0125  0.0044  0.0167  0.0086  0.0120  0.0128  0.0089  0.0068  0.0145  0.0092  0.0320  0.0226  0.0429  0.0033
+Difference   0.0005  0.0006  0.0001  0.0005  0.0006  0.0005  0.0006  0.0007  0.0000  0.0001  0.0105 -0.0001 -0.0002 -0.0001  0.0219  0.0007
+// Share //     2.9     3.7     1.2    10.7     3.6     5.6     5.2     5.4     0.4     1.1    72.5    -0.9    -0.5    -0.4    51.2    19.9
+ 
+ 
+ 
+ 
+========================================================================
+ How much poorer in 2010 with 1960 values of TauH, for Black Women
+========================================================================
+....... 
+                 Y    Ymkt    Ywkr     LFP    Earn    Cons   EarnY    gdpY   GapWW   GapBM   GapBW  EarnWM  EarnWW  EarnBM  EarnBW    Util
+------------------------------------------------------------------------------------------------------------------------------------------
+1960(base)   33004   23571   39372   0.599   24833   37051   22743   21193   0.556   0.560   0.350   19380    4181     917     355   29671
+2010(alt)    70998   53555   71626   0.748   56762   56597   41260   38924   0.866   0.785   0.597   30784   20726    2846    2406   34857
+2010(tru)    72607   55011   73565   0.748   57257   57034   41542   40125   0.868   0.787   0.724   30707   20684    2844    3022   34983
+Growth(alt)  0.0153  0.0164  0.0120  0.0044  0.0165  0.0085  0.0119  0.0122  0.0089  0.0068  0.0106  0.0093  0.0320  0.0226  0.0383  0.0032
+Growth(tru)  0.0158  0.0170  0.0125  0.0044  0.0167  0.0086  0.0120  0.0128  0.0089  0.0068  0.0145  0.0092  0.0320  0.0226  0.0429  0.0033
+Difference   0.0004  0.0005  0.0005  0.0000  0.0002  0.0002  0.0001  0.0006  0.0000  0.0001  0.0039 -0.0001 -0.0000 -0.0000  0.0046  0.0001
+// Share //     2.8     3.2     4.3     0.1     1.0     1.8     1.1     4.8     0.5     0.9    26.7    -0.5    -0.1    -0.0    10.6     2.2
+ 
+ 
+ 
+ 
+========================================================================
+ How much poorer in 2010 with 1960 values of TauW, for Black Women
+========================================================================
+....... 
+                 Y    Ymkt    Ywkr     LFP    Earn    Cons   EarnY    gdpY   GapWW   GapBM   GapBW  EarnWM  EarnWW  EarnBM  EarnBW    Util
+------------------------------------------------------------------------------------------------------------------------------------------
+1960(base)   33004   23571   39372   0.599   24833   37051   22743   21193   0.556   0.560   0.350   19380    4181     917     355   29671
+2010(alt)    72361   54600   74414   0.734   55915   56032   40536   39818   0.868   0.787   0.535   30757   20814    2857    1486   34136
+2010(tru)    72607   55011   73565   0.748   57257   57034   41542   40125   0.868   0.787   0.724   30707   20684    2844    3022   34983
+Growth(alt)  0.0157  0.0168  0.0127  0.0041  0.0162  0.0083  0.0116  0.0126  0.0089  0.0068  0.0085  0.0092  0.0321  0.0227  0.0287  0.0028
+Growth(tru)  0.0158  0.0170  0.0125  0.0044  0.0167  0.0086  0.0120  0.0128  0.0089  0.0068  0.0145  0.0092  0.0320  0.0226  0.0429  0.0033
+Difference   0.0001  0.0002 -0.0002  0.0004  0.0005  0.0004  0.0005  0.0002 -0.0000  0.0000  0.0061 -0.0000 -0.0001 -0.0001  0.0142  0.0005
+// Share //     0.4     0.9    -1.8     8.5     2.8     4.1     4.1     1.2    -0.1     0.1    41.8    -0.4    -0.4    -0.4    33.1    14.9
+ 
+ 

@@ -1,0 +1,53 @@
+{
+  "check_i_t0eqt1_max_rel_level_err": 0.0,
+  "check_i_pass": true,
+  "check_iii_nesting_t0_1_t1_5_max_abs_share_diff": 0.0,
+  "check_iii_pass": true,
+  "check_iii_gen_1_5_TauWTauH_share": [
+    26.297,
+    38.1955,
+    19.5094,
+    87.3923,
+    34.1283,
+    37.0982,
+    48.1755,
+    54.9101,
+    165.943,
+    113.4363,
+    92.4872,
+    -9.5042,
+    77.3523,
+    31.7295,
+    54.8167,
+    46.6616
+  ],
+  "check_iii_orig5_TauWTauH_share": [
+    26.297,
+    38.1955,
+    19.5094,
+    87.3923,
+    34.1283,
+    37.0982,
+    48.1755,
+    54.9101,
+    165.943,
+    113.4363,
+    92.4872,
+    -9.5042,
+    77.3523,
+    31.7295,
+    54.8167,
+    46.6616
+  ],
+  "nesting_t0_1_t1_6_TauWTauH_Ymkt": 41.5,
+  "nesting_t0_1_t1_6_matches_original": "byte-exact (41.5/36.0/7.7 all 16 cols)",
+  "check_ii_assignment_table": "tau_assignment_t0_1970_t1_2010.csv",
+  "check_ii_spec_checks": {
+    "cohorts1to4_src5": true,
+    "cohorts5plus_own": true,
+    "tauW_p3to6_src2": true,
+    "tauW_ple2_own": true
+  },
+  "check_ii_pass": true,
+  "GATE2B_PASS": true
+}

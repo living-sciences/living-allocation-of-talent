@@ -1,0 +1,101 @@
+[
+ {
+  "spec": "primary",
+  "horizon": "2033",
+  "years_ahead": 10,
+  "Ymkt_base": 61793.05227880461,
+  "Ymkt_proj": 61839.494446172146,
+  "gain_Ymkt_pct": 0.07515758755207713,
+  "gain_Y_pct": 0.07342574032569438,
+  "gain_GDPYoung_pct": 0.24839035932471276,
+  "annualized_pct_per_yr": 0.007515758755207713
+ },
+ {
+  "spec": "primary",
+  "horizon": "2043",
+  "years_ahead": 20,
+  "Ymkt_base": 61793.05227880461,
+  "Ymkt_proj": 61870.86620924275,
+  "gain_Ymkt_pct": 0.12592666581197065,
+  "gain_Y_pct": 0.12303297222806542,
+  "gain_GDPYoung_pct": 0.4161792578739165,
+  "annualized_pct_per_yr": 0.0062963332905985325
+ },
+ {
+  "spec": "primary",
+  "horizon": "tau->tau_inf",
+  "years_ahead": null,
+  "Ymkt_base": 61793.05227880461,
+  "Ymkt_proj": 61933.59107996999,
+  "gain_Ymkt_pct": 0.22743463218370952,
+  "gain_Y_pct": 0.2222153041611552,
+  "gain_GDPYoung_pct": 0.7516521798227371,
+  "annualized_pct_per_yr": null
+ },
+ {
+  "spec": "R5",
+  "horizon": "2033",
+  "years_ahead": 10,
+  "Ymkt_base": 63799.69815706125,
+  "Ymkt_proj": 63846.1036414661,
+  "gain_Ymkt_pct": 0.07273621309400458,
+  "gain_Y_pct": 0.07102194790722383,
+  "gain_GDPYoung_pct": 0.24836064098152644,
+  "annualized_pct_per_yr": 0.007273621309400458
+ },
+ {
+  "spec": "R5",
+  "horizon": "2043",
+  "years_ahead": 20,
+  "Ymkt_base": 63799.69815706125,
+  "Ymkt_proj": 63877.449842704744,
+  "gain_Ymkt_pct": 0.12186842240551332,
+  "gain_Y_pct": 0.11900406865053004,
+  "gain_GDPYoung_pct": 0.4161252541611482,
+  "annualized_pct_per_yr": 0.006093421120275666
+ },
+ {
+  "spec": "R5",
+  "horizon": "tau->tau_inf",
+  "years_ahead": null,
+  "Ymkt_base": 63799.69815706125,
+  "Ymkt_proj": 63940.125281148285,
+  "gain_Ymkt_pct": 0.22010625150816754,
+  "gain_Y_pct": 0.21493979605284874,
+  "gain_GDPYoung_pct": 0.7515585408394365,
+  "annualized_pct_per_yr": null
+ },
+ {
+  "spec": "R8",
+  "horizon": "2033",
+  "years_ahead": 10,
+  "Ymkt_base": 61735.19244282009,
+  "Ymkt_proj": 61784.90821640956,
+  "gain_Ymkt_pct": 0.08053068537126062,
+  "gain_Y_pct": 0.07879527117204965,
+  "gain_GDPYoung_pct": 0.24819386593615267,
+  "annualized_pct_per_yr": 0.008053068537126062
+ },
+ {
+  "spec": "R8",
+  "horizon": "2043",
+  "years_ahead": 20,
+  "Ymkt_base": 61735.19244282009,
+  "Ymkt_proj": 61818.49216217477,
+  "gain_Ymkt_pct": 0.13493068711469824,
+  "gain_Y_pct": 0.13203173752986963,
+  "gain_GDPYoung_pct": 0.4158538974706971,
+  "annualized_pct_per_yr": 0.006746534355734912
+ },
+ {
+  "spec": "R8",
+  "horizon": "tau->tau_inf",
+  "years_ahead": null,
+  "Ymkt_base": 61735.19244282009,
+  "Ymkt_proj": 61885.63902710906,
+  "gain_Ymkt_pct": 0.24369663126637686,
+  "gain_Y_pct": 0.23846820985813366,
+  "gain_GDPYoung_pct": 0.7510632192501587,
+  "annualized_pct_per_yr": null
+ }
+]

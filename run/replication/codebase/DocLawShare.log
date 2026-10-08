@@ -1,0 +1,17 @@
+GroupNames (audit group ordering; expect WM=1):
+{
+  [1,1] = White Men
+  [1,2] = White Women
+  [1,3] = Black Men
+  [1,4] = Black Women
+}
+Resolved occupation indices: [8 16]
+Resolved occupation names:
+{
+  [1,1] = Doctors
+  [2,1] = Lawyers
+}
+NumPeople dims = [67 4 8 6] ; Ngroups=4 Ncohorts=8 Nyears=6
+Decades: [1960 1970 1980 1990 2000 2010]
+1960 WM-share doctors+lawyers = 0.9448   (WM=381207 / total=403469)
+2010 WM-share doctors+lawyers = 0.5766   (WM=755148 / total=1309554)

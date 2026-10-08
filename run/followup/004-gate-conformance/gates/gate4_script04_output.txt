@@ -1,0 +1,17 @@
+A1 [2024]: unambiguous 0.9642  ambiguous(resolved modal) 0.0357  manual 0.0001  UNMAPPED 0.00000  codes unmapped: []
+A1 [2022, 2023, 2024]: unambiguous 0.9646  ambiguous(resolved modal) 0.0353  manual 0.0001  UNMAPPED 0.00000  codes unmapped: []
+A2 unmapped weight 2017: 0.0  2018: 0.0
+A2 Duncan dissimilarity 2017 vs 2018 over HHJK cats: 0.0103
+A2 categories with |log ratio|>0.15 (and share>0.1%):
+      s2017   s2018  logratio
+hh                          
+48  0.0012  0.0015    0.2647
+A2 weight in flagged categories (2018): 0.0015
+A2 baseline Duncan 2022 vs 2023 (same coding): 0.0114
+A3 group Duncan:
+ pair   2017v2018 (recode)  2022v2023 (baseline)
+group                                          
+BM                 0.0293                0.0342
+BW                 0.0266                0.0269
+WM                 0.0120                0.0127
+WW                 0.0115                0.0144

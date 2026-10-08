@@ -1,0 +1,45 @@
+{
+ "gate": "4 crosswalk quality",
+ "recomputed_in_run": true,
+ "script": "scripts/04_resolve_and_audit_crosswalk.py (run 2026-10-05, this study)",
+ "a_coverage": {
+  "pool": "2022-2024",
+  "unambiguous": 0.9646,
+  "ambiguous_resolved_modal": 0.0353,
+  "manual": 0.0001,
+  "unmapped": 0.0,
+  "pass": "YES (>=95% unambiguous, <=0.5% unmapped)"
+ },
+ "b_recode_duncan": {
+  "duncan_2017v2018": 0.0103,
+  "baseline_2022v2023": 0.0114,
+  "ratio": 0.9,
+  "threshold": "<=1.5x baseline",
+  "pass": "YES"
+ },
+ "c_group_duncan_ratio": {
+  "WM": 0.94,
+  "WW": 0.8,
+  "BM": 0.86,
+  "BW": 0.99,
+  "threshold": "<=1.5 each",
+  "pass": "YES"
+ },
+ "d_nonempty": "66/66 WM categories non-empty (per prior run)",
+ "verdict": "PASS (recomputed in-run; matches the staged values the prior study had merely cited)",
+ "R4_relabel": {
+  "old_label": "R4 SPLIT crosswalk",
+  "corrected_label": "R4 argmax-split proxy",
+  "total_2018_codes": 538,
+  "ambiguous_codes": 19,
+  "argmax_vs_modal_diff_codes": [
+   2545,
+   3545,
+   5040,
+   6835,
+   7905
+  ],
+  "n_diff": 5,
+  "note": "R4 used argmax(split_share), which differs from the modal/primary map in only 5 of 538 codes (exactly the parent-override codes). It is NOT a true fractional-SPLIT allocation and probes only those 5 override decisions, so 'R4 moves L4 by <0.5 pp' bounds override-choice sensitivity, not full crosswalk uncertainty (19 codes are genuinely ambiguous)."
+ }
+}

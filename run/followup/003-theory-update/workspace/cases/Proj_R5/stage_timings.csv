@@ -1,0 +1,4 @@
+case,stage,rc,seconds
+Benchmark,p2033,0,57
+Benchmark,p2043,0,56
+Benchmark,pinf,0,56

@@ -1,0 +1,19 @@
+GATE 2 (refactor equivalence) PASS — 2026-10-05 (session 003 continuation)
+NY-generalized codebase_living run on the ORIGINAL 6-period CSV, CaseName=Benchmark,
+stage-split (S1,S2,S3,H1-H5) in cases/Refac.
+
+Bugs found & fixed in the subagent's partial generalization (001 died mid-edit):
+  1. LookatCohortData.m: the new CohortConcordance loop used `for p=...`, clobbering the
+     propensity array `p`. Renamed loop var to `pp`.
+  2. GetTExperience.m: used builtin diff(Decades) for the interval test, but LookatCohortData
+     leaves a 67x4 variable `diff` in the shared script workspace (shadowing). Replaced with
+     explicit DecStep_ = Decades(2:end)-Decades(1:end-1).
+  3. GetTExperience.m: experience rescale used the Decades LABEL diff (2023-2010=13) for the
+     final step; corrected to the TRUE midpoint spacing 12 (exponent ^(10/12)) per spec A.4.
+     (No-op at 6 periods.)
+
+Result: 15/15 HowMuchPoorer // Share // rows byte-identical to
+  /workspace/eval/replication/codebase/HowMuchPoorer_Benchmark.log
+  (TauWTauH Ymkt 41.5 / TauH 36.0 / TauW 7.7; WW 33.8; BM 1.2; BW 3.7).
+SolveEqmBasic OVERALL remaining-gain table identical (13.4/25.8/34.2/24.1/14.1/9.9).
+Stage timings (s): S1 24, S2 9, S3 226, H1-H5 ~132 each (all < 420s soft budget).

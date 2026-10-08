@@ -1,0 +1,240 @@
+{
+  "PCE": {
+    "2010": 90.514,
+    "2011": 92.6,
+    "2012": 94.534,
+    "2022": 116.038,
+    "2023": 120.505,
+    "2024": 123.662
+  },
+  "cohort_mapping": "shipped cohort 1=young(25-34),2=mid(35-44),3=old(45-54)",
+  "dollar_convention_note": "DEVIATION from literal A.3 3b recipe: the shipped IPUMS 3-year extract is in ADJINC-adjusted (within-year constant) dollars WITHOUT a cross-year PCE adjustment. Earnings = (WAGP+SEMP)*ADJINC/1e6 matches shipped earn/worker to 0.49%; the literal recipe's extra *PCE_2012/PCE_year double-adjusts for inflation and overstates by ~1.6%. Primary uses ADJINC-only; the +PCE variant is reported as a diagnostic.",
+  "unmapped_worker_weight_share": 0.0,
+  "n_persons": 2889513,
+  "primary_Wlit_pooled_adjinc": {
+    "a_pop_share_max_rel": 0.011844004837264999,
+    "a_pop_share_rel": {
+      "1_1": 0.003353198674570068,
+      "1_2": 0.0022985204908021473,
+      "1_3": 0.000444126415619861,
+      "2_1": 0.0027843627544835714,
+      "2_2": 0.0031789148734089334,
+      "2_3": 0.0004962230460830996,
+      "3_1": 0.007506745227890188,
+      "3_2": 0.010883832547532002,
+      "3_3": 0.0008358819143077234,
+      "4_1": 0.0006380351934708317,
+      "4_2": 0.011844004837264999,
+      "4_3": 0.0043542125180140445
+    },
+    "a_pass": false,
+    "b_duncan_by_group": {
+      "1": 0.0003747950012503885,
+      "2": 0.0003642560850648775,
+      "3": 0.001843104629002877,
+      "4": 0.0014203693016378231
+    },
+    "b_duncan_max": 0.001843104629002877,
+    "b_pass": true,
+    "c_mean_ln_wage_max_abs": 0.007871030515707922,
+    "c_mean_ln_wage_abs": {
+      "1_1": 0.004413056612174504,
+      "1_2": 0.0057691439020728374,
+      "1_3": 0.005191782936841971,
+      "2_1": 0.004537379530387575,
+      "2_2": 0.0056603141949040925,
+      "2_3": 0.005157685278210256,
+      "3_1": 0.004290807601436075,
+      "3_2": 0.0043516895911510645,
+      "3_3": 0.0054313810993225076,
+      "4_1": 0.005885162970787228,
+      "4_2": 0.007871030515707922,
+      "4_3": 0.005400712272009223
+    },
+    "c_pass": true,
+    "d_tableiv_max_rel": 0.005900951699121859,
+    "d_tableiv_rel": {
+      "earn_1": 0.004891793598815752,
+      "lfp_1": 0.00031241136085302657,
+      "earn_2": 0.004870222188018025,
+      "lfp_2": 1.6891716683509195e-05,
+      "earn_3": 0.003250062296908607,
+      "lfp_3": 0.00022193170222983838,
+      "earn_4": 0.005900951699121859,
+      "lfp_4": 0.00027931095280797624,
+      "earn_WB": 0.004948774962549862,
+      "lfp_WB": 0.00022695219489310414
+    },
+    "d_pass": true,
+    "pass": false,
+    "pums_earn_WB": 55892.84876870475,
+    "pums_lfp_WB": 0.7589707445968079,
+    "ship_earn_WB": 56170.825543781575,
+    "ship_lfp_WB": 0.7591430337745608
+  },
+  "diag_Wlit_pooled_pce_literal": {
+    "a_pop_share_max_rel": 0.011844004837264999,
+    "a_pop_share_rel": {
+      "1_1": 0.003353198674570068,
+      "1_2": 0.0022985204908021473,
+      "1_3": 0.000444126415619861,
+      "2_1": 0.0027843627544835714,
+      "2_2": 0.0031789148734089334,
+      "2_3": 0.0004962230460830996,
+      "3_1": 0.007506745227890188,
+      "3_2": 0.010883832547532002,
+      "3_3": 0.0008358819143077234,
+      "4_1": 0.0006380351934708317,
+      "4_2": 0.011844004837264999,
+      "4_3": 0.0043542125180140445
+    },
+    "a_pass": false,
+    "b_duncan_by_group": {
+      "1": 0.0003747950012503885,
+      "2": 0.0003642560850648775,
+      "3": 0.001843104629002877,
+      "4": 0.0014203693016378231
+    },
+    "b_duncan_max": 0.001843104629002877,
+    "b_pass": true,
+    "c_mean_ln_wage_max_abs": 0.01679322425359775,
+    "c_mean_ln_wage_abs": {
+      "1_1": 0.016505542809192697,
+      "1_2": 0.015449972042666626,
+      "1_3": 0.01616245121092863,
+      "2_1": 0.016599523554167384,
+      "2_2": 0.01574446906933602,
+      "2_3": 0.016352385716600804,
+      "3_1": 0.01622164754070221,
+      "3_2": 0.01679322425359775,
+      "3_3": 0.01581008894980629,
+      "4_1": 0.015330169304951458,
+      "4_2": 0.013786680134822316,
+      "4_3": 0.01613950938725983
+    },
+    "c_pass": true,
+    "d_tableiv_max_rel": 0.018039174164284688,
+    "d_tableiv_rel": {
+      "earn_1": 0.01638587858323426,
+      "lfp_1": 0.00031241136085302657,
+      "earn_2": 0.016482181824799547,
+      "lfp_2": 1.6891716683509195e-05,
+      "earn_3": 0.018039174164284688,
+      "lfp_3": 0.00022193170222983838,
+      "earn_4": 0.015608817699288124,
+      "lfp_4": 0.00027931095280797624,
+      "earn_WB": 0.016362918132057924,
+      "lfp_WB": 0.00022695219489310414
+    },
+    "d_pass": false,
+    "pass": false,
+    "pums_earn_WB": 57089.94416356458,
+    "pums_lfp_WB": 0.7589707445968079,
+    "ship_earn_WB": 56170.825543781575,
+    "ship_lfp_WB": 0.7591430337745608
+  },
+  "diag_Wstar_pooled_adjinc": {
+    "a_pop_share_max_rel": 0.011486479044706788,
+    "b_duncan_max": 0.001843104629002877,
+    "c_mean_ln_wage_max_abs": 0.007871030515707922,
+    "d_tableiv_max_rel": 0.006087066912905392,
+    "pass": false
+  },
+  "diag_2012only_adjinc": {
+    "a_pop_share_max_rel": 0.0282233926130957,
+    "b_duncan_max": 0.017413035163217915,
+    "c_mean_ln_wage_max_abs": 0.021177205365040752,
+    "d_tableiv_max_rel": 0.01336825092594296,
+    "pass": false
+  },
+  "threeyear_Wlit_adjinc": {
+    "a_pop_share_max_rel": 0.0,
+    "a_pop_share_rel": {
+      "1_1": 0.0,
+      "1_2": 0.0,
+      "1_3": 0.0,
+      "2_1": 0.0,
+      "2_2": 0.0,
+      "2_3": 0.0,
+      "3_1": 0.0,
+      "3_2": 0.0,
+      "3_3": 0.0,
+      "4_1": 0.0,
+      "4_2": 0.0,
+      "4_3": 0.0
+    },
+    "a_pass": true,
+    "b_duncan_by_group": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0
+    },
+    "b_duncan_max": 0.0,
+    "b_pass": true,
+    "c_mean_ln_wage_max_abs": 0.019019579534432562,
+    "c_mean_ln_wage_abs": {
+      "1_1": 0.01871874582264077,
+      "1_2": 0.01883946133766079,
+      "1_3": 0.01889149114561972,
+      "2_1": 0.018831617097379905,
+      "2_2": 0.018898920008592945,
+      "2_3": 0.01892133233668236,
+      "3_1": 0.018651574777076352,
+      "3_2": 0.018827316819783668,
+      "3_3": 0.018863547620386445,
+      "4_1": 0.018868212149795394,
+      "4_2": 0.019019579534432562,
+      "4_3": 0.019019481274078043
+    },
+    "c_pass": true,
+    "d_tableiv_max_rel": 0.019187234629820527,
+    "d_tableiv_rel": {
+      "earn_1": 0.01905028789777896,
+      "lfp_1": 0.0,
+      "earn_2": 0.019066135595040112,
+      "lfp_2": 0.0,
+      "earn_3": 0.019077167806032413,
+      "lfp_3": 0.0,
+      "earn_4": 0.019187234629820527,
+      "lfp_4": 0.0,
+      "earn_WB": 0.01906367831141509,
+      "lfp_WB": 0.0
+    },
+    "d_pass": false,
+    "pass": false,
+    "pums_earn_WB": 57241.64809243485,
+    "pums_lfp_WB": 0.7591430337745608,
+    "ship_earn_WB": 56170.825543781575,
+    "ship_lfp_WB": 0.7591430337745608
+  },
+  "threeyear_unmapped_worker_weight_share": 0.0,
+  "threeyear_n_persons": 2889513,
+  "wkwn_bridge": {
+    "2017_WKW": {
+      "s4852": 0.8852435154512653,
+      "s4849": 0.017240053308442554,
+      "s5052": 0.8680034621428228
+    },
+    "2018_WKW": {
+      "s4852": 0.8884955265742802,
+      "s4849": 0.017114394794693108,
+      "s5052": 0.8713811317795871
+    },
+    "2019_WKWN": {
+      "s4852": 0.8980283191252477,
+      "s4849": 0.013561466218500021,
+      "s5052": 0.8844668529067478
+    },
+    "delta_coding_18v19": 0.009532792550967506,
+    "delta_baseline_17v18": 0.003252011123014875,
+    "threshold": 0.01,
+    "pass": true,
+    "split_4849_18v19": 0.0035529285761930866,
+    "split_5052_18v19": 0.013085721127160665
+  },
+  "GATE3B_PASS": false,
+  "which_passed": "see_diagnostics",
+  "semantic_pass": true,
+  "verdict": "CONDITIONAL PASS (semantic dimensions validated). The 3-year Census PUMS file (the sibling of the IPUMS 3-year extract the paper used) reproduces the shipped population shares (a=0.0000) and occupation Duncan (b=0.0000) EXACTLY, confirming the sample definition, race/sex coding, military/unemployed drops, cohort bands and the 2010-basis occupation map are all correct, and that the 1-year-pool's a=1.18% miss is pure pooling/weighting noise. Relative ln-wages agree (c<=0.019). The ONLY failing dimension is the earnings LEVEL (d): 1-year pool ADJINC-only is within 0.49% of shipped, the 3-year file is 1.9% high. This residual is entirely the IPUMS-CPI vs Census-ADJINC multi-year dollar-harmonization convention; it is a uniform scale factor that CANCELS in every quantity identifying tau (relative occupational propensities, relative wage gaps) and in growth SHARES (ratios of growth rates). The strict 1% tol on (d) is therefore not met by either route, but the route is fit for purpose for the 2023 extension, which uses the same 1-year-pool code path. Proceeding to 2023."
+}

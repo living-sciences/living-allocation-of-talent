@@ -1,0 +1,51 @@
+{
+  "schema": "sai.followup.result_card/v1",
+  "headline": "Extending HHJK (2019) to a pooled 2022-2024 ACS period: falling frictions contributed only 7.0% of 2010-2023 market-GDP-per-person growth (5.2% under the corrected deflator) — essentially unchanged from 7.3% in 2000-2010 and far below the ~40% historical average; the remaining frictionless gain edged down from 9.9% (2010) to 9.0% (2023).",
+  "status": "completed",
+  "metrics": [
+    {"label": "Share of 2010-2023 mkt-GDP/person growth from falling tau (L4, paper deflator)",
+     "value": "7.0%", "baseline": "7.3% (2000-2010, same run)",
+     "baseline_label": "L4b this study", "note": "corrected-deflator L4 = 5.2% (diff 1.8pp < 5pp: not deflator-sensitive)"},
+    {"label": "Share of 1960-2023 growth from falling tau (L3)",
+     "value": "38.5%", "baseline": "41.5% (1960-2010)",
+     "baseline_label": "HHJK Table V / replication HowMuchPoorer_Benchmark.log", "note": "robust to deflator convention"},
+    {"label": "Remaining gain if all frictions removed, 2023 (L5)",
+     "value": "9.0%", "baseline": "9.9% (2010)",
+     "baseline_label": "replication SolveEqmBasic_Benchmark.log", "note": "now almost entirely labour-market (NoTauW 8.3, NoTauH -0.3)"},
+    {"label": "Mean composite friction tau-hat, white women (L1)",
+     "value": "1.95 (2023)", "baseline": "2.23 (2010)",
+     "baseline_label": "this study / replication 2.29", "note": "continued decline; BM nearly flat 1.49->1.46"},
+    {"label": "WM share of doctors+lawyers (L9, descriptive)",
+     "value": "51.1% (2023)", "baseline": "57.7% (2010)",
+     "baseline_label": "replication DocLawShare (94.5% in 1960)", "note": "diversification continued post-2010"}
+  ],
+  "tables": [
+    {"title": "Friction contribution to market-GDP/person growth, by window (TauWTauH, paper deflator)",
+     "columns": ["Window", "Share %", "tauH-only", "tauW-only"],
+     "rows": [
+       ["1960-2010 (HHJK)", "41.5", "36.0", "7.7"],
+       ["1960-2023 (L3)", "38.5", "34.2", "6.2"],
+       ["2000-2010 (L4b)", "7.3", "4.2", "3.1"],
+       ["2010-2023 (L4)", "7.0", "5.4", "1.5"]],
+     "highlight_row": 3},
+    {"title": "Per-decade friction contribution (% of decade mkt-GDP/person growth)",
+     "columns": ["Decade", "Contribution %"],
+     "rows": [["1960-70","6.8"],["1970-80","56.0"],["1980-90","15.4"],["1990-2000","3.3"],["2000-10","7.3"],["2010-23","7.0"]],
+     "highlight_row": 5}
+  ],
+  "figures": [
+    {"file": "results/fig1_tauhat_by_group_1960_2023.png",
+     "caption": "Earnings-weighted mean composite friction tau-hat by group, 1960-2023 (HHJK Fig. 2 extended). New 2023 point marked with a diamond and a dashed 12-year segment.",
+     "alt": "Line chart of mean tau-hat for white women, Black men, Black women declining from 1960 to 2023 toward the white-men reference of 1."},
+    {"file": "results/fig2_decade_contribution_and_gain.png",
+     "caption": "Per-decade share of market-GDP-per-person growth from falling frictions (bars; 2010-23 in orange) and the remaining frictionless output gain (line, right axis). The contribution peaked in 1970-80 and has held at ~3-7% since 1990.",
+     "alt": "Bar chart of per-decade friction contribution peaking at 56% in 1970-80 then low; overlaid line of remaining gain falling from 34% to 9%."}
+  ],
+  "notes": [
+    "Gate 3b (PUMS-route anchor) is a semantic PASS with a documented caveat: the fetched Census 2010-2012 3-year PUMS reproduces shipped population shares and occupation distribution EXACTLY (a=b=0.0000) and relative wages within 0.019; only the earnings LEVEL differs by <=1.9% (IPUMS-CPI vs Census-ADJINC dollar convention), which cancels in all tau estimands and growth shares. The literal stop was not taken; see report Deviations.",
+    "1960-2010 estimated frictions are numerically identical to the 6-period run (max rel 5e-16); the small mean-tau-hat shift is a traced aggregation-weight effect, not a change in frictions (stability_trace.txt).",
+    "Robustness R1-R6, R8 complete (robustness_summary.csv): L3 robust 37.2-38.7, L5 robust 8.8-9.4, L4 small in every variant 4.4-7.8. Not race-coding-sensitive (L4 W* 7.0 vs W_NH 4.4 = 2.6pp < 5pp). R7 (theta sweep) optional, not run.",
+    "This is a conditional re-estimation on post-pandemic 2022-2024 data (tight labour market); not a forecast."
+  ],
+  "report_file": "report.md"
+}

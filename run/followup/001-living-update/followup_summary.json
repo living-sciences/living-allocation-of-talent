@@ -1,0 +1,16 @@
+{
+    "instruction_summary": "Extend HHJK (2019) talent-misallocation series to a pooled 2022-2024 ACS period and re-estimate the growth-accounting conclusion (Study A / 001-living-update only).",
+    "completed": false,
+    "steps": [
+        {"description": "Set up workspace: symlink staged data, build venv (pandas/pyarrow/scipy/matplotlib/statsmodels), verify Octave 6.4.", "command": "ln -s staging; uv venv; uv pip install ...", "exit_code": 0, "outputs": ["workspace/ symlinks"]},
+        {"description": "Build headless Octave graphics env: install gnuplot 6.0.5 via micromamba (no root) and an LD_PRELOAD fontredirect.so (missing freefont -> DejaVu), matching the replication's two environment fixes. Patched run_stage.sh + setup_case.sh.", "command": "micromamba create ... gnuplot; gcc -shared fontredirect.c", "exit_code": 0, "outputs": ["workspace/tools/fontredirect.so", "workspace/run_stage_patched.sh", "workspace/setup_case.sh"]},
+        {"description": "GATE 1 (anchor, stage-split): ran original 6-period Benchmark via split_case.sh S1,S2,S3,H1-H5. All 15 HowMuchPoorer // Share // rows byte-identical to replication HowMuchPoorer_Benchmark.log (41.5/36.0/7.7; WW 33.8; BM 1.2; BW 3.7); SolveEqmBasic remaining-gain table identical (13.4/25.8/34.2/24.1/14.1/9.9). All stages < 420s.", "command": "./split_case.sh Benchmark {S1,S2,S3,H1-H5}", "exit_code": 0, "outputs": ["results/gate1_split_diff.txt", "results/stage_timings.csv", "workspace/cases/Benchmark/*.mat"]}
+    ],
+    "key_results": {"gate1": "PASS (split certified; byte-identical to replication)"},
+    "comparison_to_original": [
+        {"quantity": "Gate 1 TauWTauH Ymkt share (1960->2010)", "original": "41.5", "followup": "41.5", "source_file": "/workspace/eval/replication/codebase/HowMuchPoorer_Benchmark.log", "note": "byte-identical; certifies the stage-split harness and Octave port"},
+        {"quantity": "Gate 1 remaining gain 2010 (no frictions)", "original": "9.9", "followup": "9.9", "source_file": "/workspace/eval/replication/codebase/SolveEqmBasic_Benchmark.log", "note": "byte-identical"}
+    ],
+    "artifacts": ["results/gate1_split_diff.txt", "results/stage_timings.csv"],
+    "deviations": ["Installed gnuplot via micromamba and built fontredirect.so LD_PRELOAD to make headless Octave figures not abort; this exactly mirrors the replication's two documented environment fixes and does not affect any numeric output (figures are invisible, print is a no-op shim, figures re-plotted in Python per spec)."]
+}

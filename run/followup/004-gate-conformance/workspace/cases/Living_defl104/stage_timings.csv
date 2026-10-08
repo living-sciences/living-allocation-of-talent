@@ -1,0 +1,6 @@
+case,stage,rc,seconds
+Benchmark,S1,0,6
+Benchmark,S2,0,3
+Benchmark,S3,0,281
+Benchmark,t6_7_c1,0,166
+Benchmark,t5_6_c1,0,168

@@ -1,0 +1,42 @@
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/axis.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/bar.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/set.m shadows a built-in function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/ylim.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/keyboard.m shadows a built-in function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/gca.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/figure.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/colorbar.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/ylabel.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/print.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/cla.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/grid.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/errorbar.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/xlim.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/orient.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/stem.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/title.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/text.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/plot.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/whitebg.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/line.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/gcf.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/box.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/scatter.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/legend.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/subplot.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/drawnow.m shadows a built-in function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/hold.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/xlabel.m shadows a core library function
+warning: function /workspace/eval/followup/004-gate-conformance/workspace/cases/G2b/shims/clf.m shadows a core library function
+Nyears=7 Decades=   1960   1970   1980   1990   2000   2010   2023
+ 
+ 
+========================================================================
+ How much poorer in 2010 with 1970 values of Both+Z
+========================================================================
+ 
+ 
+========================================================================
+ How much poorer in 2023 with 2010 values of Both+Z
+========================================================================
+DUMP_DONE
