@@ -1,0 +1,837 @@
+,2000 1% Census OCC code,Description of Change,2000 5% Census OCC code,Description of Change,2000-2004 ACS OCC code,Description of Change,2005-2009 ACS/PRCS OCC code,Description of Change,2010-2012 ACS/PRCS OCC code,Description of Change,2013-2017 ACS/PRCS OCC code,Description of Change,2018 ACS/PRCS OCC code,Description of Change,2000 1% Census OCCSOC code,Description of Change,2000 5% Census OCCSOC code,Description of Change,2000-2004 ACS OCCSOC code,Description of Change,2005-2009 ACS/PRCS OCCSOC code,Description of Change,2010-2012 ACS/PRCS OCCSOC,Description of Change,2013-2017 ACS/PRCS OCCSOC code,Description of Change,2018 ACS/PRCS,Description of Change,Occupation title
+,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,"Not Applicable (Under 16 years or not in the labor force, who last worked more than 5 years ago--also see occ code 992 or occsoc code 999920)"
+"MANAGEMENT, BUSINESS, SCIENCE, AND ARTS OCCUPATIONS:",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Management Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,1,,1,,10,(included in Chief Executives and Legislators),,,,,,,,,111011,,111011,,111011,(included in 1110XX),,,,,,,,,Chief Executives
+,,,,,,,10,"(collapsed, includes ""Chief Executives"" and ""Legislators"")",10,"(includes ""Chief Executives"" and ""Legislators"")",10," (includes ""Chief Executives"" and ""Legislators"")",10," (includes ""Chief Executives"" and ""Legislators"")",,,,,,,1110XX,"(collapsed, includes 111011, 111031)",1110XX,"(includes 111011, 111031)",1110XX,"(includes 111011, 111031)",1110XX,"(includes 111011, 111031)",Chief Executives and Legislators
+,2,,2,,20,,20,,20,,20,,20,,111021,,111021,,111021,,111021,,111021,,111021,,111021,,General and Operations Managers
+,3,,3,,30,(included in Chief Executives and Legislators),,,,,,,,,111031,,111031,,111031,(included in 1110XX),,,,,,,,,Legislators
+,4,,4,,40,,40,,40,,40,,40,,112011,,112011,,112011,,112011,,112011,,112011,,112011,,Advertising and Promotions Managers
+,5,,5,,50,"(includes 51, 52)",50,,50,,50,,,,112020,,112020,,112020,"(includes 112021, 112022)",112020,"(includes 112021, 112022)",112020,"(includes 112021, 112022)",112020,"(includes 112021, 112022)",,,Marketing and Sales Managers
+,,,,,,,,,,,,,51," (split, see 50)",,,,,,,,,,,,,112021,"(split, see 112020)",Marketing Managers
+,,,,,,,,,,,,,52," (split, see 50)",,,,,,,,,,,,,112022,"(split, see 112020)",Sales Managers
+,6,,6,,60,(includes Public Relations and Fundraising Managers),60,(includes Public Relations and Fundraising Managers),,,,,,,112031,,112031,,112031,"(includes 112030 and ""Public Relations and Fundraising Managers"")",112031,"(includes 112030 and ""Public Relations and Fundraising Managers"")",,,,,,,Public Relations Managers
+,,,,,,,,,60,"(title change, see Public Relations Managers)",60, (includes Public Relations Managers),,,,,,,,,,,112031,"(title change, see ""Public Relations Managers""; includes 112030)",112031,"(see ""Public Relations Managers""; includes 112030)",,,Public Relations and Fundraising Managers
+,,,,,,,,,,,,,60, (occsoc code change; includes Public Relations Managers),,,,,,,,,,,,,112030,"(code change, see 112031)",Public Relations and Fundraising Managers
+,10,,10,,100,"(includes 101, 102)",100,"(includes 101, 102)",100,"(includes 101, 102)",100," (includes 101, 102)",,,113011,,113011,,113011,"(includes 113012, 113013)",113011,"(includes 113012, 113013)",113011,"(includes 113012, 113013)",113011,"(includes 113012, 113013)",,,Administrative Services Managers
+,,,,,,,,,,,,,101," (split, see 100)",,,,,,,,,,,,,113012,"(split, see 113011)",Administrative Services Managers
+,,,,,,,,,,,,,102," (split, see 100)",,,,,,,,,,,,,113013,"(split, see 113011)",Facilities Managers
+,11,,11,,110,,110,,110,,110,,110,,113021,,113021,,113021,,113021,,113021,,113021,,113021,,Computer and Information Systems Managers
+,12,,12,,120,,120,,120,,120,,120,,113031,,113031,,113031,,113031,,113031,,113031,,113031,,Financial Managers
+,13,,13,,130,(includes 135-137),130,(includes 135-137),,,,,,,113040,,113040,,113040,(includes 113111-113131),113040,(includes 113111-113131),,,,,,,Human Resources Managers
+,,,,,,,,,135,"(split, see 130)",135, (see 130),135, (see 130),,,,,,,,,113111,"(split, see 113040)",113111,(see 113040),113111,(see 113040),Compensation and Benefits Managers
+,,,,,,,,,136,"(split, see 130)",136, (see 130),136, (see 130),,,,,,,,,113121,"(split, see 113040)",113121,(see 113040),113121,(see 113040),Human Resources Managers
+,,,,,,,,,137,"(split, see 130)",137, (see 130),137, (see 130),,,,,,,,,113131,"(split, see 113040)",113131,(see 113040),113131,(see 113040),Training and Development Managers
+,14,,14,,140,,140,,140,,140,,140,,113051,,113051,,113051,,113051,,113051,,113051,,113051,,Industrial Production Managers
+,15,,15,,150,,150,,150,,150,,150,,113061,,113061,,113061,,113061,,113061,,113061,,113061,,Purchasing Managers
+,16,,16,,160,,160,,160,,160,,160,,113071,,113071,,113071,,113071,,113071,,113071,,113071,,"Transportation, Storage, and Distribution Managers"
+,20,,20,,200,,200,(included in 205),,,,,,,119011,,119011,,119011,,119011,(included in 119013),,,,,,,"Farm, Ranch, and Other Agricultural Managers"
+,,,,,,,,,205,"(collapsed, includes 200 and 210)",205, (includes 200 and 210),205, (includes 200 and 210),,,,,,,,,119013,"(collapsed, includes 119011 and 119012)",119013,(includes 119011 and 119012),119013,(includes 119011 and 119012),"Farmers, Ranchers, and Other Agricultural Managers"
+,21,,21,,210,,210,(included in 205),,,,,,,119012,,119012,,119012,(included in 119013),119012,(included in 119013),,,,,,,Farmers and Ranchers
+,22,,22,,220,,220,,220,,220,,220,,119021,,119021,,119021,,119021,,119021,,119021,,119021,,Constructions Managers
+,23,,23,,230,(includes Education and childcare administrators),230,(includes Education and childcare administrators),230,(includes Education and childcare administrators),230, (includes Education and childcare administrators),,,119030,,119030,,119030,(includes Education And Childcare Administrators),119030,(includes Education And Childcare Administrators),119030,(includes Education And Childcare Administrators),119030,(includes Education And Childcare Administrators),,,Education Administrators
+,,,,,,,,,,,,,230," (title change, see Education Administrators)",,,,,,,,,,,,,119030,"(title change, see Education Administrators)",Education And Childcare Administrators
+,30,,30,,300,(includes Architectural and Engineering Managers),300,(includes Architectural and Engineering Managers),,,,,,,119041,,119041,,119041,(includes Architectural and Engineering Managers),119041,(includes Architectural and Engineering Managers),,,,,,,Engineering Managers
+,,,,,,,,,300,"(title change, see Engineering Managers)",300, (see Engineering Managers),300, (see Engineering Managers),,,,,,,,,119041,"(title change, see Engineering Managers)",119041,(see Engineering Managers),119041,(see Engineering Managers),Architectural and Engineering Managers
+,31,,31,,310,,310,,310,,310,,310,,119051,,119051,,119051,,119051,,119051,,119051,,119051,,Food Service Managers
+,32,,32,,320,(includes 4465),320,(includes 4465),,,,,,,119061,,119061,,119061,(includes 394031),119061,(includes 394031),,,,,,,Funeral Directors
+,33,,33,,330,(includes 335),330,(includes 335),330,(includes 335),330, (includes 335),,,119071,,119071,,119071,(includes 119070),119071,(includes 119070),119071,(includes 119070),119071,(includes 119070),,,Gaming Managers
+,,,,,,,,,,,,,335," (title and code change, see 330; split, see 430)",,,,,,,,,,,,,119070,"(title and code change, see 119071)",Entertainment And Recreation Managers
+,34,,34,,340,,340,,340,,340,,340,,119081,,119081,,119081,,119081,,119081,,119081,,119081,,Lodging Managers
+,35,,35,,350,,350,,350,,350,,350,,119111,,119111,,119111,,119111,,119111,,119111,,119111,,Medical and Health Services Managers
+,36,,36,,360,,360,,360,,360,,360,,119121,,119121,,119121,,119121,,119121,,119121,,119121,,Natural Science Managers
+,40,,40,,400,(included in 430),,,,,,,,,119131,,119131,,119131,(included in 119190),,,,,,,,,Postmasters and Mail Superintendents
+,41,,41,,410,,410,,410,,410,,410,,119141,,119141,,119141,,119141,,119141,,119141,,119141,,"Property, Real Estate, and Community Association Managers"
+,42,,42,,420,,420,,420,,420,,420,,119151,,119151,,119151,,119151,,119151,,119151,,119151,,Social and Community Service Managers
+,,,,,,,,,425,"(split, see 730)",425,(see 730),425, (see 730),,,,,,,,,119161,"(split, see 1311XX)",119161,(see 1311XX),119161,(see 1311XX),Emergency Management Directors
+,43,,43,,430,(included in Miscellaneous managers including postmansters and mail superintendents),,,,,,,,,119199,,119199,,119199,(included in 119190),,,,,,,,,"Managers, All Other"
+,,,,,,,430,"(collapsed, includes 335, 400, 440, 705, and ""Managers, All Other,"" and ""Miscellaneous Managers, Including Funeral Service Managers and Postmasters and Mail Superintendents"")",,,,,,,,,,,,,119190,"(2005), 1191XX (2006-) (collapsed, includes 119131, 119199)",,,,,,,Miscellaneous managers including postmansters and mail superintendents
+,,,,,,,,,430,"(title change, see ""Miscellaneous managers including postmansters and mail superintendents""; includes 335, 400, 440, 705)",430," (see ""Miscellaneous managers including postmansters and mail superintendents""; includes 335, 400, 440, 705)",,,,,,,,,,,119XXX,"(title and code change, see 119190; includes 119071, 119131, 119199, 1191XX, 131082)",119XXX,"(see 119190; includes 119071, 119131, 119199, 1191XX, 131082)",,,"Miscellaneous Managers, Including Funeral Service Managers and Postmasters and Mail Superintendents"
+,,,,,,,,,,,,,440," (split, see 430; includes 400)",,,,,,,,,,,,,1191XX," (split, see 119XXX; includes 119131, 119190)",Other Managers
+Business and Financial Operations Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,50,,50,,500,,500,,500,,500,,500,,131011,,131011,,131011,,131011,,131011,,131011,,131011,,"Agents and Business Managers of Artists, Performers, and Athletes"
+,51,,51,,510,,510,,510,,510,,510,,131021,,131021,,131021,,131021,,131021,,131021,,131021,,"Buyers and Purchasing Agents, Farm Products"
+,52,,52,,520,,520,,520,,520,,520,,131022,,131022,,131022,,131022,,131022,,131022,,131022,,"Wholesale and Retail Buyers, Except Farm Products"
+,53,,53,,530,,530,,530,,530,,530,,131023,,131023,,131023,,131023,,131023,,131023,,131023,,"Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+,54,,54,,540,,540,,540,,540,,540,,131030,,131030,,131030,,131030,,131030,,131030,,131030,,"Claims Adjusters, Appraisers, Examiners, and Investigators"
+,56,,56,,560,(includes 565 and 3945),560,(includes 565 and 3945),,,,,,,131041,,131041,,131041,(includes Compliance Officers and 339093),131041,(includes Compliance Officers and 339093),,,,,,,"Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation"
+,,,,,,,,,565,"(split, see 560)",565, (see 560),565, (see 560),,,,,,,,,131041,"(split, see Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation)",131041,"(see Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation)",131041,"(see Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation)",Compliance Officers
+,60,,60,,600,,600,,600,,600,,600,,131051,,131051,,131051,,131051,,131051,,131051,,131051,,Cost Estimators
+,62,,62,,620,(includes 630-650),620,(includes 630-650),,,,,,,131070,,131070,,131070,"(includes 131070, 131141, 131151)",131070,"(includes 131070, 131141, 131151)",,,,,,,"Human Resources, Training, and Labor Relations Specialists"
+,,,,,,,,,630,"(split, see 620; split, see 6000)",630," (see 620, 6000)",630," (see 620, 6000)",,,,,,,,,131070,"(split, see 131070 split, see 451010)",131070,"(see 131070, 451010)",131070,"(see 131070, 451010)",Human Resources Workers
+,,,,,,,,,640,"(split, see 620)",640, (see 620),640, (see 620),,,,,,,,,131141,"(split, see 131070)",131141,(see 131070),131141,(see 131070),"Compensation, Benefits, and Job Analysis Specialists"
+,,,,,,,,,650,"(split, see 620)",650, (see 620),650, (see 620),,,,,,,,,131151,"(split, see 131070)",131151,(see 131070),131151,(see 131070),Training and Development Specialists
+,70,,70,,700,,700,,700,,700,,700,,131081,,131081,,131081,,131081,,131081,,131081,,131081,,Logisticians
+,,,,,,,,,,,,,705," (split, see 430; split, see 740; split, see 1107)",,,,,,,,,,,,,131082,"(split, see 119XXX; split, see 131199; split, see 151199)",Project Management Specialists
+,71,,71,,710,,710,,710,,710,,710,,131111,,131111,,131111,,131111,,131111,,131111,,131111,,Management Analysts
+,72,,72,,720,(includes 725),720,(includes 725),,,,,,,131121,,131121,,131121,"(includes Meeting, Convention, and Event Planners)",131121,"(includes Meeting, Convention, and Event Planners)",,,,,,,Meeting and Convention Planners
+,,,,,,,,,725,"(title and code change, see 720; split, see 730)",725," (see 720, 730)",725," (see 720, 730)",,,,,,,,,131121,"(title change, see Meeting and Convention Planners; split, see 1311XX)",131121,"(see Meeting and Convention Planners; split, see 1311XX)",131121,"(see Meeting and Convention Planners; split, see 1311XX)","Meeting, Convention, and Event Planners"
+,,,,,,,,,726,"(split, see 4960)",726, (see 4960),726, (see 4960),,,,,,,,,131131,"(split, see 419099)",131131,(see 419099),131131,(see 419099),Fundraisers
+,73,,73,,730,"(includes 425, 725, 735, 740)",730,"(includes 425, 725, 735, 740)",,,,,,,1311XX,,1311XX,,1311XX,"(includes 119161, 131121, 131161, 131199)",1311XX,"(includes 119161, 131121, 131161, 131199)",,,,,,,Other Business Operations Specialist
+,,,,,,,,,735,"(split, see 730; split, see 1810)",735," (see 730, 1810)",735," (see 730, 1810)",,,,,,,,,131161,"(split, see 1311XX; split, see 193020)",131161,"(see 1311XX, 193020)",131161,"(see 1311XX, 193020)",Market Research Analysts and Marketing Specialists
+,,,,,,,,,740,"(split, see 730; includes 705)",740," (see 730; includes 705, 750)",,,,,,,,,,,131199,"(split, see 1311XX)",131199,"(see 1311XX; includes 131082 and ""Business Operations Specialists, All Other"")",,,"Business Operations Specialists, All Other"
+,,,,,,,,,,,,,750," (split, see 740)",,,,,,,,,,,,,131199,"(split, see Business Operations Specialists, All Other; see 1311XX)","Business Operations Specialists, All Other"
+,80,,80,,800,,800,,800,,800,,800,,132011,,132011,,132011,,132011,,132011,,132011,,132011,,Accountants and Auditors
+,81,,81,,810,(includes Property appraisers and assessors),810,(includes Property appraisers and assessors),810,(includes Property appraisers and assessors),810, (includes Property appraisers and assessors),,,132021,,132021,,132021,(includes 132020),132021,(includes 132020),132021,(includes 132020),132021,(includes 132020),,,Appraisers and Assessors of Real Estate
+,,,,,,,,,,,,,810," (title change, see Appraisers and Assessors of Real Estate)",,,,,,,,,,,,,132020,"(title and code change, see 132021)",Property appraisers and assessors
+,82,,82,,820,,820,,820,,820,,820,,132031,,132031,,132031,,132031,,132031,,132031,,132031,,Budget Analysts
+,83,,83,,830,,830,,830,,830,,830,,132041,,132041,,132041,,132041,,132041,,132041,,132041,,Credit Analysts
+,84,,84,,840,"(includes 845, 960)",840,"(includes 845, 960)",840,"(includes 845, 960)",840," (includes 845, 960)",,,132051,,132051,,132051,(includes Financial and Investment Analysts),132051,(includes Financial and Investment Analysts),132051,(includes Financial and Investment Analysts),132051,(includes Financial and Investment Analysts),,,Financial Analysts
+,,,,,,,,,,,,,845," (split, see 840)",,,,,,,,,,,,,132051,"(title change, see Financial Analysts)",Financial and Investment Analysts
+,85,,85,,850,,850,,850,,850,,850,,132052,,132052,,132052,,132052,,132052,,132052,,132052,,Personal Financial Advisors
+,86,,86,,860,,860,,860,,860,,860,,132053,,132053,,132053,,132053,,132053,,132053,,132053,,Insurance Underwriters
+,90,,90,,900,,900,,900,,900,,900,,132061,,132061,,132061,,132061,,132061,,132061,,132061,,Financial Examiners
+,91,,91,,910,,910,,910,,910,,910,,132070,,132070,,132070,,132070,,132070,,132070,,132070,,Credit Counselors and Loan Officers
+,93,,93,,930,,930,,930,,930,,930,,132081,,132081,,132081,,132081,,132081,,132081,,132081,,"Tax Examiners and Collectors, and Revenue Agents"
+,94,,94,,940,,940,,940,,940,,940,,132082,,132082,,132082,,132082,,132082,,132082,,132082,,Tax Preparers
+,95,,95,,950,(includes 960),950,(includes 960),950,(includes 960),950, (includes 960),,,132099,,132099,,132099,(includes 1320XX),132099,(includes 1320XX),132099,(includes 1320XX),132099,(includes 1320XX),,,"Financial Specialists, All Other"
+,,,,,,,,,,,,,960," (split, see 840; code change, see 950)",,,,,,,,,,,,,1320XX,"(title and code change, see 132099)",Other Financial Specialists
+Computer and Mathematical Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,100,,100,,1000,"(includes 1005, 1006, 1106, 1107, 705, 1108, 1065, 1022, 1032)",1000,"(includes 1005, 1006, 1106, 1107, 705, 1108, 1065, 1022, 1032)",,,,,,,1510XX,,1510XX,,1510XX,"(includes 151121, 151111, 151199, 151211, 151221, 151241, 151299)",1510XX,"(includes 151121, 151111, 151199, 151211, 151221, 151241, 151299)",,,,,,,Computer Scientists and Systems Analysts
+,,,,,,,,,1005,"(split, see 1000)",1005, (see 1000),,,,,,,,,,,151111,"(split, see 1510XX)",151111,(see 1510XX),,,Computer And Information Research Scientists
+,,,,,,,,,,,,,1005, (occsoc code change; see 1000),,,,,,,,,,,,,151221,"(code change, see 151111)",Computer And Information Research Scientists
+,,,,,,,,,1006,"(split, see 1000)",1006, (see 1000),,,,,,,,,,,151121,"(split, see 1510XX; includes 151211)",151121,(see 1510XX; includes 151211),,,Computer Systems Analysts
+,,,,,,,,,,,,,1006, (occsoc code change; see 1000),,,,,,,,,,,,,151211,"(code change, see 151121)",Computer Systems Analysts
+,,,,,,,,,1007,"(split, see 1110)",1007, (see 1110),,,,,,,,,,,151122,"(split, see 151081)",151122,(see 151081),,,Information Security Analysts
+,,,,,,,,,,,,,1007, (occsoc code change; see 1110),,,,,,,,,,,,,151212,"(code change, see 151122)",Information Security Analysts
+,101,,101,,1010,,1010,,,,,,,,151021,,151021,,151021,"(includes 151131, 151251)",151021,"(includes 151131, 151251)",,,,,,,Computer Programmers
+,,,,,,,,,1010,(occsoc code change),1010,,,,,,,,,,,,151131,"(code change, see 151021; includes 151251)",151131,"(code change, see 151021; includes 151251)",,,Computer Programmers
+,,,,,,,,,,,,,1010, (occsoc code change),,,,,,,,,,,,,151251,"(code change, see 151131)",Computer Programmers
+,102,,102,,1020,"(includes Software Developers, Applications and Systems Software, 1021, 1022)",1020,"(includes Software Developers, Applications and Systems Software, 1021, 1022)",,,,,,,151030,,151030,,151030,"(includes 15113X, 151252, 151253)",151030,"(includes 15113X, 151252, 151253)",,,,,,,Computer Software Engineers
+,,,,,,,,,1020,"(title change, see Computer Software Engineers; includes 1021, 1022)",1020," (see Computer Software Engineers; includes 1021, 1022)",,,,,,,,,,,15113X,"(title and code change, see 151030; includes 151252, 151253)",15113X,"(see 151030; includes 151252, 151253)",,,"Software Developers, Applications and Systems Software"
+,,,,,,,,,,,,,1021," (split, see 1020)",,,,,,,,,,,,,151252,"(split, see 15113X)",Software Developers
+,,,,,,,,,,,,,1022," (split, see 1020)",,,,,,,,,,,,,151253,"(split, see 15113X)",Software Quality Assurance Analysts And Testers
+,,,,,,,,,1030,"(split, see 1110; includes 1031, 1032)",1030," (see 1110; includes 1031, 1032)",,,,,,,,,,,151134,"(split, see 151081; includes 151254, 151255)",151134,"(see 151081; includes 151254, 151255)",,,Web Developers
+,,,,,,,,,,,,,1031," (split, see 1030)",,,,,,,,,,,,,151254,"(split, see 151134)",Web Developers
+,,,,,,,,,,,,,1032," (split, see 1030)",,,,,,,,,,,,,151255,"(split, see 151134)",Web And Digital Interface Designers
+,104,,104,,1040,(includes 1050),1040,(includes 1050),,,,,,,151041,,151041,,151041,"(includes 151150, 151230)",151041,"(includes 151150, 151230)",,,,,,,Computer Support Specialists
+,,,,,,,,,1050,"(code change, see 1040; split, see 1110)",1050, (see 1110),,,,,,,,,,,151150,"(code change, see 151041; split, see 151081; includes 151230)",151150,(see 151041; includes 151230),,,Computer Support Specialists
+,,,,,,,,,,,,,1050, (occsoc code change; see 1110),,,,,,,,,,,,,151230,"(code change, see 151150)",Computer Support Specialists
+,106,,106,,1060,(includes 1065),1060,(includes 1065),,,,,,,151061,,151061,,151061,"(includes 151141, 15124X)",151061,"(includes 151141, 15124X)",,,,,,,Database Administrators
+,,,,,,,,,1060,"(occsoc code change, includes 1065)",1060, (includes 1065),,,,,,,,,,,151141,"(code change, see 151061; includes 15124X)",151141,(see 151061; includes 15124X),,,Database Administrators
+,,,,,,,,,,,,,1065," (title and code change, see 1060)",,,,,,,,,,,,,15124X,"(title and code change, see 151141)",Database Administrators And Architects
+,110,,110,,1100,(includes 1105-1107),1100,(includes 1105-1107),,,,,,,151071,,151071,,151071,"(includes 151142, 151244)",151071,"(includes 151142, 151244)",,,,,,,Network and Computer Systems Administrators
+,,,,,,,,,1105,"(code change, see 1100; split, see 1110)",1105, (see 1100; see 1110),,,,,,,,,,,151142,"(code change, see 151071; split, see 151081; includes 151244)",151142,(see 151071; includes 151244),,,Network and Computer Systems Administrators
+,,,,,,,,,,,,,1105," (occsoc code change; see 1100, 1110)",,,,,,,,,,,,,151244,"(code change, see 151142)",Network And Computer Systems Administrators
+,,,,,,,,,1106,"(split, see 1000; split, see 1110)",1106," (see 1000, 1110)",,,,,,,,,,,151143,"(split, see 1510XX, 151081; includes 151241)",151143,"(see 1510XX, 151081; includes 151241)",,,Computer Network Architects
+,,,,,,,,,,,,,1106," (occsoc code change; see 1000, 1110)",,,,,,,,,,,,,151241,"(code change, see 151143)",Computer Network Architects
+,,,,,,,,,1107,"(split, see 1000;  includes 705, 1108, 1065, 1022, 1032)",1107," (see 1000; includes 705, 1108, 1065, 1022, 1032)",,,,,,,,,,,151199,"(split, see 1510XX; includes 151299, 131082)",151199,"(see 1510XX; includes 151299, 131082)",,,"Computer Occupations, All Other"
+,,,,,,,,,,,,,1108," (split, see 1107; title and code change, see 5800)",,,,,,,,,,,,,151299,"(code change, see 151199; title and code change, see 439011)","Computer Occupations, All Other"
+,111,,111,,1110,"(includes 1007, 1030, 1031, 1032, 1050, 1105, 1106)",1110,"(includes 1007, 1030, 1031, 1032, 1050, 1105, 1106)",,,,,,,151081,,151081,,151081,"(includes 151122, 151134, 151150, 151042, 151143, 151212, 151230, 151244, 151241, 151254, 151255)",151081,"(includes 151122, 151134, 151150, 151042, 151143, 151212, 151230, 151244, 151241, 151254, 151255)",,,,,,,Network Systems and Data Communications Analysts
+,120,,120,,1200,,1200,,1200,,1200,,1200,,152011,,152011,,152011,,152011,,152011,,152011,,152011,,Actuaries
+,   ,(included in 124),,,1210,(included in 1240),,,,,,,,,152021,(included in 1520XX),,,152021,(included in 1520XX),,,,,,,,,Mathematicians
+,122,,122,,1220,,1220,,1220,,1220,,1220,,152031,,152031,,152031,,152031,,152031,,152031,,152031,,Operations Research Analysts
+,123,(included in 124),,,1230,(included in 1240),,,,,,,,,152041,(included in 1520XX),,,152041,(included in 1520XX),,,,,,,,,Statisticians
+,124,(included in 124),,,1240,"(included in Miscellaneous mathematical science occupations, including mathematicians and statisticians)",,,,,,,,,152090,(included in 1520XX),,,1520XX,"(included in ""Miscellaneous mathematical science occupations, including mathematicians and statisticians"")",,,,,,,,,Miscellaneous Mathematical Scientists and Technicians
+,,,124," (includes 121, 123, 124)",,,1240,"(collapsed, includes 1210, 1230, ""Miscellaneous Mathematical Scientists and Technicians"" and ""Other mathematical science occupations"")",1240,"(includes 1210, 1230, ""Miscellaneous Mathematical Scientists and Technicians"" and ""Other mathematical science occupations"")",1240," (includes 1210, 1230, ""Miscellaneous Mathematical Scientists and Technicians"" and ""Other mathematical science occupations"")",,,,,1520XX," (includes 152021, 152041, 152090)",,,1520XX,"(collapsed, includes 152021, 152041, and ""Miscellaneous Mathematical Scientists and Technicians"")",1520XX,"(includes 152021, 152041, and ""Miscellaneous Mathematical Scientists and Technicians"")",1520XX,"(includes 152021, 152041, and ""Miscellaneous Mathematical Scientists and Technicians"")",,,"Miscellaneous mathematical science occupations, including mathematicians and statisticians"
+,,,,,,,,,,,,,1240," (title change, see Miscellaneous mathematical science occupations, including mathematicians and statisticians)",,,,,,,,,,,,,1520XX,"(title change, see Miscellaneous mathematical science occupations, including mathematicians and statisticians)",Other Mathematical Science Occupations
+Architecture and Engineering Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,130,,130,,1300,"(includes 1305, 1306)",1300,"(includes 1305, 1306)",1300,"(includes 1305, 1306)",1300," (includes 1305, 1306)",,,171010,,171010,,171010,"(includes 171011, 171012)",171010,"(includes 171011, 171012)",171010,"(includes 171011, 171012)",171010,"(includes 171011, 171012)",,,"Architects, Except Naval"
+,,,,,,,,,,,,,1305," (split, see 1300)",,,,,,,,,,,,,171011,"(split, see 171010)","Architects, Except Landscape And Naval"
+,,,,,,,,,,,,,1306," (split, see 1300)",,,,,,,,,,,,,171012,"(split, see 171010)",Landscape Architects
+,131,,131,,1310,,1310,,1310,,1310,,1310,,171020,,171020,,171020,,171020,,171020,,171020,,171020,,"Surveyors, Cartographers, and Photogrammetrists"
+,132,,132,,1320,,1320,,1320,,1320,,1320,,172011,,172011,,172011,,172011,,172011,,172011,,172011,,Aerospace Engineers
+,,,,,,,1340,,1340,,1340,,1340,,,,,,,,1720XX,"(includes 172021, 172031)",1720XX,"(collapsed, includes 172021, 172031)",1720XX,"(includes 172021, 172031)",1720XX,"(includes 172021, 172031)",Biomedical and Agricultural Engineers
+,133,(included in 153),,,,,,,,,,,,,172021,(included in 172XXX),,,,,172021,(included in 1720XX),,,,,,,Agricultural Engineers
+,134,(included in 153),,,,,,,,,,,,,172031,(included in 172XXX),,,,,172031,(included in 1720XX),,,,,,,Biomedical Engineers
+,135,,135,,1350,,1350,,1350,,1350,,1350,,172041,,172041,,172041,,172041,,172041,,172041,,172041,,Chemical Engineers
+,136,,136,,1360,,1360,,1360,,1360,,1360,,172051,,172051,,172051,,172051,,172051,,172051,,172051,,Civil Engineers
+,140,,140,,1400,,1400,,1400,,1400,,1400,,172061,,172061,,172061,,172061,,172061,,172061,,172061,,Computer Hardware Engineers
+,141,,141,,1410,,1410,,1410,,1410,,1410,,172070,,172070,,172070,,172070,,172070,,172070,,172070,,Electrical and Electronics Engineers
+,142,,142,,1420,,1420,,1420,,1420,,1420,,172081,,172081,,172081,,172081,,172081,,172081,,172081,,Environmental Engineers
+,143,,143,,1430,,1430,,1430,,1430,,1430,,172110,,172110,,172110,,172110,,172110,,172110,,172110,,"Industrial Engineers, including Health and Safety"
+,144,,144,,1440,,1440,,1440,,1440,,1440,,172121,,172121,,172121,,172121,,172121,,172121,,172121,,Marine Engineers and Naval Architects
+,145,,145,,1450,,1450,,1450,,1450,,1450,,172131,,172131,,172131,,172131,,172131,,172131,,172131,,Materials Engineers
+,146,,146,,1460,,1460,,1460,,1460,,1460,,172141,,172141,,172141,,172141,,172141,,172141,,172141,,Mechanical Engineers
+,150,(included in 152),,,1500,(included in 1520),,,,,,,,,172151,(included in 1721XX),,,172151,(included in 1721XX),,,,,,,,,"Mining and Geological Engineers, Including Mining Safety Engineers"
+,151,,151,,1510,(included in 1530),,,,,,,,,172161,,172161,,172161,(included in 1721YY),,,,,,,,,Nuclear Engineers
+,152,,,,1520,"(included in Petroleum, mining and geological engineers, including mining safety engineers)",,,,,,,,,172171,(included in 1721XX),,,172171,(included in 1721XX),,,,,,,,,Petroleum Engineers
+,,,152, (includes 150),,,1520,"(collapsed, includes 1500 and Petroleum Engineers)",1520,(includes 1500 and Petroleum Engineers),1520, (includes 1500 and Petroleum Engineers),1520, (includes 1500 and Petroleum Engineers),,,1721XX," (includes 172151, 172171)",,,1721XX,"(collapsed, includes 172151, 172171)",1721XX,"(includes 172151, 172171)",1721XX,"(includes 172151, 172171)",1721XX,"(includes 172151, 172171)","Petroleum, mining and geological engineers, including mining safety engineers"
+,153,,,,1530,(included in Miscellaneous engineeers including nuclear engineers),,,,,,,,,172199,(included in 172XXX),,,172199,(included in 1721YY),,,,,,,,,"Engineers, All Other"
+,,,153," (includes 133, 134)",,,1530,"(collapsed, includes 1510, ""Engineers, All Other"" and ""Other Engineers"")",1530,"(includes 1510 and ""Engineers, All Other"" and ""Other Engineers"")",1530," (includes 1510 and ""Engineers, All Other"" and ""Other Engineers"")",,,,,172XXX," (includes 172021, 172031, 172199)",,,1721YY,"(collapsed, includes 172161, 172199, and ""Other Engineers"")",1721YY,"(includes 172161, 172199, and ""Other Engineers"")",1721YY,"(includes 172161, 172199, and ""Other Engineers"")",,,"Miscellaneous engineeers, including nuclear engineers"
+,,,,,,,,,,,,,1530," (title change, see Miscellaneous engineeers including nuclear engineers; includes 1510 and Engineers, All Other)",,,,,,,,,,,,,1721YY,"(title change, see ""Miscellaneous engineeers, including nuclear engineers""; includes 172161, 172199)",Other Engineers
+,154,,154,,1540,"(includes 1541, 1545)",1540,"(includes 1541, 1545)",1540,"(includes 1541, 1545)",1540," (includes 1541, 1545)",,,173010,,173010,,173010,"(includes 173011, 17301X)",173010,"(includes 173011, 17301X)",173010,"(includes 173011, 17301X)",173010,"(includes 173011, 17301X)",,,Drafters
+,,,,,,,,,,,,,1541," (split, see 1540)",,,,,,,,,,,,,173011,"(split, see 173010)",Architectural and Civil Drafters
+,,,,,,,,,,,,,1545," (split, see 1540)",,,,,,,,,,,,,17301X,"(split, see 173010)",Other Drafters
+,155,,155,,1550,"(includes 1551, 1555)",1550,"(includes 1551, 1555)",1550,"(includes 1551, 1555)",1550," (includes 1551, 1555)",,,173020,,173020,,173020,"(includes 173023, 17302X)",173020,"(includes 173023, 17302X)",173020,"(includes 173023, 17302X)",173020,"(includes 173023, 17302X)",,,"Engineering Technicians, Except Drafters"
+,,,,,,,,,,,,,1551," (split, see 1550)",,,,,,,,,,,,,173023,"(split, see 173020)",Electrical and Electronic Engineering Technologists And Technicians
+,,,,,,,,,,,,,1555," (split, see 1550)",,,,,,,,,,,,,17302X,"(split, see 173020)","Other Engineering Technologists And Technicians, Except Drafters"
+,156,,156,,1560,,1560,,1560,,1560,,1560,,173031,,173031,,173031,,173031,,173031,,173031,,173031,,Surveying and Mapping Technicians
+"Life, Physical, and Social Science Occupations:",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,160,,160,,1600,,1600,,1600,,1600,,1600,,191010,,191010,,191010,,191010,,191010,,191010,,191010,,Agricultural and Food Scientists
+,161,,161,,1610,,1610,,1610,,1610,,1610,,191020,,191020,,191020,,191020,,191020,,191020,,191020,,Biological Scientists
+,164,,164,,1640,,1640,,1640,,1640,,1640,,191030,,191030,,191030,,191030,,191030,,191030,,191030,,Conservation Scientists and Foresters
+,165,,165,,1650,"(includes ""Medical Scientists, and Life Scientists, All Other"" and ""Other life scientists"")",1650,"(includes ""Medical Scientists, and Life Scientists, All Other"" and ""Other life scientists"")",,,,,,,191040,,191040,,191040,"(includes 1910XX and ""Other Life Scientists"")",191040,"(includes 1910XX and ""Other Life Scientists"")",,,,,,,Medical Scientists
+,,,,,,,,,1650,"(title change, see Medical Scientists; includes Other life scientists)",1650, (see Medical Scientists; includes Other life scientists),,,,,,,,,,,1910XX,"(title and code change, see 191040; includes Other Life Scientists)",1910XX,(see 191040; includes Other Life Scientists),,,"Medical Scientists, and Life Scientists, All Other"
+,,,,,,,,,,,,,1650," (title change, see Medical Scientists, and Life Scientists, All Other)",,,,,,,,,,,,,1910XX,"(title change, see ""Medical Scientists, and Life Scientists, All Other""; includes ""Other Life Scientists"")",Other life scientists
+,170,,170,,1700,,1700,,1700,,1700,,1700,,192010,,192010,,192010,,192010,,192010,,192010,,192010,,Astronomers and Physicists
+,171,,171,,1710,,1710,,1710,,1710,,1710,,192021,,192021,,192021,,192021,,192021,,192021,,192021,,Atmospheric and Space Scientists
+,172,,172,,1720,,1720,,1720,,1720,,1720,,192030,,192030,,192030,,192030,,192030,,192030,,192030,,Chemists and Materials Scientists
+,174,,174,,1740,"(includes 1745, 1750)",1740,"(includes 1745, 1750)",1740,"(includes 1745, 1750)",1740," (includes 1745, 1750)",,,192040,,192040,,192040,"(includes 192041, 19204X)",192040,"(includes 192041, 19204X)",192040,"(includes 192041, 19204X)",192040,"(includes 192041, 19204X)",,,Environmental Scientists and Geoscientists
+,,,,,,,,,,,,,1745," (split, see 1740)",,,,,,,,,,,,,192041,"(split, see 192040)","Environmental Scientists And Specialists, Including Health"
+,,,,,,,,,,,,,1750," (split, see 1740)",,,,,,,,,,,,,19204X,"(split, see 192040)","Geoscientists And Hydrologists, Except Geographers"
+,176,,176,,1760,,1760,,1760,,1760,,1760,,192099,,192099,,192099,,192099,,192099,,192099,,192099,,"Physical Scientists, All Other"
+,180,,180,,1800,,1800,,1800,,1800,,1800,,193011,,193011,,193011,,193011,,193011,,193011,,193011,,Economists
+,181,,181,,1810,(includes 735),1810,(includes 735),,,,,,,193020,,193020,,193020,(includes 131161),193020,(includes 131161),,,,,,,Market and Survey Researchers
+,182,,182,,1820,"(includes 1821, 1822, 1825)",1820,"(includes 1821, 1822, 1825)",1820,"(includes 1821, 1822, 1825)",1820," (includes 1821, 1822, 1825)",,,193030,,193030,,193030,"(includes 193033, 193034, 19303X)",193030,"(includes 193033, 193034, 19303X)",193030,"(includes 193033, 193034, 19303X)",193030,"(includes 193033, 193034, 19303X)",,,Psychologists
+,,,,,,,,,,,,,1821," (split, see 1820)",,,,,,,,,,,,,193033,"(split, see 193030)",Clinical And Counseling Psychologists
+,,,,,,,,,,,,,1822," (split, see 1820)",,,,,,,,,,,,,193034,"(split, see 193030)",School Psychologists
+,,,,,,,,,,,,,1825," (split, see 1820)",,,,,,,,,,,,,19303X,"(split, see 193030)",Other Psychologists
+,183,(included in 186),,,1830,(included in 1860),,,,,,,,,193041,(included in 1930XX),,,193041,(included in 1930XX),,,,,,,,,Sociologists
+,184,,184,,1840,,1840,,1840,,1840,,1840,,193051,,193051,,193051,,193051,,193051,,193051,,193051,,Urban and Regional Planners
+,186,,,,1860,"(included in ""Miscellaneous social scientists including sociologists)",,,,,,,,,193090,(included in 1930XX),,,193090,(included in 1930XX),,,,,,,,,Miscellaneous Social Scientists and Related Workers
+,,,186, (includes 183),,,1860,"(collapsed, includes 1830 and Miscellaneous Social Scientists and Related Workers) ",,,,,,,,,1930XX," (includes 193041, 193090)",,,1930XX,"(collapsed, includes 193041, 193090, ""Miscellaneous Social Scientists, Including Survey Researchers and Sociologists,"" and ""Other Social Scientists"")",,,,,,,Miscellaneous social scientists including sociologists
+,,,,,,,,,1860,"(title change, see Miscellaneous social scientists including sociologists; includes 1830 and Miscellaneous Social Scientists and Related Workers)",1860, ( see Miscellaneous social scientists including sociologists; includes 1830 and Miscellaneous Social Scientists and Related Workers),,,,,,,,,,,1930XX,"(title change, see ""Miscellaneous social scientists including sociologists""; includes 193041, 193090, and ""Other Social Scientists"")",1930XX,"(see ""Miscellaneous social scientists including sociologists""; includes 193041, 193090,and ""Other Social Scientists"")",,,"Miscellaneous Social Scientists, Including Survey Researchers and Sociologists"
+,,,,,,,,,,,,,1860," (title change, see Miscellaneous Social Scientists, Including Survey Researchers and Sociologists; includes 1830, and ""Miscellaneous Social Scientists and Related Workers,"" and ""Miscellaneous social scientists including sociologists""",,,,,,,,,,,,,1930XX,"(title change, see ""Miscellaneous Social Scientists, Including Survey Researchers and Sociologists""; includes 193041, 193090)",Other Social Scientists
+,190,,190,,1900,,1900,,1900,,1900,,,,194011,,194011,,194011,(includes 194010),194011,(includes 194010),194011,(includes 194010),194011,(includes 194010),,,Agricultural And Food Science Technicians
+,,,,,,,,,,,,,1900, (occsoc code change),,,,,,,,,,,,,194010,"(code change, see 194011)",Agricultural and Food Science Technicians
+,191,,191,,1910,,1910,,1910,,1910,,1910,,194021,,194021,,194021,,194021,,194021,,194021,,194021,,Biological Technicians
+,192,,192,,1920,,1920,,1920,,1920,,1920,,194031,,194031,,194031,,194031,,194031,,194031,,194031,,Chemical Technicians
+,193,,193,,1930,,1930,"(included in Geological and Petroleum Technicians, and Nuclear Technicians)",,,,,,,194041,,194041,,194041,,194041,(included in 1940XX),,,,,,,Geological and Petroleum Technicians
+,,,,,,,,,1930,"(collapsed, includes 1935, 1940, and ""Geological and Petroleum Technicians"" )",1930," (includes 1935, 1940, and Geological and Petroleum Technicians)",,,,,,,,,,,1940XX,"(collapsed, includes 194041, 194051, and ""Environmental Science And Geoscience Technicians, And Nuclear Technicians"")",1940XX,"(includes 194041, 194051, and ""Environmental Science And Geoscience Technicians, And Nuclear Technicians"")",,,"Geological and Petroleum Technicians, and Nuclear Technicians"
+,,,,,,,,,,,,,1935," (title and code change, see 1930; includes 1940 and Geological and Petroleum Technicians)",,,,,,,,,,,,,1940XX,"(title change, see Geological and Petroleum Technicians, and Nuclear Technicians)","Environmental Science And Geoscience Technicians, And Nuclear Technicians"
+,194,(included in 196),,,1940,(included in 1960),,,,,,,,,194051,(included in 1940XX),,,194051,(included in 1940XX),,,,,,,,,Nuclear Technicians
+,196,,,,1960,"(included in ""Miscellaneous life, physical, and social science technicians, including social science research assistants and nuclear technicians"")",,,,,,,,,1940XX,,,,1940XX,"(included in ""Miscellaneous life, physical, and social science technicians, including social science research assistants and nuclear technicians"")",,,,,,,,,"Other life, physical, and social science technicians"
+,,,196, (includes 194),,,1960,"(collapsed, includes 1940, 1965, and ""Other life, physical, and social science technicians"")",,,,,,,,,1940XX, (includes 194051),,,1940XX,"(collapsed, includes 194051 and ""Miscellaneous life, physical, and social science technicians, including social science research assistants and nuclear technicians""; included in 1940YY)",,,,,,,"Miscellaneous life, physical, and social science technicians, including social science research assistants and nuclear technicians"
+,,,,,,,,,1965,"(title and code change, see 1960; 1940 (Nuclear Technicians) reclassified, see 1930; includes 1970)",1965, (includes 1960),,,,,,,,,,,1940YY,"(title and code change, see ""Miscellaneous life, physical, and social science technicians, including social science research assistants and nuclear technicians""; includes ""Other life, physical, and social science technicians"")",1940YY,"(see ""Miscellaneous life, physical, and social science technicians, including social science research assistants and nuclear technicians""; includes ""Other life, physical, and social science technicians"")",,,"Miscellaneous Life, Physical, and Social Science Technicians, Including Social Science Research Assistants"
+,,,,,,,,,,,,,1970," (title and code change, see 1965; includes 1960)",,,,,,,,,,,,,1940YY,"(code change, see Miscellaneous Life, Physical, and Social Science Technicians, Including Social Science Research Assistants)","Other Life, Physical, And Social Science Technicians"
+,,,,,,,,,,,,,1980, (new code),,,,,,,,,,,,,195010,(new code),Occupational Health And Safety Specialists And Technicians
+Community and Social Service Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,200,,200,,2000,(includes 2001-2006),2000,(includes 2001-2006),2000,(includes 2001-2006),2000, (includes 2001-2006),,,211010,,211010,,211010,"(includes 211011-211015, 211019)",211010,"(includes 211011-211015, 211019)",211010,"(includes 211011-211015, 211019)",211010,"(includes 211011-211015, 211019)",,,Counselors
+,,,,,,,,,,,,,2001," (split, see 2000)",,,,,,,,,,,,,211011,"(split, see 211010)",Substance Abuse And Behavioral Disorder Counselors
+,,,,,,,,,,,,,2002," (split, see 2000)",,,,,,,,,,,,,211012,"(split, see 211010)","Educational, Guidance, And Career Counselors And Advisors"
+,,,,,,,,,,,,,2003," (split, see 2000)",,,,,,,,,,,,,211013,"(split, see 211010)",Marriage And Family Therapists
+,,,,,,,,,,,,,2004," (split, see 2000)",,,,,,,,,,,,,211014,"(split, see 211010)",Mental Health Counselors
+,,,,,,,,,,,,,2005," (split, see 2000)",,,,,,,,,,,,,211015,"(split, see 211010)",Rehabilitation Counselors
+,,,,,,,,,,,,,2006," (split, see 2000)",,,,,,,,,,,,,211019,"(split, see 211010)","Counselors, All Other"
+,201,,201,,2010,(includes 2011-2014),2010,(includes 2011-2014),2010,(includes 2011-2014),2010, (includes 2011-2014),,,211020,,211020,,211020,"(includes 211021-211023, 211029)",211020,"(includes 211021-211023, 211029)",211020,"(includes 211021-211023, 211029)",211020,"(includes 211021-211023, 211029)",,,Social Workers
+,,,,,,,,,,,,,2011," (split, see 2010)",,,,,,,,,,,,,211021,"(split, see 211020)","Child, Family, And School Social Workers"
+,,,,,,,,,,,,,2012," (split, see 2010)",,,,,,,,,,,,,211022,"(split, see 211020)",Healthcare Social Workers
+,,,,,,,,,,,,,2013," (split, see 2010)",,,,,,,,,,,,,211023,"(split, see 211020)",Mental Health And Substance Abuse Social Workers
+,,,,,,,,,,,,,2014," (split, see 2010)",,,,,,,,,,,,,211029,"(split, see 211020)",Social Workers All Other
+,202,,202,,2020,"(includes 2015-2025, and Other community and social service specialists)",2020,"(includes 2015-2025, and Other community and social service specialists)",,,,,,,211090,,211090,,211090,"(includes 211092, 211093, 21109X)",211090,"(includes 211092, 211093, 21109X)",,,,,,,Miscellaneous Community and Social Service Specialists
+,,,,,,,,,2015,"(split, see 2020)",2015, (see 2020),2015, (see 2020),,,,,,,,,211092,"(split, see 211090)",211092,(see 211090),211092,(see 211090),Probation Officers and Correctional Treatment Specialists
+,,,,,,,,,2016,"(split, see 2020)",2016, (see 2020),2016, (see 2020),,,,,,,,,211093,"(split, see 211090)",211093,(see 211090),211093,(see 211090),Social and Human Service Assistants
+,,,,,,,,,2025,"(split, see 2020; includes Other community and social service specialists)",2025, (see 2020; includes Other community and social service specialists),,,,,,,,,,,21109X,"(split, see 211090; includes Other Community And Social Service Specialists)",21109X,(see 211090; includes Other Community And Social Service Specialists),,,"Miscellaneous Community and Social Service Specialists, Including Health Educators and Community Health Workers"
+,,,,,,,,,,,,,2025," (title change, see Miscellaneous Community and Social Service Specialists, Including Health Educators and Community Health Workers; see 2020)",,,,,,,,,,,,,21109X,"(title change, see Miscellaneous Community and Social Service Specialists, Including Health Educators and Community Health Workers)",Other Community And Social Service Specialists
+,204,,204,,2040,,2040,,2040,,2040,,2040,,212011,,212011,,212011,,212011,,212011,,212011,,212011,,Clergy
+,205,,205,,2050,,2050,,2050,,2050,,2050,,212021,,212021,,212021,,212021,,212021,,212021,,212021,,"Directors, Religious Activities and Education"
+,206,,206,,2060,,2060,,2060,,2060,,2060,,212099,,212099,,212099,,212099,,212099,,212099,,212099,,"Religious Workers, All Other"
+Legal Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,210,,210,,2100,(included in 2105),,,,,,,,,231011,,231011,,231011,(included in 231011; includes 231012),,,,,,,,,Lawyers
+,,,,,,,2100,"(collapsed, includes 2105, ""Lawyers,"" and ""Judges, Magistrates, and Other Judicial Workers"")",2100,"(split, see 2100; includes ""Lawyers"" and ""Judges, Magistrates, and Other Judicial Workers"")",2100," (includes ""Lawyers"" and ""Judges, Magistrates, and Other Judicial Workers"")",2100," (includes ""Lawyers"" and ""Judges, Magistrates, and Other Judicial Workers"")",,,,,,,231011,"(2005, title change, see 231011), 2310XX (2006-, collapsed, includes 231011, 231020, 231012)",2310XX,"(includes 231020, 231011)",2310XX,"(includes 231020, 231011)",2310XX,"(includes 231020, 231011)","Lawyers, and judges, magistrates, and other judicial workers"
+,211,,211,,2110,(included in 2100),,,,,,,,,231020,,231020,,231020,(included in 231011),,,,,,,,,"Judges, Magistrates, and Other Judicial Workers"
+,,,,,,,,,2105,"(split, see 2100; split, see 2150)",2105," (see 2100, 2150)",2105," (see 2100, 2150)",,,,,,,,,231012,"(split, see 231011, 2310XX)",231012,"(see 231011, 2310XX)",231012,"(see 231011, 2310XX)",Judicial Law Clerks
+,214,,214,,2140,(includes 2145),2140,(includes 2145),,,,,,,232011,,232011,,232011,,232011,,,,,,,,Paralegals and Legal Assistants
+,,,,,,,,,2145,"(code change, see 2140; split, see 2150)",2145," (see 2140, 2150)",2145," (see 2140, 2150)",,,,,,,,,232011,(occ code change),232011,,232011,,Paralegals and Legal Assistants
+,215,,215,,2150,"(includes 2105, 2145, 2160-2180)",2150,"(includes 2105, 2145, 2160-2180)",,,,,,,232090,,232090,,232090,"(includes 232093, 232099)",232090,"(includes 232093, 232099)",,,,,,,Miscellaneous Legal Support Workers
+,,,,,,,,,2160,"(split, see 2150; includes 2170, 2180)",2160," (see 2150; includes 2170, 2180)",,,,,,,,,,,232090,"(split, see ""Miscellaneous Legal Support Workers""; includes 232093, 232099)",232090,"(see ""Miscellaneous Legal Support Workers""; includes 232093, 232099)",,,Miscellaneous Legal Support Workers
+,,,,,,,,,,,,,2170," (split, see 2160)",,,,,,,,,,,,,232093,"(split, see 232090)","Title Examiners, Abstractors, And Searchers"
+,,,,,,,,,,,,,2180," (split, see 2160)",,,,,,,,,,,,,232099,"(split, see 232090)","Legal Support Workers, All Other"
+Education Instruction and Library Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,220,,220,,2200,(includes 2205),2200,(includes 2205),2200,(includes 2205),2200, (includes 2205),,,251000,,251000,,251000,,251000,,251000,,251000,,,,Postsecondary Teachers
+,,,,,,,,,,,,,2205," (code change, see 2200)",,,,,,,,,,,,,251000,(occ code change),Postsecondary Teachers
+,230,,230,,2300,,2300,,2300,,2300,,2300,,252010,,252010,,252010,,252010,,252010,,252010,,252010,,Preschool and Kindergarten Teachers
+,231,,231,,2310,,2310,,2310,,2310,,2310,,252020,,252020,,252020,,252020,,252020,,252020,,252020,,Elementary and Middle School Teachers
+,232,,232,,2320,,2320,,2320,,2320,,2320,,252030,,252030,,252030,,252030,,252030,,252030,,252030,,Secondary School Teachers
+,233,,233,,2330,,2330,,2330,,2330,,2330,,252040,,252040,,252040,,252040,,252050,,252050,,252050,,Special Education Teachers
+,234,,234,,2340,"(includes 2350, 2360)",2340,"(includes 2350, 2360)",2340,"(includes 2350, 2360)",2340," (includes 2350, 2360)",,,253000,,253000,,253000,"(includes 253041, 2530XX)",253000,"(includes 253041, 2530XX)",253000,"(includes 253041, 2530XX)",253000,"(includes 253041, 2530XX)",,,Other Teachers and Instructors
+,,,,,,,,,,,,,2350," (split, see 2340)",,,,,,,,,,,,,253041,"(split, see 253000)",Tutors
+,,,,,,,,,,,,,2360," (split, see 2340)",,,,,,,,,,,,,2530XX,"(split, see 253000)",Other Teachers And Instructors
+,240,,240,,2400,,2400,,2400,,2400,,2400,,254010,,254010,,254010,,254010,,254010,,254010,,254010,,"Archivists, Curators, and Museum Technicians"
+,243,,243,,2430,(includes 2435),2430,(includes 2435),2430,(includes 2435),2430, (includes 2435),,,254021,,254021,,254021,(includes 254022),254021,(includes 254022),254021,(includes 254022),254021,(includes 254022),,,Librarians
+,244,,244,,,,,,,,,,2435," (title and code change, see 2430)",,,,,,,,,,,,,254022,"(title and code change, see 254021)",Librarians And Media Collections Specialists
+,,,,,2440,,2440,,2440,,2440,,2440,,254031,,254031,,254031,,254031,,254031,,254031,,254031,,Library Technicians
+,254,,254,,2540,(includes 2545),2540,(includes 2545),2540,(includes 2545),2540, (includes 2545),,,259041,,259041,,259041,(includes 259040),259041,(includes 259040),259041,(includes 259040),259041,(includes 259040),,,Teacher Assistants
+,,,,,,,,,,,,,2545," (code change, see 2540)",,,,,,,,,,,,,259040,"(code change, see 259041)",Teaching Assistants
+,255,,255,,2550,(includes 2555),2550,(includes 2555),2550,(includes 2555),2550, (includes 2555),,,2590XX,,2590XX,,2590XX,(includes Other Educational Instruction and Library Workers),2590XX,(includes Other Educational Instruction and Library Workers),2590XX,(includes Other Educational Instruction and Library Workers),2590XX,(includes Other Educational Instruction and Library Workers),,,"Other Education, Training, and Library Workers"
+,,,,,,,,,,,,,2555," (title and code change, see 2550)",,,,,,,,,,,,,2590XX," (title change, see Other Education, Training, and Library Workers)",Other educational instruction and library workers
+"Arts, Design, Entertainment, Sports, and Media Occupations:",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,260,,260,,2600,,2600,,2600,,2600,,2600,,271010,,271010,,271010,,271010,,271010,,271010,,271010,,Artists and Related Workers
+,263,,263,,2630,"(includes 2631-2636, 2640)",2630,"(includes 2631-2636, 2640)",2630,"(includes 2631-2636, 2640)",2630," (includes 2631-2636, 2640)",,,271020,,271020,,271020,"(includes 271021-271026, 27102X)",271020,"(includes 271021-271026, 27102X)",271020,"(includes 271021-271026, 27102X)",271020,"(includes 271021-271026, 27102X)",,,Designers
+,,,,,,,,,,,,,2631," (split, see 2630)",,,,,,,,,,,,,271021,"(split, see 271020)",Commercial And Industrial Designers
+,,,,,,,,,,,,,2632," (split, see 2630)",,,,,,,,,,,,,271022,"(split, see 271020)",Fashion Designers
+,,,,,,,,,,,,,2633," (split, see 2630)",,,,,,,,,,,,,271023,"(split, see 271020)",Floral Designers
+,,,,,,,,,,,,,2634," (split, see 2630)",,,,,,,,,,,,,271024,"(split, see 271020)",Graphic Designers
+,,,,,,,,,,,,,2635," (split, see 2630)",,,,,,,,,,,,,271025,"(split, see 271020)",Interior Designers
+,,,,,,,,,,,,,2636," (split, see 2630)",,,,,,,,,,,,,271026,"(split, see 271020)",Merchandise Displayers And Windows Trimmers
+,,,,,,,,,,,,,2640," (split, see 2630)",,,,,,,,,,,,,27102X,"(split, see 271020)",Other Designers
+,270,,270,,2700,,2700,,2700,,2700,,2700,,272011,,272011,,272011,,272011,,272011,,272011,,272011,,Actors
+,271,,271,,2710,,2710,,2710,,2710,,2710,,272012,,272012,,272012,,272012,,272012,,272012,,272012,,Producers and Directors
+,272,,272,,2720,(includes 2721-2723),2720,(includes 2721-2723),2720,(includes 2721-2723),2720, (includes 2721-2723),,,272020,,272020,,272020,(includes 272021-272023),272020,(includes 272021-272023),272020,(includes 272021-272023),272020,(includes 272021-272023),,,"Athletes, Coaches, Umpires, and Related Workers"
+,,,,,,,,,,,,,2721," (split, see 2720)",,,,,,,,,,,,,272021,"(split, see 272020)",Athletes And Sports Competitors
+,,,,,,,,,,,,,2722," (split, see 2720)",,,,,,,,,,,,,272022,"(split, see 272020)",Coaches And Scouts
+,,,,,,,,,,,,,2723," (split, see 2720)",,,,,,,,,,,,,272023,"(split, see 272020)","Umpires, Referees, And Other Sports Officials"
+,274,,274,,2740,,2740,,2740,,2740,,2740,,272030,,272030,,272030,,272030,,272030,,272030,,272030,,Dancers and Choreographers
+,275,,275,,2750,"(includes 2751, 2752)",2750,"(includes 2751, 2752)",2750,"(includes 2751, 2752)",2750," (includes 2751, 2752)",,,272040,,272040,,272040,"(includes 272041, 272042)",272040,"(includes 272041, 272042)",272040,"(includes 272041, 272042)",272040,"(includes 272041, 272042)",,,"Musicians, Singers, and Related Workers"
+,,,,,,,,,,,,,2751," (split, see 2750)",,,,,,,,,,,,,272041,"(split, see 272040)",Music Directors And Composers
+,,,,,,,,,,,,,2752," (split, see 2750)",,,,,,,,,,,,,272042,"(split, see 272040)",Musicians And Singers
+,,,,,,,,,,,,,2755," (split, see 2760)",,,,,,,,,,,,,272091,"(split, see 272099)","Disc Jockeys, Except Radio"
+,276,,276,,2760,"(includes 2755, 2770)",2760,"(includes 2755, 2770)",2760,"(includes 2755, 2770)",2760," (includes 2755, 2770)",,,272099,,272099,,272099,"(includes 271091 and ""Entertainers and Performers, Sports and Related Workers, All Other""",272099,"(includes 271091 and ""Entertainers and Performers, Sports and Related Workers, All Other""",272099,"(includes 271091 and ""Entertainers and Performers, Sports and Related Workers, All Other""",272099,"(includes 271091 and ""Entertainers and Performers, Sports and Related Workers, All Other""",,,"Entertainers and Performers, Sports and Related Workers, All Other"
+,,,,,,,,,,,,,2770," (split, see 2760)",,,,,,,,,,,,,272099,"(split, see Entertainers and Performers, Sports and Related Workers, All Other)","Entertainers and Performers, Sports and Related Workers, All Other"
+,280,,280,,2800,"(includes 2805, 2865)",2800,"(includes 2805, 2865)",2800,"(includes 2805, 2865)",2800," (includes 2805, 2865)",,,273010,,273010,,273010,"(includes 273011, 273099)",273010,"(includes 273011, 273099)",273010,"(includes 273011, 273099)",273010,"(includes 273011, 273099)",,,Announcers
+,,,,,,,,,,,,,2805," (split, see 2800)",,,,,,,,,,,,,273011,"(split, see 273010)",Broadcast Announcers And Radio Disc Jockeys
+,281,,281,,2810,"(includes News Analysts, Reporters, And Journalists)",2810,"(includes News Analysts, Reporters, And Journalists)",2810,"(includes News Analysts, Reporters, And Journalists)",2810," (includes News Analysts, Reporters, And Journalists)",,,273020,,273020,,273020,(includes 273023),273020,(includes 273023),273020,(includes 273023),273020,(includes 273023),,,"News Analysts, Reporters and Correspondents"
+,,,,,,,,,,,,,2810," (title change, see News Analysts, Reporters and Correspondents)",,,,,,,,,,,,,273023,"(title and code change, see 273020)","News Analysts, Reporters, And Journalists"
+,282,,282,,2820,,2820,,2825,,2825,,2825,,273031,,273031,,273031,,273031,,273031,,273031,,273031,,Public Relations Specialists
+,283,,283,,2830,,2830,,2830,,2830,,2830,,273041,,273041,,273041,,273041,,273041,,273041,,273041,,Editors
+,284,,284,,2840,,2840,,2840,,2840,,2840,,273042,,273042,,273042,,273042,,273042,,273042,,273042,,Technical Writers
+,285,,285,,2850,,2850,,2850,,2850,,2850,,273043,,273043,,273043,,273043,,273043,,273043,,273043,,Writers and Authors
+,286,,286,,2860,"(includes 2861, 2865)",2860,"(includes 2861, 2865)",2860,"(includes 2861, 2865)",2860," (includes 2861, 2865)",,,273090,,273090,,273090,"(includes 273091, 273092, 273099)",273090,"(includes 273091, 273092, 273099)",273090,"(includes 273091, 273092, 273099)",273090,"(includes 273091, 273092, 273099)",,,Miscellaneous Media and Communication Workers
+,,,,,,,,,,,,,2861," (split, see 2860)",,,,,,,,,,,,,273091,"(split, see 273090)",Interpreters And Translators
+,,,,,,,,,,,,,2862," (split, see 2160)",,,,,,,,,,,,,273092,"(split, see 273090)",Court Reporters And Simultaneous Captioners
+,,,,,,,,,,,,,2865," (split, see 2860)",,,,,,,,,,,,,273099,"(split, see 273010; split, see 273090)","Media And Communications Workers, All Other"
+,290,,,,2900,"(included in Broadcast and Sound Engineering Technicians and Radio Operators, and media and communication equipment workers, all other)",,,,,,,,,274010,(included in 2740XX),,,274010,(included in 2740XX),,,,,,,,,Broadcast and sound engineering technicians and radio operators
+,,,290, (includes 296),,,2900,"(collapsed, see ""Broadcast and sound engineering technicians and radio operators"" and 2960; includes 2905, 5040)",2900,"(includes ""Broadcast and sound engineering technicians and radio operators,"" 2960, 2905, 5040)",2900," (includes ""Broadcast and sound engineering technicians and radio operators,"" 2960, 2905, 5040)",,,,,2740XX," (includes 274010, 274099)",,,2740XX,"(collapsed, includes 274010, 274099, 432099, and ""Other Media And Communication Equipment Workers"")",2740XX,"(includes 274010, 274099, 432099, and ""Other Media And Communication Equipment Workers"")",2740XX,"(includes 274010, 274099, 432099, and ""Other Media And Communication Equipment Workers"")",,,"Broadcast and Sound Engineering Technicians and Radio Operators, and Media and Communication Equipment Workers, All Other"
+,,,,,,,,,,,,,2905," (split, see 2900)",,,,,,,,,,,,,2740XX,"(split, see Broadcast and Sound Engineering Technicians and Radio Operators, and Media and Communication Equipment Workers, All Other)",Other Media And Communication Equipment Workers
+,291,,291,,2910,,2910,,2910,,2910,,2910,,274021,,274021,,274021,,274021,,274021,,274021,,274021,,Photographers
+,292,,292,,2920,,2920,,2920,,2920,,2920,,274030,,274030,,274030,,274030,,274030,,274030,,274030,,"Television, Video, and Motion Picture Camera Operators and Editors"
+,296,(included in 290),,,2960,"(included in Broadcast and Sound Engineering Technicians and Radio Operators, and media and communication equipment workers, all other)",,,,,,,,,274099,(included in 2740XX),,,274099,(included in 2740XX),,,,,,,,,"Media and Communication Equipment Workers, All Other"
+Healthcare Practitioners and Technical Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,300,,300,,3000,,3000,,3000,,3000,,3000,,291011,,291011,,291011,,291011,,291011,,291011,,291011,,Chiropractors
+,301,,301,,3010,,3010,,3010,,3010,,3010,,291020,,291020,,291020,,291020,,291020,,291020,,291020,,Dentists
+,303,,303,,3030,,3030,,3030,,3030,,3030,,291031,,291031,,291031,,291031,,291031,,291031,,291031,,Dieticians and Nutritionists
+,304,,304,,3040,,3040,,3040,,3040,,3040,,291041,,291041,,291041,,291041,,291041,,291041,,291041,,Optometrists
+,305,,305,,3050,,3050,,3050,,3050,,3050,,291051,,291051,,291051,,291051,,291051,,291051,,291051,,Pharmacists
+,306,,306,,3060,"(includes 3090, 3100)",3060,"(includes 3090, 3100)",3060,"(includes 3090, 3100)",3060," (includes 3090, 3100)",,,291060,,291060,,291060,"(includes 291210, 291240)",291060,"(includes 291210, 291240)",291060,"(includes 291210, 291240)",291060,"(includes 291210, 291240)",,,Physicians and Surgeons
+,,,,,,,,,,,,,3090," (split, see 3060)",,,,,,,,,,,,,291210,"(split, see 291060)",Physicians
+,,,,,,,,,,,,,3100," (split, see 3060)",,,,,,,,,,,,,291240,"(split, see 291060)",Surgeons
+,311,,311,,3110,,3110,,3110,,3110,,3110,,291071,,291071,,291071,,291071,,291071,,291071,,291071,,Physician Assistants
+,312,,312,,3120,,3120,,3120,,3120,,3120,,291081,,291081,,291081,,291081,,291081,,291081,,291081,,Podiatrists
+,313,,313,,3130,(includes 3255-3258),3130,(includes 3255-3258),,,,,,,291111,,291111,,291111,(includes 291141- 2911XX),291111,(includes 291141- 2911XX),,,,,,,Registered Nurses
+,314,,314,,3140,,3140,,,,,,,,291121,,291121,,291121,(includes 291181),291121,(includes 291181),,,,,,,Audiologists
+,,,,,,,,,3140,(occsoc code change),3140,,3140,,,,,,,,,,291181,"(code change, see 291121)",291181,(see 291121),291181,(see 291121),Audiologists
+,315,,315,,3150,,3150,,3150,,3150,,3150,,291122,,291122,,291122,,291122,,291122,,291122,,291122,,Occupational Therapists
+,316,,316,,3160,,3160,,3160,,3160,,3160,,291123,,291123,,291123,,291123,,291123,,291123,,291123,,Physical Therapists
+,320,,320,,3200,,3200,,3200,,3200,,3200,,291124,,291124,,291124,,291124,,291124,,291124,,291124,,Radiation Therapists
+,321,,321,,3210,,3210,,3210,,3210,,3210,,291125,,291125,,291125,,291125,,291125,,291125,,291125,,Recreational Therapists
+,322,,322,,3220,,3220,,3220,,3220,,3220,,291126,,291126,,291126,,291126,,291126,,291126,,291126,,Respiratory Therapists
+,323,,323,,3230,,3230,,3230,,3230,,3230,,291127,,291127,,291127,,291127,,291127,,291127,,291127,,Speech-Language Pathologists
+,324,,324,,3240,(includes 3245),3240,(includes 3245),,,,,,,291129,,291129,,291129,(includes 29112X),291129,(includes 29112X),,,,,,,"Therapists, All Other"
+,,,,,,,,,3245,"(split, see 3240; includes Other therapists)",3245, (see 3240; includes Other therapists),,,,,,,,,,,29112X,"(split, see 291129; includes Other Therapists)",29112X,(see 291129; includes Other Therapists),,,"Other Therapists, Including Exercise Physiologists"
+,,,,,,,,,,,,,3245," (title change, see Other Therapists, Including Exercise Physiologists)",,,,,,,,,,,,,29112X,"(title change, see Other Therapists, Including Exercise Physiologists)",Other Therapists
+,325,,325,,3250,,3250,,3250,,3250,,3250,,291131,,291131,,291131,,291131,,291131,,291131,,291131,,Veterinarians
+,,,,,,,,,3255,"(split, see 3130)",3255, (see 3130),3255, (see 3130),,,,,,,,,291141,"(split, see 291111)",291141,(see 291111),291141,(see 291111),Registered Nurses
+,,,,,,,,,3256,"(split, see 3130)",3256, (see 3130),3256, (see 3130),,,,,,,,,291151,"(split, see 291111)",291151,(see 291111),291151,(see 291111),Nurse Anesthetists
+,,,,,,,,,3258,"(split, see 3130)",3258, (see 3130),3258, (see 3130),,,,,,,,,2911XX,"(split, see 291111)",2911XX,(see 291111),2911XX,(see 291111),Nurse Practitioners and Nurse Midwives
+,,,,,,,,,,,,,3261," (split, see 3260)",,,,,,,,,,,,,291291,"(split, see 291199)",Acupuncturists
+,326,,326,,3260,"(includes 3261, 3270)",3260,"(includes 3261, 3270)",3260,"(includes 3261, 3270)",3260," (includes 3261, 3270)",,,291199,,291199,,291199,"(includes 291291, 291299)",291199,"(includes 291291, 291299)",291199,"(includes 291291, 291299)",291199,"(includes 291291, 291299)",,,"Health Diagnosing and Treating Practitioners, All Other"
+,,,,,,,,,,,,,3270," (split, see 3260)",,,,,,,,,,,,,291299,"(split, see 291199)","Healthcare Diagnosing Or Treating Practitioners, All Other"
+,330,,330,,3300,,3300,,3300,,3300,,3300,,292010,,292010,,292010,,292010,,292010,,292010,,292010,,Clinical Laboratory Technologists and Technicians
+,331,,331,,3310,,3310,,3310,,3310,,,,292021,,292021,,292021,(includes 291292),292021,(includes 291292),292021,(includes 291292),292021,(includes 291292),,,Dental Hygienists
+,,,,,,,,,,,,,3310, (occsoc code change),,,,,,,,,,,,,291292,"(code change, see 292021)",Dental Hygienists
+,332,,332,,3320,"(includes 3321-3324, 3330)",3320,"(includes 3321-3324, 3330)",3320,"(includes 3321-3324, 3330)",3320," (includes 3321-3324, 3330)",,,292030,,292030,,292030,"(includes 292031, 292032, 292034, 292035, 29203X)",292030,"(includes 292031, 292032, 292034, 292035, 29203X)",292030,"(includes 292031, 292032, 292034, 292035, 29203X)",292030,"(includes 292031, 292032, 292034, 292035, 29203X)",,,Diagnostic Related Technologists and Technicians
+,,,,,,,,,,,,,3321," (split, see 3320)",,,,,,,,,,,,,292031,"(split, see 292030)",Cardiovascular Technologists And Technicians
+,,,,,,,,,,,,,3322," (split, see 3320)",,,,,,,,,,,,,292032,"(split, see 292030)",Diagnostic Medical Sonographers
+,,,,,,,,,,,,,3323," (split, see 3320)",,,,,,,,,,,,,292034,"(split, see 292030)",Radiologic Technologists And Technicians
+,,,,,,,,,,,,,3324," (split, see 3320)",,,,,,,,,,,,,292035,"(split, see 292030)",Magnetic Resonance Imaging Technologists
+,,,,,,,,,,,,,3330," (split, see 3320)",,,,,,,,,,,,,29203X,"(split, see 292030)",Nuclear Medicine Technologists And Medical Dosimetrists
+,340,,340,,3400,"(includes 3401, 3402) ",3400,"(includes 3401, 3402) ",3400,"(includes 3401, 3402) ",3400," (includes 3401, 3402) ",,,292041,,292041,,292041,"(includes 292042, 292043)",292041,"(includes 292042, 292043)",292041,"(includes 292042, 292043)",292041,"(includes 292042, 292043)",,,Emergency Medical Technicians and Paramedics
+,,,,,,,,,,,,,3401," (split, see 3400)",,,,,,,,,,,,,292042,"(split, see 292041)",Emergency Medical Technicians
+,,,,,,,,,,,,,3402," (split, see 3400)",,,,,,,,,,,,,292043,"(split, see 292041)",Paramedics
+,341,,341,,3410,"(includes 3420-3424, 3430)",3410,"(includes 3420-3424, 3430)",,,,,,,292050,,292050,,292050,"(includes Health Diagnosing and Treating Practitioner Support Technicians, 292052, 292053, 292055, 292056, 29205X)",292050,"(includes Health Diagnosing and Treating Practitioner Support Technicians, 292052, 292053, 292055, 292056, 29205X)",,,,,,,Health Diagnosing and Treating Practitioner Support Technicians
+,,,,,,,,,3420,"(title and code change, see 3410; split, see 3530; includes 3421-3424, 3430)",3420," (see 3410, 3530; includes 3421-3424, 3430)",,,,,,,,,,,292050,"(title change, see Health Diagnosing and Treating Practitioner Support Technicians; split, see 292090; includes 292052, 292053, 292055, 292056, 29205X)",292050,"(see Health Diagnosing and Treating Practitioner Support Technicians and 292090; includes 292052, 292053, 292055, 292056, 29205X)",,,Health Practitioner Support Technologists and Technicians
+,,,,,,,,,,,,,3421," (split, see 3420)",,,,,,,,,,,,,292052,"(split, see 292050)",Pharmacy Technicians
+,,,,,,,,,,,,,3422," (split, see 3420)",,,,,,,,,,,,,292053,"(split, see 292050)",Psychiatric Technicians
+,,,,,,,,,,,,,3423," (split, see 3420)",,,,,,,,,,,,,292055,"(split, see 292050)",Surgical Technologists
+,,,,,,,,,,,,,3424," (split, see 3420)",,,,,,,,,,,,,292056,"(split, see 292050)",Veterinary Technologists And Technicians
+,,,,,,,,,,,,,3430," (split, see 3420)",,,,,,,,,,,,,29205X,"(split, see 292050)",Dietetic Technicians And Ophthalmic Medical Technicians
+,350,,350,,3500,,3500,,3500,,3500,,3500,,292061,,292061,,292061,,292061,,292061,,292061,,292061,,Licensed Practical and Licensed Vocational Nurses
+,351,,351,,3510,"(includes 3515, 3550)",3510,"(includes 3515, 3550)",3510,"(includes 3515, 3550)",3510," (includes 3515, 3550)",,,292071,,292071,,292071,"(includes 292072, 299000)",292071,"(includes 292072, 299000)",292071,"(includes 292072, 299000)",292071,"(includes 292072, 299000)",,,Medical Records and Health Information Technicians
+,,,,,,,,,,,,,3515," (split, see 3510)",,,,,,,,,,,,,292072,"(split, see 292071)",Medical Records Specialists
+,352,,352,,3520,,3520,,3520,,3520,,3520,,292081,,292081,,292081,,292081,,292081,,292081,,292081,,"Opticians, Dispensing"
+,353,,353,,3530,"(includes 3420, 3535)",3530,"(includes 3420, 3535)",,,,,,,292090,,292090,,292090,(includes 292050 and Miscellaneous Health Technologists and Technicians),292090,(includes 292050 and Miscellaneous Health Technologists and Technicians),,,,,,,Miscellaneous Health Technologists and Technicians
+,,,,,,,,,3535,"(split, see 3530; includes 3545)",3535, (see 3530; includes 3545),,,,,,,,,,,292090,"(split, see Miscellaneous Health Technologists and Technicians)",292090,(see Miscellaneous Health Technologists and Technicians),,,Miscellaneous Health Technologists and Technicians
+,,,,,,,,,,,,,3545," (code change, see 3535)",,,,,,,,,,,,,292090,(occ code change),Miscellaneous Health Technologists and Technicians
+,354,,354,,3540,,3540,,3540,,3540,,,,299000,,299000,,299000,,299000,,299000,,299000,,,,Other Healthcare Practitioners and Technical Occupations
+,,,,,,,,,,,,,3550," (split, see 3510)",,,,,,,,,,,,,299000,"(split, see 292071)",Other Healthcare Practitioners and Technical Occupations
+SERVICE OCCUPATIONS:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Healthcare Support Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,360,,360,,3600,"(includes 3601, 3603, 3605)",3600,"(includes 3601, 3603, 3605)",3600,"(includes 3601, 3603, 3605)",3600," (includes 3601, 3603, 3605)",,,311010,,311010,,311010,"(includes 311121, 311131, 31113X)",311010,"(includes 311121, 311131, 31113X)",311010,"(includes 311121, 311131, 31113X)",311010,"(includes 311121, 311131, 31113X)",,,"Nursing, Psychiatric, and Home Health Aides"
+,,,,,,,,,,,,,3601," (split, see 3600)",,,,,,,,,,,,,311121,"(split, see 311011)",Home Health Aides
+,,,,,,,,,,,,,3602," (code change, see 4610)",,,,,,,,,,,,,311122,"(code change, see 399021)",Personal Care Aides
+,,,,,,,,,,,,,3603," (split, see 3600)",,,,,,,,,,,,,311131,"(split, see 311011)",Nursing Assistants
+,,,,,,,,,,,,,3605," (split, see 3600)",,,,,,,,,,,,,31113X,"(split, see 311011)",Orderlies And Psychiatric Aides
+,361,,361,,3610,,3610,,3610,,3610,,3610,,312010,,312010,,312010,,312010,,312010,,312010,,312010,,Occupational Therapy Assistants and Aides
+,362,,362,,3620,,3620,,3620,,3620,,3620,,312020,,312020,,312020,,312020,,312020,,312020,,312020,,Physical Therapist Assistants and Aides
+,363,,363,,3630,,3630,,3630,,3630,,3630,,319011,,319011,,319011,,319011,,319011,,319011,,319011,,Massage Therapists
+,364,,364,,3640,,3640,,3640,,3640,,3640,,319091,,319091,,319091,,319091,,319091,,319091,,319091,,Dental Assistants
+,,,,,,,,,3645,"(split, see 3650)",3645, (see 3650),3645, (see 3650),,,,,,,,,319092,"(split, see 31909X)",319092,(see 31909X),319092,(see 31909X),Medical Assistants
+,,,,,,,,,3646,"(split, see 3650)",3646, (see 3650),3646, (see 3650),,,,,,,,,319094,"(split, see 31909X)",319094,(see 31909X),319094,(see 31909X),Medical Transcriptionists
+,,,,,,,,,3647,"(split, see 3650)",3647, (see 3650),3647, (see 3650),,,,,,,,,319095,"(split, see 31909X)",319095,(see 31909X),319095,(see 31909X),Pharmacy Aides
+,,,,,,,,,3648,"(split, see 3650)",3648, (see 3650),3648, (see 3650),,,,,,,,,319096,"(split, see 31909X)",319096,(see 31909X),319096,(see 31909X),Veterinary Assistants and Laboratory Animal Caretakers
+,,,,,,,,,3649,"(split, see 3650)",3649, (see 3650),3649, (see 3650),,,,,,,,,319097,"(split, see 31909X)",319097,(see 31909X),319097,(see 31909X),Phlebotmists
+,365,,365,,3650,"(includes 3645-3649, 3655)",3650,"(includes 3645-3649, 3655)",,,,,,,31909X,,31909X,,31909X,"(includes 31902-31907, and ""Healthcare Support Workers, All Other, Including Medical Equipment Preparers""; also includes ""Other Healthcare Support Workers"")",31909X,"(includes 31902-31907, and ""Healthcare Support Workers, All Other, Including Medical Equipment Preparers""; also includes ""Other Healthcare Support Workers"")",,,,,,,"Medical Assistants and Other Healthcare Support Occupations, except dental assistants"
+,,,,,,,,,3655,"(split, see 3650)",3655, (see 3650),,,,,,,,,,,31909X,"(split, see ""Medical Assistants and Other Healthcare Support Occupations, except dental assistants""; includes ""Other Healthcare Support Workers"")",31909X,"(see ""Medical Assistants and Other Healthcare Support Occupations, except dental assistants""; includes ""Other Healthcare Support Workers"")",,,"Healthcare Support Workers, All Other, Including Medical Equipment Preparers"
+,,,,,,,,,,,,,3655," (title change, see Healthcare Support Workers, All Other, Including Medical Equipment Preparers)",,,,,,,,,,,,,31909X,"(title change, see Healthcare Support Workers, All Other, Including Medical Equipment Preparers)",Other Healthcare Support Workers
+Protective Service Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,370,,370,,3700,,3700,,3700,,3700,,3700,,331011,,331011,,331011,,331011,,331011,,331011,,331011,,First-Line Supervisors of Correctional Officers
+,371,,371,,3710,,3710,,3710,,3710,,3710,,331012,,331012,,331012,,331012,,331012,,331012,,331012,,First-Line Supervisors of Police and Detectives
+,372,,372,,3720,,3720,,3720,,3720,,3720,,331021,,331021,,331021,,331021,,331021,,331021,,331021,,First-Line Supervisors of Fire Fighting and Prevention Workers
+,,,,,,,,,,,,,3725," (collapsed, see 3730)",,,,,,,,,,,,,331090,"(collapsed, see 331099)","Miscellaneous First-Line Supervisors, Protective Service Workers"
+,373,,373,,3730,,3730,,3730,,3730," (included in Miscellaneous first-line supervisors, protective service workers)",,,331099,,331099,,331099,,331099,,331099,,331099,(included in 331090),,,"First-Line Supervisors of Protective Service Workers, All Other"
+,374,,374,,3740,,3740,,3740,,3740,,3740,,332011,,332011,,332011,,332011,,332011,,332011,,332011,,Firefighters
+,375,,375,,3750,,3750,,3750,,3750,,3750,,332020,,332020,,332020,,332020,,332020,,332020,,332020,,Fire Inspectors
+,380,,380,,3800,"(includes 3801, 3802)",3800,"(includes 3801, 3802)",3800,"(includes 3801, 3802)",3800," (includes 3801, 3802)",,,333010,,333010,,333010,"(includes 333011, 333012)",333010,"(includes 333011, 333012)",333010,"(includes 333011, 333012)",333010,"(includes 333011, 333012)",,,"Bailiffs, Correctional Officers, and Jailers"
+,,,,,,,,,,,,,3801," (split, see 3800)",,,,,,,,,,,,,333011,"(split, see 333010)",Bailiffs
+,,,,,,,,,,,,,3802," (split, see 3800)",,,,,,,,,,,,,333012,"(split, see 333010)",Correctional Officers And Jailers
+,382,,382,,3820,,3820,,3820,,3820,,3820,,333021,,333021,,333021,,333021,,333021,,333021,,333021,,Detectives and Criminal Investigators
+,383,(included in 384),,,3830,(included in 3840),,,,,,,,,333031,(included in 3330XX),,,333031,(included in 3330XX),,,,,,,,,Fish and Game Wardens
+,384,,,,3840,(included in Miscellaneous law enforcement workers),,,,,,,,,333041,(included in 3330XX),,,333041,(included in 3330XX),,,,,,,,,Parking enforcement workers
+,,,384, (includes 383),,,3840,"(collapsed, includes 3830, ""Parking Enforcement Workers,"" ""Fish and game wardens and parking enforcement officers"")",3840,"(includes 3830, ""Parking Enforcement Workers,"" and ""Fish and game wardens and parking enforcement officers"")",3840," (includes 3830, ""Parking Enforcement Workers,"" and ""Fish and game wardens and parking enforcement officers"")",,,,,3330XX," (includes 333031, 333041)",,,3330XX,"(collapsed, includes 333031, 333041, and Fish And Game Wardens And Parking Enforcement Officers)",3330XX,"(includes 333031, 333041, and Fish And Game Wardens And Parking Enforcement Officers)",3330XX,"(includes 333031, 333041, and Fish And Game Wardens And Parking Enforcement Officers)",,,Miscellaneous law enforcement workers
+,,,,,,,,,,,,,3840," (title change, see Miscellaneous law enforcement workers; includes 3830 and ""Parking Enforcement Workers"")",,,,,,,,,,,,,3330XX,"(title change, see Miscellaneous law enforcement workers)",Fish And Game Wardens And Parking Enforcement Officers
+,385,,385, (includes 386),3850,(included in Police Officers),,,,,,,,,333051,(included in 333050),,,333051,(included in 333050),,,,,,,,,Police and Sheriff's Patrol Officers
+,,,,,,,3850,"(collapsed, includes ""Police and Sheriff's Patrol Officers"" and 3860)",3850,"(includes ""Police and Sheriff's Patrol Officers"" and 3860)",3850," (includes ""Police and Sheriff's Patrol Officers"" and 3860)",,,,,333050," (includes code 333051, 333052)",,,333050,"(collapsed, includes 333051, 333052)",333050,"(includes 333051, 333052)",333050,"(includes 333051, 333052)",,,Police Officers
+,386,(included in 385),,,3860,(included in 3850),,,,,,,,,333052,(included in 333050),,,333052,(included in 333050),,,,,,,,,Transit and Railroad Police
+,,,,,,,,,,,,,3870," (code change, see 3850)",,,,,,,,,,,,,333050,"(occ code change; includes 333051, 333052)",Police Officers
+,390,,390,,,,3900,,3900,,3900,,3900,,339011,,339011,,,,339011,,339011,,339011,,339011,,Animal Control Workers
+,391,,391,,3910,,3910,,3910,,3910,,3910,,339021,,339021,,339021,,339021,,339021,,339021,,339021,,Private Detectives and Investigators
+,392,,392,,3920,(includes 3930),3920,(includes 3930),,,,,,,339030,,339030,,339030,,339030,,,,,,,,Security Guards and Gaming Surveillance Officers
+,,,,,,,,,3930,"(code change, see 3920)",3930, (see 3920),3930, (see 3920),,,,,,,,,339030,(occ code change),339030,,339030,,Security Guards and Gaming Surveillance Officers
+,394,,394,,3940,(includes Crossing Guards and Flaggers),3940,(includes Crossing Guards and Flaggers),3940,(includes Crossing Guards and Flaggers),3940, (includes Crossing Guards and Flaggers),,,339091,,339091,,339091,(includes Crossing Guards and Flaggers),339091,(includes Crossing Guards and Flaggers),339091,(includes Crossing Guards and Flaggers),339091,(includes Crossing Guards and Flaggers),,,Crossing Guards
+,,,,,,,,,,,,,3940," (title change, see Crossing Guards)",,,,,,,,,,,,,339091,"(title change, see Crossing Guards)",Crossing Guards And Flaggers
+,,,,,,,,,3945,"(split, see 560)",3945, (see 560),3945, (see 560),,,,,,,,,339093,"(split, see 131041)",339093,(see 131041),339093,(see 131041),Transportation Security Screeners
+,,,,,,,,,,,,,3946," (split, see 3955)",,,,,,,,,,,,,339094,"(split, see 33909X)",School Bus Monitors
+,,,,,3950,"(includes Lifeguards and Other Protective Service Workers, 3955, 3946, 3960)",,,,,,,,,,,,,33909X,"(includes ""Lifeguards and Other Protective Service Workers,"" ""Lifeguards and Other Recreational, and All Other Protective Service Workers,""  ""Other Protective Service Workers,"" and 339094)",,,,,,,,,"Miscellaneous protective service workers, except crossing guards, and including animal control workers"
+,395,,395,,,,3950,"(title change, see Miscellaneous protective service workers, except crossing guards, and including animal control workers; includes 3955, 3946, 3960)",,,,,,,33909X,,33909X,,,,33909X,"(title change, see ""Miscellaneous protective service workers, except crossing guards, and including animal control workers""; includes ""Lifeguards and Other Recreational, and All Other Protective Service Workers,""  ""Other Protective Service Workers,"" and 339094)",,,,,,,Lifeguards and Other Protective Service Workers
+,,,,,,,,,3955,"(title and code change, see 3950; includes 3946, 3960)",3955," (see 3950; includes 3946, 3960)",,,,,,,,,,,33909X,"(title change, see ""Lifeguards and Other Protective Service Workers""; includes ""Other Protective Service Workers"" and 339094)",33909X,"(see ""Lifeguards and Other Protective Service Workers""; includes ""Other Protective Service Workers"" and 339094)",,,"Lifeguards and Other Recreational, and All Other Protective Service Workers"
+,,,,,,,,,,,,,3960," (split, see 3955)",,,,,,,,,,,,,33909X,"(split, see Lifeguards and Other Recreational, and All Other Protective Service Workers)",Other Protective Service Workers
+Food Preparation and Serving Related Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,400,,400,,4000,,4000,,4000,,4000,,4000,,351011,,351011,,351011,,351011,,351011,,351011,,351011,,Chefs and Head Cooks
+,401,,401,,4010,,4010,,4010,,4010,,4010,,351012,,351012,,351012,,351012,,351012,,351012,,351012,,First-Line Supervisors of Food Preparation and Serving Workers
+,402,,402,,4020,,4020,,4020,,4020,,4020,,352010,,352010,,352010,,352010,,352010,,352010,,352010,,Cooks
+,403,,403,,4030,,4030,,4030,,4030,,4030,,352021,,352021,,352021,,352021,,352021,,352021,,352021,,Food Preparation Workers
+,404,,404,,4040,,4040,,4040,,4040,,4040,,353011,,353011,,353011,,353011,,353011,,353011,,353011,,Bartenders
+,405,,405,,4050,,4050,,4050,,4050, (included in 4055),,,353021,,353021,,353021,,353021,,353021,,353021,(included in 353023),,,"Combined Food Preparation and Serving Workers, Including Fast Food"
+,406,,406,,4060,,4060,,4060,,4060, (included in 4055),,,353022,,353022,,353022,,353022,,353022,,353022,(included in 353023),,,"Counter Attendant, Cafeteria, Food Concession, and Coffee Shop"
+,,,,,,,,,,,,,4055," (collapsed, includes 4050, 4060)",,,,,,,,,,,,,353023,"(collapsed, includes 353021, 353022)",Fast Food And Counter Workers
+,411,,411,,4110,,4110,,4110,,4110,,4110,,353031,,353031,,353031,,353031,,353031,,353031,,353031,,Waiters and Waitresses
+,412,,412,,4120,,4120,,4120,,4120,,4120,,353041,,353041,,353041,,353041,,353041,,353041,,353041,,"Food Servers, Nonrestaurant"
+,413,,,,4130,(included in Miscellaneous food preparation and serving related workers including dining room and cafeteria attendants and bartender helpers),,,,,,,4130," (split, see Miscellaneous food preparation and serving related workers including dining room and cafeteria attendants and bartender helpers)",359011,(included in 3590XX),,,359011,(included in 3590XX),,,,,,,359011,"(split, see 3590XX)",Dining Room and Cafeteria Attendants and Bartender Helpers
+,,,413, (includes 416),,,4130,"(collapsed, includes ""Dining Room and Cafeteria Attendants and Bartender Helpers"" and 4160)",4130,"(includes ""Dining Room and Cafeteria Attendants and Bartender Helpers"" and 4160)",4130," (includes ""Dining Room and Cafeteria Attendants and Bartender Helpers"" and 4160)",,,,,3590XX," (includes 359011, 359099)",,,3590XX,"(collapsed, includes 359011, 359099)",3590XX,"(includes 359011, 359099)",3590XX,"(includes 359011, 359099)",,,Miscellaneous food preparation and serving related workers including dining room and cafeteria attendants and bartender helpers
+,414,,414,,4140,,4140,,4140,,4140,,4140,,359021,,359021,,359021,,359021,,359021,,359021,,359021,,Dishwashers
+,415,,415,,4150,,4150,,4150,,4150,,4150,,359031,,359031,,359031,,359031,,359031,,359031,,359031,,"Host and Hostesses, Restaurant, Lounge, and Coffee Shop"
+,416,(included in 413),,,4160,,,,,,,,4160," (split, see 4130)",359099,(included in 3590XX),,,359099,(included in 3590XX),,,,,,,359099,"(split, see 3590XX)","Food Preparation and Serving Related Workers, All Other"
+Building and Grounds Cleaning and Maintenance Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,420,,420,,4200,,4200,,4200,,4200,,4200,,371011,,371011,,371011,,371011,,371011,,371011,,371011,,First-Line Supervisors of Housekeeping and Janitorial Workers
+,421,,421,,4210,,4210,,4210,,4210,,4210,,371012,,371012,,371012,,371012,,371012,,371012,,371012,,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers"
+,422,,422,,4220,,4220,,4220,,4220,,4220,,37201X,,37201X,,37201X,,37201X,,37201X,,37201X,,37201X,,Janitors and Building Cleaners
+,423,,423,,4230,,4230,,4230,,4230,,4230,,372012,,372012,,372012,,372012,,372012,,372012,,372012,,Maids and Housekeeping Cleaners
+,424,,424,,4240,,4240,,4240,,4240,,4240,,372021,,372021,,372021,,372021,,372021,,372021,,372021,,Pest Control Workers
+,425,,425,,4250,"(includes 4251, 4252, 4255)",4250,"(includes 4251, 4252, 4255)",4250,"(includes 4251, 4252, 4255)",4250," (includes 4251, 4252, 4255)",,,373010,,373010,,373010,"(includes 373011, 373013, 37301X)",373010,"(includes 373011, 373013, 37301X)",373010,"(includes 373011, 373013, 37301X)",373010,"(includes 373011, 373013, 37301X)",,,Grounds Maintenance Workers
+,,,,,,,,,,,,,4251," (split, see 4250)",,,,,,,,,,,,,373011,"(split, see 373010)",Landscaping And Groundskeeping Workers
+,,,,,,,,,,,,,4252," (split, see 4250)",,,,,,,,,,,,,373013,"(split, see 373010)",Tree Trimmers And Pruners
+,,,,,,,,,,,,,4255," (split, see 4250)",,,,,,,,,,,,,37301X,"(split, see 373010)",Other Grounds Maintenance Workers
+Personal Care and Service Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,4330," (split, see 4320; code change, see 4300)",,,,,,,,,,,,,391000,"(split, see 391021; code change, see 391010)",Supervisors of Personal Care And Service Workers
+,430,,430,,4300,(includes 4330),4300,(includes 4330),4300,(includes 4330),4300, (includes 4330),,,391010,,391010,,391010,(includes 391000),391010,(includes 391000),391010,(includes 391000),391010,(includes 391000),,,First-Line Supervisors of Gaming Workers
+,432,,432,,4320,"(includes 4330, 9005)",4320,"(includes 4330, 9005)",4320,"(includes 4330, 9005)",4320," (includes 4330, 9005)",,,391021,,391021,,391021,"(includes 391000, 531000",391021,"(includes 391000, 531000",391021,"(includes 391000, 531000",391021,"(includes 391000, 531000",,,First-Line Supervisors of Personal Service Workers
+,434,,434,,4340,,4340,,4340,,4340,,4340,,392011,,392011,,392011,,392011,,392011,,392011,,392011,,Animal Trainers
+,435,,435,,4350,(includes Animal Caretakers),4350,(includes Animal Caretakers),4350,(includes Animal Caretakers),4350, (includes Animal Caretakers),,,392021,,392021,,392021,(includes Animal Caretakers),392021,(includes Animal Caretakers),392021,(includes Animal Caretakers),392021,(includes Animal Caretakers),,,Nonfarm Animal Caretakers
+,,,,,,,,,,,,,4350," (title change, see Nonfarm Animal Caretakers)",,,,,,,,,,,,,392021,"(title change, see Nonfarm Animal Caretakers)",Animal Caretakers
+,440,,440,,4400,(includes Gambling Services Workers),4400,(includes Gambling Services Workers),4400,(includes Gambling Services Workers),4400, (includes Gambling Services Workers),,,393010,,393010,,393010,(includes Gambling Services Workers),393010,(includes Gambling Services Workers),393010,(includes Gambling Services Workers),393010,(includes Gambling Services Workers),,,Gaming Services Workers
+,,,,,,,,,,,,,4400," (title change, see Gaming Services Workers)",,,,,,,,,,,,,393010,"(title change, see Gaming Services Workers)",Gambling Services Workers
+,441,,441,,,,4410,,4410,,4410, (included in 4435),,,393021,,393021,,,,393021,,393021,,393021,(included in 3930XX),,,Motion Picture Projectionists
+,442,,442,,4420,,4420,,4420,,4420,,4420,,393031,,393031,,393031,,393031,,393031,,393031,,393031,,"Ushers, Lobby Attendants, and Ticket Takers"
+,443,,443,,4430,,4430,,4430,,4430, (included in 4435),,,393090,,393090,,393090,,393090,,393090,,393090,(included in 3930XX),,,Miscellaneous Entertainment Attendants and Related Workers
+,,,,,,,,,,,,,4435," (collapsed, includes 4410, 4430)",,,,,,,,,,,,,3930XX,"(collapsed, includes 393090, 393021)",Other Entertainment Attendants And Related Workers
+,446,,446,,4460,"(includes ""Embalmers and Funeral Attendants"" and 4461)",4460,"(includes ""Embalmers and Funeral Attendants"" and 4461)",,,,,,,394000,,394000,,394000,(includes 3940XX),394000,(includes 3940XX),,,,,,,Funeral Service Workers
+,,,,,,,,,4460,"(title change, see Funeral Service Workers; includes 4461)",4460, (see Funeral Service Workers; includes 4461),,,,,,,,,,,3940XX,"(title and code change, see 394000; includes Embalmers, Crematory Operators, and Funeral Attendants)",3940XX,"(see 394000; includes Embalmers, Crematory Operators, and Funeral Attendants)",,,Embalmers and Funeral Attendants
+,,,,,,,,,,,,,4461," (title and code change, see 4460; split, see 4650)",,,,,,,,,,,,,3940XX,"(title change, see Embalmers and Funeral Attendants; split, see 399099)","Embalmers, Crematory Operators, And Funeral Attendants"
+,,,,,,,,,4465,"(split, see 320; includes Morticians, Undertakers, and Funeral Arrangers)",4465," (see 320; includes Morticians, Undertakers, and Funeral Arrangers)",,,,,,,,,,,394031,"(split, see 119061; includes Morticians, Undertakers, and Funeral Arrangers)",394031,"(see 119061; includes Morticians, Undertakers, and Funeral Arrangers)",,,"Morticians, Undertakers, and Funeral Directors"
+,,,,,,,,,,,,,4465," (title change, see Morticians, Undertakers, and Funeral Directors)",,,,,,,,,,,,,394031,"(title change, see Morticians, Undertakers, and Funeral Directors)","Morticians, Undertakers, And Funeral Arrangers"
+,450,,450,,4500,,4500,,4500,,4500,,4500,,395011,,395011,,395011,,395011,,395011,,395011,,395011,,Barbers
+,451,,451,,4510,,4510,,4510,,4510,,4510,,395012,,395012,,395012,,395012,,395012,,395012,,395012,,"Hairdressers, Hairstylists, and Cosmetologists"
+,452,,452,,4520,"(includes 4521, 4522, 4525)",4520,"(includes 4521, 4522, 4525)",4520,"(includes 4521, 4522, 4525)",4520," (includes 4521, 4522, 4525)",,,395090,,395090,,395090,"(includes 395092, 395094, 39509X)",395090,"(includes 395092, 395094, 39509X)",395090,"(includes 395092, 395094, 39509X)",395090,"(includes 395092, 395094, 39509X)",,,Miscellaneous Personal Appearance Workers
+,,,,,,,,,,,,,4521," (split, see 4520)",,,,,,,,,,,,,395092,"(split, see 395090)",Manicurists and Pedicurists
+,,,,,,,,,,,,,4522," (split, see 4520)",,,,,,,,,,,,,395094,"(split, see 395090)",Skincare Specialists
+,,,,,,,,,,,,,4525," (split, see 4520)",,,,,,,,,,,,,39509X,"(split, see 395090)",Other Personal Appearance Workers
+,453,,453,,4530,,4530,,4530,,4530,,4530,,396010,,396010,,396010,,396010,,396010,,396010,,396010,,"Baggage Porters, Bellhops, and Concierges"
+,454,,454,,4540,,4540,,4540,,4540,,4540,,396020,,396020,,396020,,396020,,397010,,397010,,397010,,Tour and Travel Guides
+,455,,455,,4550,(includes 9050 and 9415),4550,(includes 9050 and 9415),,,,,,,396030,,396030,,396030,"(includes 532031, 536061)",396030,"(includes 532031, 536061)",,,,,,,Transportation Attendants
+,460,,460,,4600,,4600,,4600,,4600,,4600,,399011,,399011,,399011,,399011,,399011,,399011,,399011,,Childcare Workers
+,461,,461,,4610,(includes 3602),4610,(includes 3602),4610,(includes 3602),4610, (includes 3602),,,399021,,399021,,399021,(includes 311122),399021,(includes 311122),399021,(includes 311122),399021,(includes 311122),,,Personal Care Aides
+,462,,462,,4620,"(includes 4621, 4622)",4620,"(includes 4621, 4622)",4620,"(includes 4621, 4622)",4620," (includes 4621, 4622)",,,399030,,399030,,399030,"(includes 399031, 399032)",399030,"(includes 399031, 399032)",399030,"(includes 399031, 399032)",399030,"(includes 399031, 399032)",,,Recreation and Fitness Workers
+,,,,,,,,,,,,,4621," (split, see 4620)",,,,,,,,,,,,,399031,"(split, see 399030)",Exercise Trainers And Group Fitness Instructors
+,,,,,,,,,,,,,4622," (split, see 4620)",,,,,,,,,,,,,399032,"(split, see 399030)",Recreation Workers
+,464,,464,,4640,,4640,,4640,,4640,,4640,,399041,,399041,,399041,,399041,,399041,,399041,,399041,,Residential Advisors
+,465,,465,,4650,"(includes 4461, 4655)",4650,"(includes 4461, 4655)",4650,"(includes 4461, 4655)",4650," (includes 4461, 4655)",,,399099,,399099,,399099,"(includes Embalmers, Crematory Operators, And Funeral Attendants)",399099,"(includes Embalmers, Crematory Operators, And Funeral Attendants)",399099,"(includes Embalmers, Crematory Operators, And Funeral Attendants)",399099,"(includes Embalmers, Crematory Operators, And Funeral Attendants)",,,"Personal Care and Service Workers, All Other"
+,,,,,,,,,,,,,4655," (split, see 4650)",,,,,,,,,,,,,399099,"(split, see Personal Care and Service Workers, All Other)","Personal Care and Service Workers, All Other"
+SALES AND OFFICE OCCUPATIONS:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sales and Related Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,470,,470,,4700,,4700,,4700,,4700,,4700,,411011,,411011,,411011,,411011,,411011,,411011,,411011,,First-Line Supervisors of Retail Sales Workers
+,471,,471,,4710,,4710,,4710,,4710,,4710,,411012,,411012,,411012,,411012,,411012,,411012,,411012,,First-Line Supervisors of Non-Retail Sales
+,472,,472,,4720,,4720,,4720,,4720,,4720,,412010,,412010,,412010,,412010,,412010,,412010,,412010,,Cashiers
+,474,,474,,4740,,4740,,4740,,4740,,4740,,412021,,412021,,412021,,412021,,412021,,412021,,412021,,Counter and Rental Clerks
+,475,,475,,4750,,4750,,4750,,4750,,4750,,412022,,412022,,412022,,412022,,412022,,412022,,412022,,Parts Salespersons
+,476,,476,,4760,,4760,,4760,,4760,,4760,,412031,,412031,,412031,,412031,,412031,,412031,,412031,,Retail Salespersons
+,480,,480,,4800,,4800,,4800,,4800,,4800,,413011,,413011,,413011,,413011,,413011,,413011,,413011,,Advertising Sales Agents
+,481,,481,,4810,,4810,,4810,,4810,,4810,,413021,,413021,,413021,,413021,,413021,,413021,,413021,,Insurance Sales Agents
+,482,,482,,4820,,4820,,4820,,4820,,4820,,413031,,413031,,413031,,413031,,413031,,413031,,413031,,"Securities, Commodities, and Financial Services Sales Agents"
+,483,,483,,4830,,4830,,4830,,4830,,4830,,413041,,413041,,413041,,413041,,413041,,413041,,413041,,Travel Agents
+,484,,484,,4840,"(includes Sales representatives of services, except advertising, insurance, financial services, and travel)",4840,"(includes Sales representatives of services, except advertising, insurance, financial services, and travel)",4840,"(includes Sales representatives of services, except advertising, insurance, financial services, and travel)",4840," (includes Sales representatives of services, except advertising, insurance, financial services, and travel)",,,413099,,413099,,413099,(includes 413091),413099,(includes 413091),413099,(includes 413091),413099,(includes 413091),,,"Sales Representatives, Services, All Other"
+,485,,485,,,,,,,,,,4840," (title change, see Sales Representative, Services, All Other)",,,,,,,,,,,,,413091,"(title and code change, see 413099)","Sales Representatives Of Services, Except Advertising, Insurance, Financial Services, And Travel"
+,,,,,4850,,4850,,4850,,4850,,4850,,414010,,414010,,414010,,414010,,414010,,414010,,414010,,"Sales Representatives, Wholesale and Manufacturing"
+,490,,490,,4900,,4900,,4900,,4900,,4900,,419010,,419010,,419010,,419010,,419010,,419010,,419010,,"Models, Demonstrators, and Product Promoters"
+,492,,492,,4920,,4920,,4920,,4920,,4920,,419020,,419020,,419020,,419020,,419020,,419020,,419020,,Real Estate Brokers and Sales Agents
+,493,,493,,4930,,4930,,4930,,4930,,4930,,419031,,419031,,419031,,419031,,419031,,419031,,419031,,Sales Engineers
+,494,,494,,4940,,4940,,4940,,4940,,4940,,419041,,419041,,419041,,419041,,419041,,419041,,419041,,Telemarketers
+,495,,495,,4950,,4950,,4950,,4950,,4950,,419091,,419091,,419091,,419091,,419091,,419091,,419091,,"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers"
+,496,,496,,4960,(includes 726 and 4965),4960,(includes 726 and 4965),,,,,,,419099,,419099,,419099,"(includes 131131, 419099)",419099,"(includes 131131, 419099)",,,,,,,"Sales and Related Workers, All Other"
+,,,,,,,,,4965,"(split, see 4960)",4965, (see 4960),4965, (see 4960),,,,,,,,,419099,"(split, see 419099)",419099,(see 419099),419099,(see 419099),"Sales and Related Workers, All Other"
+Office and Administrative Support Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,500,,500,,5000,,5000,,5000,,5000,,5000,,431011,,431011,,431011,,431011,,431011,,431011,,431011,,First-Line Supervisors of Office and Administrative Support Workers
+,501,,501,,5010,,5010,,5010,,5010,,5010,,432011,,432011,,432011,,432011,,432011,,432011,,432011,,"Switchboard Operators, Including Answering Service"
+,502,,502,,5020,,5020,,5020,,5020,,5020,,432021,,432021,,432021,,432021,,432021,,432021,,432021,,Telephone Operators
+,503,,503,,5030,,5030,,5030,,5030,,,,432099,,432099,,432099,,432099,,432099,,432099,,,,"Communications Equipment Operators, All Other"
+,,,,,,,,,,,,,5040," (code change, see 5030; split, see 2900)",,,,,,,,,,,,,432099,"(split, see 274010)","Communications Equipment Operators, All Other"
+,510,,510,,5100,,5100,,5100,,5100,,5100,,433011,,433011,,433011,,433011,,433011,,433011,,433011,,Bill and Account Collectors
+,511,,511,,5110,,5110,,5110,,5110,,5110,,433021,,433021,,433021,,433021,,433021,,433021,,433021,,Billing and Posting Clerks
+,512,,512,,5120,,5120,,5120,,5120,,5120,,433031,,433031,,433031,,433031,,433031,,433031,,433031,,"Bookkeeping, Accounting, and Auditing Clerks"
+,513,,513,,5130,,5130,,5130,,5130,,,,433041,,433041,,433041,,433041,,433041,,433041,,,,Gaming Cage Workers
+,514,,514,,5140,,5140,,5140,,5140,,5140,,433051,,433051,,433051,,433051,,433051,,433051,,433051,,Payroll and Timekeeping Clerks
+,515,,515,,5150,,5150,,5150,,5150,,5150,,433061,,433061,,433061,,433061,,433061,,433061,,433061,,Procurement Clerks
+,516,,516,,5160,,5160,,5160,,5160,,5160,,433071,,433071,,433071,,433071,,433071,,433071,,433071,,Tellers
+,,,,,,,,,5165,"(split, see 5930; includes ""Other Financial Clerks"")",5165," (see 5930; includes ""Other Financial Clerks"")",,,,,,,,,,,433099,"(split, see 439199)",433099,(see 439XXX; includes 4330XX),,,"Financial Clerks, All Other"
+,,,,,,,,,,,,,5165," (title change, see ""Financial Clerks, All Other"")",,,,,,,,,,,,,4330XX,"(title and code change, see 433099)",Other Financial Clerks
+,520,,520,,5200,,5200,,5200,,5200, (included in 5420),,,434011,,434011,,434011,,434011,,434011,,434011,(included in 434YYY),,,Brokerage Clerks
+,521,(included in 535),,,5210,(included in 5350),,,,,,,,,434021,(included in 434XXX),,,434021,(included in 434XXX),,,,,,,,,Correspondence Clerks
+,522,,522,,5220,,5220,,5220,,5220,,5220,,434031,,434031,,434031,,434031,,434031,,434031,,434031,,"Court, Municipal, and License Clerks"
+,523,,523,,5230,,5230,,5230,,5230,,5230,,434041,,434041,,434041,,434041,,434041,,434041,,434041,,"Credit Authorizers, Checkers, and Clerks"
+,524,,524,,5240,,5240,,5240,,5240,,5240,,434051,,434051,,434051,,434051,,434051,,434051,,434051,,Customer Service Representatives
+,525,,525,,5250,,5250,,5250,,5250,,5250,,434061,,434061,,434061,,434061,,434061,,434061,,434061,,"Eligibility Interviewers, Government Programs"
+,526,,526,,5260,,5260,,5260,,5260,,5260,,434071,,434071,,434071,,434071,,434071,,434071,,434071,,File Clerks
+,530,,530,,5300,,5300,,5300,,5300,,5300,,434081,,434081,,434081,,434081,,434081,,434081,,434081,,"Hotel, Motel, and Resort Desk Clerks"
+,531,,531,,5310,,5310,,5310,,5310,,5310,,434111,,434111,,434111,,434111,,434111,,434111,,434111,,"Interviewers, Except Eligibility and Loan"
+,532,,532,,5320,,5320,,5320,,5320,,5320,,434121,,434121,,434121,,434121,,434121,,434121,,434121,,"Library Assistants, Clerical"
+,533,,533,,5330,,5330,,5330,,5330,,5330,,434131,,434131,,434131,,434131,,434131,,434131,,434131,,Loan Interviewers and Clerks
+,534,,534,,5340,,5340,,5340,,5340,,5340,,434141,,434141,,434141,,434141,,434141,,434141,,434141,,New Account Clerks
+,535,,,,5350,"(included in ""Correspondent clerks and order clerks"")",,,,,,,,,434151,(included in 434XXX),,,434151,(included in 434XXX),,,,,,,,,Order Clerks
+,,,535, (includes 521),,,5350,"(collapsed, includes 5210 and ""Order Clerks"")",5350,"(includes 5210 and ""Order Clerks"")",5350," (includes 5210 and ""Order Clerks"")",5350," (includes 5210 and ""Order Clerks"")",,,434XXX," (includes 434021, 434151)",,,434XXX,"(collapsed, includes 434021, 434151)",434XXX,"(includes 434021, 434151)",434XXX,"(includes 434021, 434151)",434XXX,"(includes 434021, 434151)",Correspondent clerks and order clerks
+,536,,536,,5360,,5360,,5360,,5360,,5360,,434161,,434161,,434161,,434161,,434161,,434161,,434161,,"Human Resources Assistants, Except Payroll and Timekeeping"
+,540,,540,,5400,,5400,,5400,,5400,,5400,,434171,,434171,,434171,,434171,,434171,,434171,,434171,,Receptionists and Information Clerks
+,541,,541,,5410,,5410,,5410,,5410,,5410,,434181,,434181,,434181,,434181,,434181,,434181,,434181,,Reservation and Transportation Ticket Agents and Travel Clerks
+,542,,542,,5420,,5420,,5420,,5420, (included in Other information and records clerks),,,434199,,434199,,434199,,434199,,434199,,434199,(included in 434YYY),,,"Information and Record Clerks, All Other"
+,,,,,,,,,,,,,5420," (collapsed, includes 5200 and ""Information and Record Clerks, All Other"")",,,,,,,,,,,,,434YYY,"(collapsed, includes 434011, 434199)",Other Information And Records Clerks
+,550,,550,,5500,,5500,,5500,,5500,,5500,,435011,,435011,,435011,,435011,,435011,,435011,,435011,,Cargo and Freight Agents
+,551,,551,,5510,,5510,,5510,,5510,,5510,,435021,,435021,,435021,,435021,,435021,,435021,,435021,,Couriers and Messengers
+,552,,552,,5520,"(includes 5521, 5522)",5520,"(includes 5521, 5522)",5520,"(includes 5521, 5522)",5520," (includes 5521, 5522)",,,435030,,435030,,435030,"(includes 435031, 435032)",435030,"(includes 435031, 435032)",435030,"(includes 435031, 435032)",435030,"(includes 435031, 435032)",,,Dispatchers
+,,,,,,,,,,,,,5521," (split, see 5520)",,,,,,,,,,,,,435031,"(split, see 435030)",Public Safety Telecommunicators
+,,,,,,,,,,,,,5522," (split, see 5520)",,,,,,,,,,,,,435032,"(split, see 435030)","Dispatchers, Except Police, Fire, And Ambulance"
+,553,,553,,5530,,5530,,5530,,5530,,5530,,435041,,435041,,435041,,435041,,435041,,435041,,435041,,"Meter Readers, Utilities"
+,554,,554,,5540,,5540,,5540,,5540,,5540,,435051,,435051,,435051,,435051,,435051,,435051,,435051,,Postal Service Clerks
+,555,,555,,5550,,5550,,5550,,5550,,5550,,435052,,435052,,435052,,435052,,435052,,435052,,435052,,Postal Service Mail Carriers
+,556,,556,,5560,,5560,,5560,,5560,,5560,,435053,,435053,,435053,,435053,,435053,,435053,,435053,,"Postal Service Mail Sorters, Processors, and Processing Machine Operators"
+,560,,560,,5600,,5600,,5600,,5600,,5600,,435061,,435061,,435061,,435061,,435061,,435061,,435061,,"Production, Planning, and Expediting Clerks"
+,561,,561,,5610,"(includes Shipping, Receiving, and Inventory Clerks)",5610,"(includes Shipping, Receiving, and Inventory Clerks)",5610,"(includes Shipping, Receiving, and Inventory Clerks)",5610," (includes Shipping, Receiving, and Inventory Clerks)",,,435071,,435071,,435071,"(includes Shipping, Receiving, and Inventory Clerks)",435071,"(includes Shipping, Receiving, and Inventory Clerks)",435071,"(includes Shipping, Receiving, and Inventory Clerks)",435071,"(includes Shipping, Receiving, and Inventory Clerks)",,,"Shipping, Receiving, and Traffic Clerks"
+,,,,,,,,,,,,,5610," (title change, see Shipping, Receiving, and Traffic Clerks)",,,,,,,,,,,,,435071,"(title change, see Shipping, Receiving, and Traffic Clerks)","Shipping, receiving, and inventory clerks"
+,562,,562,,5620,(includes 9645),5620,(includes 9645),5620,(includes 9645),5620, (includes 9645),,,435081,,435081,,435081,(includes 537065),435081,(includes 537065),435081,(includes 537065),435081,(includes 537065),,,Stock Clerks and Order Fillers
+,563,,563,,5630,,5630,,5630,,5630,,5630,,435111,,435111,,435111,,435111,,435111,,435111,,435111,,"Weighers, Measurers, Checkers, and Samplers, Recordkeeping"
+,570,,570,,5700,"(includes 5710, 5720, 5730, 5740)",5700,"(includes 5710, 5720, 5730, 5740)",5700,"(includes 5710, 5720, 5730, 5740)",5700," (includes 5710, 5720, 5730, 5740)",,,436010,,436010,,436010,(includes 436011- 436014),436010,(includes 436011- 436014),436010,(includes 436011- 436014),436010,(includes 436011- 436014),,,Secretaries and Administrative Assistants
+,,,,,,,,,,,,,5710," (split, see 5700)",,,,,,,,,,,,,436011,"(split, see 436010)",Executive Secretaries And Executive Administrative Assistants
+,,,,,,,,,,,,,5720," (split, see 5700)",,,,,,,,,,,,,436012,"(split, see 436010)",Legal Secretaries And Administrative Assistants
+,,,,,,,,,,,,,5730," (split, see 5700)",,,,,,,,,,,,,436013,"(split, see 436010)",Medical Secretaries And Administrative Assistants
+,,,,,,,,,,,,,5740," (split, see 5700)",,,,,,,,,,,,,436014,"(split, see 436010)","Secretaries And Administrative, Except Legal, Medical, And Executive"
+,580,,580,,5800,(includes 1108),5800,(includes 1108),5800,(includes 1108),5800, (includes 1108),,,439011,,439011,,439011,(includes 151299),439011,(includes 151299),439011,(includes 151299),439011,(includes 151299),,,Computer Operators
+,581,,581,,5810,,5810,,5810,,5810,,5810,,439021,,439021,,439021,,439021,,439021,,439021,,439021,,Data Entry Keyers
+,582,,582,,5820,,5820,,5820,,5820,,5820,,439022,,439022,,439022,,439022,,439022,,439022,,439022,,Word Processors and Typists
+,583,,583,,5830,(included in 5930),,,,,,,,,439031,,439031,,439031,(included in 439XXX),,,,,,,,,Desktop Publishers
+,584,,584,,5840,,5840,,5840,,5840,,5840,,439041,,439041,,439041,,439041,,439041,,439041,,439041,,Insurance Claims and Policy Processing Clerks
+,585,,585,,5850,,5850,,5850,,5850,,5850,,439051,,439051,,439051,,439051,,439051,,439051,,439051,,"Mail Clerks and Mail Machine Operators, Except Postal Service"
+,586,,586,,5860,,5860,,5860,,5860,,5860,,439061,,439061,,439061,,439061,,439061,,439061,,439061,,"Office Clerks, General"
+,590,,590,,5900,,5900,,5900,,5900,,5900,,439071,,439071,,439071,,439071,,439071,,439071,,439071,,"Office Machine Operators, Except Computer"
+,591,,591,,5910,,5910,,5910,,5910,,5910,,439081,,439081,,439081,,439081,,439081,,439081,,439081,,Proofreaders and Copy Markers
+,592,,592,,5920,,5920,,5920,,5920,,5920,,439111,,439111,,439111,,439111,,439111,,439111,,439111,,Statistical Assistants
+,593,,593,,5930,"(included in ""Miscellaneous office and administrative support workers including desktop publishers""; includes 5165, 5940)",,,,,,,,,439199,,439199,,439199,(included in 439XXX),,,,,,,,,"Office and Administrative Support Workers, All Other"
+,,,,,,,5930,"(collapsed, includes 5830 and ""Office and Administrative Support Workers, All Other""; includes 5165, 5940)",,,,,,,,,,,,,439XXX,"(collapsed, includes 439031, 439199; includes 4330XX and ""Other Office And Administrative Support Workers"")",,,,,,,Miscellaneous office and administrative support workers including desktop publishers
+,,,,,,,,,5940,"(split, see 5930; includes 5830)",5940, (see 5930; includes 5830),,,,,,,,,,,439XXX,"(split, see ""Miscellaneous office and administrative support workers including desktop publishers""; includes 439031, 439199)",439XXX,"(see ""Miscellaneous office and administrative support workers including desktop publishers""; includes 439031, 439199)",,,
+,,,,,,,,,,,,,5940," (title change, see ""Miscellaneous office and administrative support workers including desktop publishers""; includes 5830)",,,,,,,,,,,,,439XXX,"(title change, see ""Miscellaneous office and administrative support workers including desktop publishers""; includes 439031, 439199)",Other Office And Administrative Support Workers
+"NATURAL RESOURCES, CONSTRUCTION, AND MAINTENANCE OCCUPATIONS:",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Farming, Fishing, and Forestry Occupations:",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,600,,600,,6000,"(includes 630, 6005)",6000,"(includes 630, 6005)",,,,,,,451010,,451010,,451010,"(includes 131070, 451011)",451010,"(includes 131070, 451011)",,,,,,,"First-Line Supervisors/Managers/Contractors of Farming, Fishing, and Forestry Workers"
+,,,,,,,,,6005,"(split, see 6000)",6005, (see 6000),6005, (see 6000),,,,,,,,,451011,"(split, see 451010)",451011,(see 451010),451011,(see 451010),"First-Line Supervisors of farming, fishing, and forestry workers"
+,601,,601,,6010,,6010,,6010,,6010,,6010,,452011,,452011,,452011,,452011,,452011,,452011,,452011,,Agricultural Inspectors
+,602,(included in 605),,,6020,(included in 6050),,,,,,,,,452021,(included in 4520XX),,,452021,(included in 4520XX),,,,,,,,,Animal Breeders
+,604,,604,,6040,,6040,,6040,,6040,,6040,,452041,,452041,,452041,,452041,,452041,,452041,,452041,,"Graders and Sorters, Agricultural Products"
+,605,,,,6050,(included in Miscellaneous Agricultural Workers Including Animal Breeders),,,,,,,,,452090,(included in 4520XX),,,452090,(included in 4520XX),,,,,,,,,Miscellaneous agricultural workers
+,,,605, (includes 602),,,6050,"(collapsed, includes 6020, ""Miscellaneous Agricultural Workers,"" and ""Other Agricultural Workers"")",6050,"(includes 6020, ""Miscellaneous Agricultural Workers,"" and ""Other Agricultural Workers"")",6050," (includes 6020, ""Miscellaneous Agricultural Workers,"" and ""Other Agricultural Workers"")",,,,,4520XX," (includes 452021, 452090)",,,4520XX,"(collapsed, includes 452021, 452090, and ""Other agricultural workers"")",4520XX,"(includes 452021, 452090, and ""Other agricultural workers"")",4520XX,"(includes 452021, 452090, and ""Other agricultural workers"")",,,Miscellaneous agricultural workers including animal breeders
+,,,,,,,,,,,,,6050," (title change, see Miscellaneous Agricultural Workers Including Animal Breeders)",,,,,,,,,,,,,4520XX,"(title change, see Miscellaneous agricultural workers including animal breeders)",Other Agricultural Workers
+,610,,610, (includes 611),6100,(included in Fishing and Hunting Workers),,,,,,,,,453011,(included in 453000),,,453011,(included in 453000),,,,,,,,,Fishers and Related Fishing Workers
+,,,,,,,6100,"(collapsed, includes 6110, 6115, and ""Fishers and Related Fishing Workers"")",6100,"(includes 6110, 6115, and ""Fishers and Related Fishing Workers"")",6100," (includes 6110, 6115, and ""Fishers and Related Fishing Workers"")",,,,,453000," (includes 453011, 453021)",,,453000,"(collapsed, includes 453011, 453021, 453031)",453000,"(includes 453011, 453021, 453031)",453000,"(includes 453011, 453021, 453031)",,,Fishing And Hunting Workers
+,611,(included in 610),,,6110,(included in Fishing and Hunting Workers),,,,,,,,,453021,(included in 453000),,,453021,(included in 453000),,,,,,,,,Hunters and Trappers
+,,,,,,,,,,,,,6115," (code change, see 6100)",,,,,,,,,,,,,453031,"(code change, see 453000)",Fishing And Hunting Workers
+,612,,612,,6120,,6120,,6120,,6120,,6120,,454011,,454011,,454011,,454011,,454011,,454011,,454011,,Forest and Conservation Workers
+,613,,613,,6130,,6130,,6130,,6130,,6130,,454020,,454020,,454020,,454020,,454020,,454020,,454020,,Logging Workers
+Construction and Extraction Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,620,,620,,6200,,6200,,6200,,6200,,6200,,471011,,471011,,471011,,471011,,471011,,471011,,471011,,First-Line Supervisors of Construction Trades and Extraction Workers
+,621,,621,,6210,,6210,,6210,,6210,,6210,,472011,,472011,,472011,,472011,,472011,,472011,,472011,,Boilermakers
+,622,,622,,6220,,6220,,6220,"(included in Brickmasons, Blockmasons, Stonemasons, and Reinforcing Iron and Rebar Workers)",,,,,472020,,472020,,472020,,472020,,472020,(included in 472XXX),,,,,"Brickmasons, Blockmasons, and Stonemasons"
+,,,,,,,,,,,6220," (collapsed, includes ""Brickmasons, Blockmasons, and Stonemasons"" and 6500)",6220," (includes ""Brickmasons, Blockmasons, and Stonemasons"" and 6500)",,,,,,,,,,,472XXX,"(collapsed, includes 472020, 472171)",472XXX,"(includes 472020, 472171)","Brickmasons, Blockmasons, Stonemasons, and Reinforcing Iron and Rebar Workers"
+,623,,623,,6230,,6230,,6230,,6230,,6230,,472031,,472031,,472031,,472031,,472031,,472031,,472031,,Carpenters
+,624,,624,,6240,,6240,,6240,,6240,,6240,,472040,,472040,,472040,,472040,,472040,,472040,,472040,,"Carpet, Floor, and Tile Installers and Finishers"
+,625,,625,,6250,,6250,,6250,,6250,,6250,,472050,,472050,,472050,,472050,,472050,,472050,,472050,,"Cement Masons, Concrete Finishers, and Terrazzo Workers"
+,626,,626,,6260,,6260,,6260,,6260,,6260,,472061,,472061,,472061,,472061,,472061,,472061,,472061,,Construction Laborers
+,,,,,,,,,,,,,6305," (collapsed, includes 6300, 6310, 6320)",,,,,,,,,,,,,472070,"(collapsed, includes 472071-472073, 47207X)",Construction Equipment Operators
+,630,,630,,6300,,6300,,6300,,6300, (included in 6305),,,472071,,472071,,472071,,472071,,472071,,472071,(included in 472070),,,"Paving, Surfacing, and Tamping Equipment Operators"
+,631,(included in 632),,,6310,(included in 6320),,,,,,,,,472072,(included in 47207X),,,472072,(included in 47207X),,,,,,,,,Pile-Driver Operators
+,632,,,,6320,"(included in Construction equipment operators except paving, surfacing, and tamping equipment operators)",,,,,,,,,472073,(included in 47207X),,,472073,(included in 47207X),,,,,,,,,Operating Engineers and Other Construction Equipment Operators
+,,,632, (includes 631),,,6320,"(collapsed, includes 6310 and ""Operating Engineers and Other Construction Equipment Operators"")",6320,"(includes 6310 and ""Operating Engineers and Other Construction Equipment Operators"")",6320," (included in 6305; includes 6310 and ""Operating Engineers and Other Construction Equipment Operators"")",,,,,47207X," (includes 472072, 472073)",,,47207X,"(collapsed, includes 472072, 472073)",47207X,"(includes 472072, 472073)",47207X,"(included in 472070; includes 472072, 472073)",,,"Construction equipment operators except paving, surfacing, and tamping equipment operators"
+,633,,633,,6330,,6330,,6330,,6330,,6330,,472080,,472080,,472080,,472080,,472080,,472080,,472080,,"Drywall Installers, Ceiling Tile Installers, and Tapers"
+,635,,635,,6350,,6350,,6355,,6355,,6355,,472111,,472111,,472111,,472111,,472111,,472111,,472111,,Electricians
+,636,,636,,6360,,6360,,6360,,6360,,6360,,472121,,472121,,472121,,472121,,472121,,472121,,472121,,Glaziers
+,640,,640,,6400,,6400,,6400,,6400,,6400,,472130,,472130,,472130,,472130,,472130,,472130,,472130,,Insulation Workers
+,642,,642,,6420,,6420,,6420,(included in Painters and Paperhangers),,,,,472141,,472141,,472141,,472141,,472141,(included in 472140),,,,,"Painters, Construction and Maintenance"
+,,,,,,,,,,,6420," (collapsed, includes ""Painters, Construction and Maintenance"" and 6430)",,,,,,,,,,,,,472140,"(collapsed, includes 472141, 472142)",,,Painters and Paperhangers
+,,,,,,,,,,,,,6410," (code change, see 6420)",,,,,,,,,,,,,472140,"(occ code change; includes 472141, 472142)",Painters and Paperhangers
+,643,,643,,6430,,6430,,6430,(included in 6420),,,,,472142,,472142,,472142,,472142,,472142,(included in 472140),,,,,Paperhangers
+,644,,644,,6440,"(includes 6441, 6442)",6440,"(includes 6441, 6442)",6440,"(includes 6441, 6442)",6440," (includes 6441, 6442)",,,472150,,472150,,472150,"(includes 472151, 472152)",472150,"(includes 472151, 472152)",472150,"(includes 472151, 472152)",472150,"(includes 472151, 472152)",,,"Pipelayers, Plumbers, Pipefitters, and Steamfitters"
+,,,,,,,,,,,,,6441," (split, see 6440)",,,,,,,,,,,,,472151,"(split, see 472150)",Pipelayers
+,,,,,,,,,,,,,6442," (split, see 6440)",,,,,,,,,,,,,472152,"(split, see 472150)","Plumbers, Pipefitters, And Steamfitters"
+,646,,646,,6460,,6460,,6460,,6460,,6460,,472161,,472161,,472161,,472161,,472161,,472161,,472161,,Plasterers and Stucco Masons
+,650,(included in 653),,,6500,,6500,,6500,(included in 6220),,,,,472171,(included in 472XXX),,,472171,,472171,,472171,(included in 472XXX),,,,,Reinforcing Iron and Rebar Workers
+,651,,651,,6510,"(includes 6515, 6540)",6510,"(includes 6515, 6540)",,,,,,,472181,,472181,,472181,(includes Roofers),472181,(includes Roofers),,,,,,,Roofers
+,,,,,,,,,6515,"(split, see 6510)",6515, (see 6510),6515, (see 6510),,,,,,,,,472181,"(split, see Roofers)",472181,(see Roofers),472181,(see Roofers),Roofers
+,652,,652,,6520,,6520,,6520,,6520,,6520,,472211,,472211,,472211,,472211,,472211,,472211,,472211,,Sheet Metal Workers
+,653,,653, (includes 650),6530,,6530,,6530,,6530,,6530,,472221,(included in 472XXX),472XXX," (includes 472171, 472221)",472221,,472221,,472221,,472221,,472221,,Structural Iron and Steel Workers
+,,,,,,,,,,,,,6540," (split, see 6510; split, see 6760; split, see 7620)",,,,,,,,,,,,,472231,"(split, see 472181; split, see 4740XX; split, see 49909X)",Solar Photovoltaic Installers
+,660,,660,,6600,,6600,,6600,,6600,,6600,,473010,,473010,,473010,,473010,,473010,,473010,,473010,,"Helpers, Construction Trades"
+,666,,666,,6660,,6660,,6660,,6660,,6660,,474011,,474011,,474011,,474011,,474011,,474011,,474011,,Construction and Building Inspectors
+,670,,670,,6700,,6700,,6700,,6700,,6700,,474021,,474021,,474021,,474021,,474021,,474021,,474021,,Elevator Installers and Repairers
+,671,,671,,6710,,6710,,6710,,6710,,6710,,474031,,474031,,474031,,474031,,474031,,474031,,474031,,Fence Erectors
+,672,,672,,6720,,6720,,6720,,6720,,6720,,474041,,474041,,474041,,474041,,474041,,474041,,474041,,Hazardous Materials Removal Workers
+,673,,673,,6730,,6730,,6730,,6730,,6730,,474051,,474051,,474051,,474051,,474051,,474051,,474051,,Highway Maintenance Workers
+,674,,674,,6740,,6740,,6740,,6740,,6740,,474061,,474061,,474061,,474061,,474061,,474061,,474061,,Rail-Track Laying and Maintenance Equipment Operators
+,675,,675,,6750,(included in 6760),,,,,,,,,474071,,474071,,474071,(included in 4740XX),,,,,,,,,Septic Tank Servicers and Sewer Pipe Cleaners
+,676,,676,,6760,(included in Miscellaneous construction workers including septic tank servicers and sewer pipe cleaners),,,,,,,,,474090,,474090,,474090,(included in 4740XX),,,,,,,,,Miscellaneous Construction and Related Workers
+,,,,,,,6760,"(collapsed, includes 6540, 6750, 6765, and ""Miscellaneous Construction and Related Workers"")",,,,,,,,,,,,,4740XX,"(collapsed, includes 474071, 474090, 472231, 4740XX)",,,,,,,Miscellaneous construction workers including septic tank servicers and sewer pipe cleaners
+,,,,,,,,,6765,"(split, see 6760; includes 6750)",6765, (see 6760; includes 6750),,,,,,,,,,,47XXXX,"(split, see 4740XX; includes 474071, 474090)",47XXXX,"(see 4740XX; includes 474071, 474090)",,,"Miscellaneous construction workers including solar Photovaltaic Installers, and septic tank servicers and sewer pipe cleaners"
+,,,,,,,,,,,,,6765," (title change, see ""Miscellaneous construction workers including solar Photovaltaic Installers, and septic tank servicers and sewer pipe cleaners""; includes 6750)",,,,,,,,,,,,,4740XX,"(title and code change, see 47XXXX; includes 474071, 474090)",Other Construction And Related Workers
+,680,,,,6800,(included in 6800),,,,,,,,,475010,(included in 4750YY),,,475010,(included in 4750YY),,,,,,,,,"Derrick, Rotary Drill, and Service Unit Operators, Oil, Gas, and Mining"
+,,,680, (includes 692),,,6800,"(collapsed, includes 6920 and ""Derrick, Rotary Drill, and Service Unit Operators, Oil, Gas, and Mining"")",6800,"(includes 6920 and ""Derrick, Rotary Drill, and Service Unit Operators, Oil, Gas, and Mining"")",6800," (includes 6920 and ""Derrick, Rotary Drill, and Service Unit Operators, Oil, Gas, and Mining"")",6800," (includes 6920 and ""Derrick, Rotary Drill, and Service Unit Operators, Oil, Gas, and Mining"")",,,4750YY," (includes 475010, 475071)",,,4750YY,"(collapsed, includes 475010, 475071)",4750YY,"(includes 475010, 475071)",4750YY,"(includes 475010, 475071)",4750YY,"(includes 475010, 475071)","Derrick, rotary drill, and service unit operators, and roustabouts, oil, gas, and mining"
+,682,,682,,6820,"(includes 6825, 6835)",6820,"(includes 6825, 6835)",6820,"(includes 6825, 6835)",6820," (includes 6825, 6835)",,,475021,,475021,,475021,(includes 475023),475021,(includes 475023),475021,(includes 475023),475021,(includes 475023),,,"Earth Drillers, Except Oil and Gas"
+,,,,,,,,,,,,,6825," (split, see 6820)",,,,,,,,,,,,,475020,"(split, see 475021)",Surface Mining Machine Operators And Earth Drillers
+,683,,683,,6830,(includes 6835),6830,(includes 6835),6830,(includes 6835),6830, (includes 6835),,,475031,,475031,,475031,(includes 475032),475031,(includes 475032),475031,(includes 475032),475031,(includes 475032),,,"Explosives Workers, Ordnance Handling Experts, and Blasters"
+,,,,,,,,,,,,,6835," (split, see 6820; code change, see 6830)",,,,,,,,,,,,,475032,"(split, see 475021; code change, see 475031)","Explosives Workers, Ordnance Handling Experts, And Blasters"
+,684,,684,,6840,"(includes 6850, 6950)",6840,"(includes 6850, 6950)",6840,"(includes 6850, 6950)",6840," (includes 6850, 6950)",,,475040,,475040,,475040,(includes Underground Mining Machine Operators),475040,(includes Underground Mining Machine Operators),475040,(includes Underground Mining Machine Operators),475040,(includes Underground Mining Machine Operators),,,Mining Machine Operators
+,,,,,,,,,,,,,6850," (split, see 6840; split, see 9520)",,,,,,,,,,,,,475040,"(split, see Mining Machine Operators; split, see 537030)",Underground Mining Machine Operators
+,691,(included in 694),,,6910,(included in 6940),,,,,,,,,475061,(included in 4750XX),,,475061,(included in 4750XX),,,,,,,,,"Roof Bolters, Mining"
+,692,(included in 680),,,6920,(included in 6800),,,,,,,,,475071,(included in 4750YY),,,475071,(included in 4750YY),,,,,,,,,"Roustabouts, Oil and Gas"
+,693,(included in 694),,,6930,(included in 6940),,,,,,,,,475081,(included in 4750XX),,,475081,(included in 4750XX),,,,,,,,,Helpers--Extraction Workers
+,,,,,6940,(included in Miscellaneous extraction workers including roof bolters and helpers),,,,,,,,,4750XX,,,,4750XX,(included in Miscellaneous extraction workers including roof bolters and helpers),,,,,,,,,Other extraction workers
+,694,,,,,,6940,"(collapsed, includes 6910, 6930, and ""Miscellaneous extraction workers including roof bolters and helpers"")",6940,"(includes 6910, 6930, and ""Miscellaneous extraction workers including roof bolters and helpers"")",6940," (includes 6910, 6930, and ""Miscellaneous extraction workers including roof bolters and helpers"")",,,,,-,,,,4750XX,"(collapsed, includes ""Other extraction workers,"" 475061, 475081)",4750XX,"(includes ""Other extraction workers,"" 475061, 475081)",4750XX,"(includes ""Other extraction workers,"" 475061, 475081)",,,Miscellaneous extraction workers including roof bolters and helpers
+,,,694," (includes 691, 693)",,,,,,,,,6950," (split, see 6840; title and code change, see 6940)",,,4750XX," (includes 475061, 475081)",,,,,,,,,4750XX,"(split, see 475040; title and code change, see Miscellaneous extraction workers including roof bolters and helpers; includes 475061, 475081)",Other extraction workers
+"Installation, Maintenance, and Repair Occupations:",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,700,,700,,7000,,7000,,7000,,7000,,7000,,491011,,491011,,491011,,491011,,491011,,491011,,491011,,"First-Line Supervisors of Mechanics, Installers, and Repairers"
+,701,,701,,7010,,7010,,7010,,7010,,7010,,492011,,492011,,492011,,492011,,492011,,492011,,492011,,"Computer, Automated Teller, and Office Machine Repairers"
+,702,,702,,7020,,7020,,7020,,7020,,7020,,492020,,492020,,492020,,492020,,492020,,492020,,492020,,Radio and Telecommunications Equipment Installers and Repairers
+,703,,703,,7030,,7030,,7030,,7030,,7030,,492091,,492091,,492091,,492091,,492091,,492091,,492091,,Avionics Technicians
+,704,,704,,7040,,7040,,7040,,7040,,7040,,492092,,492092,,492092,,492092,,492092,,492092,,492092,,"Electric Motor, Power Tool, and Related Repairers"
+,705,(included in 710),,,7050,(included in 7100),,,,,,,,,492093,(included in 49209X),,,492093,"(included in Electrical and electronics repairers, transportation equipment, and industrial and utility)",,,,,,,,,"Electrical and Electronics Installers and Repairers, Transportation Equipment"
+,710,,,,7100,"(included in Electrical and electronics repairers, transportation equipment, and industrial and utility)",,,,,,,,,49209X,,,,49209X,"(included in Electrical and electronics repairers, transportation equipment, and industrial and utility)",,,,,,,,,"Electrical and electronics repairers, industrial and utility"
+,,,710, (includes 705),,,7100,"(collapsed, includes 7050, ""Electrical and electronics repairers, industrial and utility,"" and ""Other electrical and electronic equipment mechanics, installers, and repairers"")",7100,"(includes 7050, ""Electrical and electronics repairers, industrial and utility,"" and ""Other electrical and electronic equipment mechanics, installers, and repairers"")",7100," (includes 7050, ""Electrical and electronics repairers, industrial and utility,"" and ""Other electrical and electronic equipment mechanics, installers, and repairers"")",,,,,49209X, (includes 492093),,,49209X,"(collapsed, includes 492093, ""Electrical and electronics repairers, industrial and utility,"" and ""Other Electrical And Electronic Equipment Mechanics, Installers, and Repairers"")",49209X,"(includes 492093, ""Electrical and electronics repairers, industrial and utility,"" and ""Other Electrical And Electronic Equipment Mechanics, Installers, and Repairers"")",49209X,"(includes 492093, ""Electrical and electronics repairers, industrial and utility,"" and ""Other Electrical And Electronic Equipment Mechanics, Installers, and Repairers"")",,,"Electrical and electronics repairers, transportation equipment, and industrial and utility"
+,,,,,,,,,,,,,7100," (title change, see Electrical and electronics repairers, transportation equipment, and industrial and utility; includes 7050, 7110, and ""Electrical and electronics repairers, industrial and utility"")",,,,,,,,,,,,,49209X,"(title change, see ""Electrical and electronics repairers, industrial and utility,""; includes 492093; collapsed, includes 492096)","Other Electrical And Electronic Equipment Mechanics, Installers, and Repairers"
+,711,,711,,7110,,7110,,7110,,7110, (included in 7100),,,492096,,492096,,492096,,492096,,492096,,492096,(included in 49209X),,,"Electronic Equipment Installers and Repairers, Motor Vehicles"
+,712,,712,,7120,,7120,,7120,,7120,,7120,,492097,,492097,,492097,,492097,,492097,,492097,,492097,,Electronic Home Entertainment Equipment Installers and Repairers
+,713,,713,,7130,,7130,,7130,,7130,,7130,,492098,,492098,,492098,,492098,,492098,,492098,,492098,,Security and Fire Alarm Systems Installers
+,714,,714,,7140,,7140,,7140,,7140,,7140,,493011,,493011,,493011,,493011,,493011,,493011,,493011,,Aircraft Mechanics and Service Technicians
+,715,,715,,7150,,7150,,7150,,7150,,7150,,493021,,493021,,493021,,493021,,493021,,493021,,493021,,Automotive Body and Related Repairers
+,716,,716,,7160,,7160,,7160,,7160,,7160,,493022,,493022,,493022,,493022,,493022,,493022,,493022,,Automotive Glass Installers and Repairers
+,720,,720,,7200,,7200,,7200,,7200,,7200,,493023,,493023,,493023,,493023,,493023,,493023,,493023,,Automotive Service Technicians and Mechanics
+,721,,721,,7210,,7210,,7210,,7210,,7210,,493031,,493031,,493031,,493031,,493031,,493031,,493031,,Bus and Truck Mechanics and Diesel Engine Specialists
+,722,,722,,7220,,7220,,7220,,7220,,7220,,493040,,493040,,493040,,493040,,493040,,493040,,493040,,Heavy Vehicle and Mobile Equipment Service Technicians and Mechanics
+,724,,724,,7240,,7240,,7240,,7240,,7240,,493050,,493050,,493050,,493050,,493050,,493050,,493050,,Small Engine Mechanics
+,726,,726,,7260,,7260,,7260,,7260,,7260,,493090,,493090,,493090,,493090,,493090,,493090,,493090,,"Miscellaneous Vehicle and Mobile Equipment Mechanics, Installers, and Repairers"
+,730,,730,,7300,,7300,,7300,,7300,,7300,,499010,,499010,,499010,,499010,,499010,,499010,,499010,,Control and Valve Installers and Repairers
+,731,,731,,7310,,7310,,7315,,7315,,7315,,499021,,499021,,499021,,499021,,499021,,499021,,499021,,"Heating, Air Conditioning, and Refrigeration Mechanics and Installers"
+,732,,732,,7320,,7320,,7320,,7320,,7320,,499031,,499031,,499031,,499031,,499031,,499031,,499031,,Home Appliance Repairers
+,733,,733,,7330,,7330,,7330,,7330,,7330,,49904X,,49904X,,49904X,,49904X,,49904X,,49904X,,49904X,,Industrial and Refractory Machinery Mechanic
+,734,,734,,7340,,7340,,,,,,,,499042,,499042,,499042,(includes 499071),499042,(includes 499071),,,,,,,"Maintenance and Repair Workers, General"
+,,,,,,,,,7340,(occsoc code change),7340,,7340,,,,,,,,,,499071,"(code change, see 499042)",499071,(see 499042),499071,(see 499042),"Maintenance and Repair Workers, General"
+,735,,735,,7350,,7350,,7350,,7350,,7350,,499043,,499043,,499043,,499043,,499043,,499043,,499043,,"Maintenance Workers, Machinery"
+,736,,736,,7360,,7360,,7360,,7360,,7360,,499044,,499044,,499044,,499044,,499044,,499044,,499044,,Millwrights
+,741,,741,,7410,,7410,,7410,,7410,,7410,,499051,,499051,,499051,,499051,,499051,,499051,,499051,,Electrical Power-Line Installers and Repairers
+,742,,742,,7420,,7420,,7420,,7420,,7420,,499052,,499052,,499052,,499052,,499052,,499052,,499052,,Telecommunications Line Installers and Repairers
+,743,,743,,7430,,7430,,7430,,7430,,7430,,499060,,499060,,499060,,499060,,499060,,499060,,499060,,Precision Instrument and Equipment Repairers
+,751,,751,,7510,,7510,,7510,,7510,,7510,,499091,,499091,,499091,,499091,,499091,,499091,,499091,,"Coin, Vending, and Amusement Machine Servicers and Repairers"
+,752,(included in 762),,,7520,(included in 7620),,,,,,,,,499092,(included in 49909X),,,499092,(included in 49909X),,,,,,,,,Commercial Divers
+,754,,754,,7540,,7540,,7540,,7540,,7540,,499094,,499094,,499094,,499094,,499094,,499094,,499094,,Locksmiths and Safe Repairers
+,755,,755,,7550,,7550,,7550,(included in 7630),,,,,499095,,499095,,499095,,499095,,499095,(included in 4990XX),,,,,Manufactured Building and Mobile Home Installers
+,756,,756,,7560,,7560,,7560,,7560,,7560,,499096,,499096,,499096,,499096,,499096,,499096,,499096,,Riggers
+,760,(included in 762),,,7600,(included in 7620),,,,,,,,,499097,(included in 49909X),,,499097,(included in 49909X),,,,,,,,,Signal and Track Switch Repairers
+,761,,761,,7610,,7610,,7610,,7610,,7610,,499098,,499098,,499098,,499098,,499098,,499098,,499098,,"Helpers--Installation, Maintenance, and Repair Workers"
+,762,,,,7620,"(included in Other installation, maintenance, and repair workers including commercial divers, and signal and track switch repairers)",,,,,,,,,49909X,,,,49909X,(included in 4990XX),,,,,,,,,"Other Installation, Maintenance, and Repair Workers"
+,,,762," (includes 752, 760)",,,7620,"(collapsed, includes, 7520, 7600, and ""Other Installation, Maintenance, and Repair Workers""; includes 6540, 7630)",,,,,,,,,49909X," (includes 499092, 499097)",,,49909X,"(collapsed, includes 499092, 499097, and ""Other Installation, Maintenance, and Repair Workers"")",,,,,,,"Other installation, maintenance, and repair workers including commercial divers, and signal and track switch repairers"
+,,,,,,,,,7630,"(split, see 7620; includes 7520, 7600)",,,,,,,,,,,,,49909X,"(split, see ""Other installation, maintenance, and repair workers including commercial divers, and signal and track switch repairers""; includes 499092, 499097)",,,,,"Other Installation, Maintenance, and Repair Workers Including Wind Turbine Service Technicians, and Commercial Divers, and Signal and Track Switch Repairers"
+,,,,,,,,,,,7630," (title change, see ""Other Installation, Maintenance, and Repair Workers Including Wind Turbine Service Technicians, and Commercial Divers, and Signal and Track Wwitch Repairers""; see 7620; includes 7520, 7550, 7600)",,,,,,,,,,,,,4990XX,"(title and code change, see 49909X; includes 499092, 409095, 499097)",,,"Miscellaneous Installation, Maintenance, and Repair Workers, Including, Wind Turbine Service Technicians"
+,,,,,,,,,,,,,7640," (title and code change, see 7630; includes 7520, 7600, 7620)",,,,,,,,,,,,,4990XX,"(title change, see ""Miscellaneous Installation, Maintenance, and Repair Workers, Including, Wind Turbine Service Technicians""; includes 499092, 409095, 499097)","Other Installation, Maintenance, And Repair Workers"
+"PRODUCTION, TRANSPORTATION, AND MATERIAL MOVING OCCUPATIONS:",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Production Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,770,,770,,7700,,7700,,7700,,7700,,7700,,511011,,511011,,511011,,511011,,511011,,511011,,511011,,First-Line Supervisors of Production and Operating Workers
+,771,,771,,7710,,7710,,7710,,7710, (included in 7750),,,512011,,512011,,512011,,512011,,512011,,512011,(included in 5120XX),,,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers"
+,772,,772,,7720,,7720,,7720,,7720,,7720,,512020,,512020,,512020,,512020,,512020,,512020,,512020,,"Electrical, Electronics, and Electromechanical Assemblers"
+,773,,773,,7730,,7730,,7730,,7730,,7730,,512031,,512031,,512031,,512031,,512031,,512031,,512031,,Engine and Other Machine Assemblers
+,774,,774,,7740,,7740,,7740,,7740,,7740,,512041,,512041,,512041,,512041,,512041,,512041,,512041,,Structural Metal Fabricators and Fitters
+,775,,775,,7750,,7750,,7750,,7750, (included in Other Assemblers and Fabricators),,,512090,,512090,,512090,,512090,,512090,,512090,(included in 5120XX),,,Miscellaneous Assemblers and Fabricators
+,,,,,,,,,,,,,7750," (collapsed, includes 7710 and Miscellaneous Assemblers and Fabricators)",,,,,,,,,,,,,5120XX,"(collapsed, includes 512090, 512011)",Other Assemblers and Fabricators
+,780,,780,,7800,,7800,,7800,,7800,,7800,,513011,,513011,,513011,,513011,,513011,,513011,,513011,,Bakers
+,781,,781,,7810,,7810,,7810,,7810,,7810,,513020,,513020,,513020,,513020,,513020,,513020,,513020,,"Butchers and Other Meat, Poultry, and Fish Processing Workers"
+,783,,783,,7830,,7830,,7830,,7830,,7830,,513091,,513091,,513091,,513091,,513091,,513091,,513091,,"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders"
+,784,,784,,7840,,7840,,7840,,7840,,7840,,513092,,513092,,513092,,513092,,513092,,513092,,513092,,Food Batchmakers
+,785,,785,,7850,,7850,,7850,,7850,,7850,,513093,,513093,,513093,,513093,,513093,,513093,,513093,,Food Cooking Machine Operators and Tenders
+,,,,,,,,,7855,"(split, see 8960)",7855, (see 8960),7855, (see 8960),,,,,,,,,513099,"(split, see 5191XX)",513099,(see 5191XX),513099,(see 5191XX),"Food Processing Workers, All Other"
+,790,,790,,7900,(includes 7905),7900,(includes 7905),7900,(includes 7905),7900, (includes 7905),,,514010,,514010,,514010,(includes 519160),514010,(includes 519160),514010,(includes 519160),514010,(includes 519160),,,Computer Control Programmers and Operators
+,,,,,,,,,,,,,7905," (title and code change, see 7900; split, see 8965)",,,,,,,,,,,,,519160,"(title and code change, see 514010; split, see 5191XX)",Computer Numerically Controlled Tool Operators And Programmers
+,,,,,,,,,,,,,7925," (collapsed, includes 7920, 7930, 7940)",,,,,,,,,,,,,514020,"(collapsed, includes 514021-514023)","Forming Machine Setters, Operators, And Tenders, Metal And Plastic"
+,792,,792,,7920,,7920,,7920,,7920, (included in 7925),,,514021,,514021,,514021,,514021,,514021,,514021,(included in 514020),,,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic"
+,793,,793,,7930,,7930,,7930,,7930, (included in 7925),,,514022,,514022,,514022,,514022,,514022,,514022,(included in 514020),,,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic"
+,794,,794,,7940,,7940,,7940,,7940, (included in 7925),,,514023,,514023,,514023,,514023,,514023,,514023,(included in 514020),,,"Rolling Machine Setters, Operators, and Tenders, metal and Plastic"
+,,,,,,,,,,,7950," (collapsed, includes 7960, 8000, 8010, 8020, 8025, and ""Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic"")",,,,,,,,,,,,,514030,"(collapsed, includes 514031, 514032, 514033, 514034, 514035, 51403X)",,,"Machine Tool Cutting setters, Operators, and Tenders, Metal and Plastic"
+,795,,795,,7950,,7950,,7950,"(included in Machine Tool Cutting setters, Operators, and Tenders, Metal and Plastic)",,,7950," (split, see Machine Tool Cutting setters, Operators, and Tenders, Metal and Plastic)",514031,,514031,,514031,,514031,,514031,(included in 514030),,,514031,"(split, see 514030)","Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic"
+,796,,796,,7960,,7960,,7960,"(included in 7950 (2013), 8025 (2018))",,,,,514032,,514032,,514032,,514032,,514032,(included in 514030),,,,,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+,800,,800,,8000,,8000,,8000,(included in 7950 (2013)),,,8000," (split, see 7950)",514033,,514033,,514033,,514033,,514033,(included in 514030),,,514033,"(split, see 514030)","Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+,801,,801,,8010,,8010,,8010,"(included in 7950 (2013), 8025 (2018))",,,,,514034,,514034,,514034,,514034,,514034,"(included in 514030 (2013), 51403X (2018))",,,,,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+,802,(included in 822),,,8020,"(included in 8220 (2005-2012), 7950 (2013), 8025 (2018))",,,,,,,,,514035,(included in 514XXX),,,514035,"(included in 514XXX (2005-2012), 514030 (2013), 51403X (2018))",,,,,,,,,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic"
+,,,,,,,,,,,,,8025," (split, see 7950; includes 7960, 8010, 8020)",,,,,,,,,,,,,51403X,"(split, see 514030; includes 514032, 514034, 514035)","Other Machine Tool Setters, Operators, And Tenders, Metal And Plastic"
+,803,,803,,8030,,8030,,8030,,8030,,8030,,514041,,514041,,514041,,514041,,514041,,514041,,514041,,Machinists
+,804,,804,,8040,,8040,,8040,,8040,,8040,,514050,,514050,,514050,,514050,,514050,,514050,,514050,,"Metal Furnace Operators, Tenders, Pourers, and Casters"
+,806,,806,,8060,,8060,,8060,(included in 8100),,,,,514060,,514060,,514060,,514060,,514060,(included in 5140XX),,,,,"Model Makers and Patternmakers, Metal and Plastic"
+,810,,810,,8100,,8100,,8100,"(included in Model Makers, Patternmakers, and Molding Machine Setters, Metal and Plastic)",,,,,514070,,514070,,514070,,514070,,514070,(included in 5140XX),,,,,"Molders and Molding Machine Setters, Operators, and Tenders, Metal and Plastic"
+,,,,,,,,,,,8100," (collapsed, includes 8060 and ""Molders and Molding Machine Setters, Operators, and Tenders, Metal and Plastic"")",8100," (includes 8060 and ""Molders and Molding Machine Setters, Operators, and Tenders, Metal and Plastic"")",,,,,,,,,,,5140XX,"(collapsed, includes 514060, 514070)",5140XX,"(includes 514060, 514070)","Model Makers, Patternmakers, and Molding Machine Setters, Metal and Plastic"
+,812,(included in 822),,,8120,(included in 8220),,,,,,,,,514081,(included in 514XXX),,,514081,(included in 514XXX),,,,,,,,,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+,813,,813,,8130,,8130,,8130,,8130,,8130,,514111,,514111,,514111,,514111,,514111,,514111,,514111,,Tool and Die Makers
+,814,,814,,8140,,8140,,8140,,8140,,8140,,514120,,514120,,514120,,514120,,514120,,514120,,514120,,"Welding, Soldering, and Brazing Workers"
+,815,,815,,8150,,8150,,8150,(included in 8220),,,,,514191,,514191,,514191,,514191,,514191,(included in 514XXX),,,,,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic"
+,816,,816,,8160,(included in 8220),,,,,,,,,514192,,514192,,514192,(included in 514XXX),,,,,,,,,"Layout Workers, Metal and Plastic"
+,820,,820,,8200,,8200,,8200,(included in 8220),,,,,514193,,514193,,514193,,514193,,514193,(included in 514XXX),,,,,"Plating and Coating Machine Setters, Operators, and Tenders, Metal and Plastic"
+,821,,821,,8210,,8210,,8210,(included in 8220),,,,,514194,,514194,,514194,,514194,,514194,(included in 514XXX),,,,,"Tool Grinders, Filers, and Sharpeners"
+,822,,,,8220,"(included in Miscellaneous metal workers and plastic workers including milling and planing machine setters, and multiple machine tool setters, and lay-out workers)",,,,,,,,,514199,(included in 514XXX),,,514199,(included in 514XXX),,,,,,,,,"Metal Workers and Plastic Workers, All Other"
+,,,,,,,8220,"(collapsed, includes 8020, 8120, 8160, and ""Metal Workers and Plastic Workers, All Other"")",8220,"(included in ""Miscellaneous Metal Workers and Plastic Workers, Including Multiple Machine Tool Setters""; includes 8020, 8120, 8160, and ""Metal Workers and Plastic Workers, All Other"")",,,,,,,,,,,514XXX,"(collapsed, includes 514035, 514081, 514192, 514199)",514XXX,"(includes 514035, 514081, 514192, 514199)",,,,,"Miscellaneous metal workers and plastic workers including milling and planing machine setters, and multiple machine tool setters, and lay-out workers"
+,,,,,,,,,,,8220," (collapsed, includes 8120, 8150, 8160, 8200, 8210, and ""Miscellaneous metal workers and plastic workers including milling and planing machine setters, and multiple machine tool setters, and lay-out workers""; included in 8225)",,,,,,,,,,,,,514XXX,"(collapsed, includes 514081, 514191, 514192, 514193, 514194, 514199, and ""Miscellaneous metal workers and plastic workers including milling and planing machine setters, and multiple machine tool setters, and lay-out workers""; included in ""Other Metal Workers And Plastic Workers"")",,,"Miscellaneous Metal Workers and Plastic Workers, Including Multiple Machine Tool Setters"
+,,,822," (includes 802, 812)",,,,,,,,,8225," (collapsed, includes 8120, 8150, 8160, 8200, 8210, 8220)",,,514XXX," (includes 514035, 514081, 514199)",,,,,,,,,514XXX,"(collapsed, includes 514081, 514191, 514192, 514193, 514194, 514199, ""Miscellaneous metal workers and plastic workers including milling and planing machine setters, and multiple machine tool setters, and lay-out workers"" and ""Miscellaneous Metal Workers and Plastic Workers, Including Multiple Machine Tool Setters"")",Other Metal Workers And Plastic Workers
+,823,,823,,8230,(includes 8256),8230,(includes 8256),,,,,,,515010,,515010,,515010,(includes 515113),515010,(includes 515113),,,,,,,Bookbinders and Bindery Workers
+,824,,824,,8240,(includes 8255 and 8256),8240,(includes 8255 and 8256),,,,,,,515021,,515021,,515021,"(includes 515112, 515113)",515021,"(includes 515112, 515113)",,,,,,,Job Printers
+,825,,825,,8250,,8250,,,,,,,,515022,,515022,,515022,(includes 515111),515022,(includes 515111),,,,,,,Prepress Technicians and Workers
+,,,,,,,,,8250,(occsoc code change),8250,,8250,,,,,,,,,,515111,"(code change, see 515022)",515111,"(code change, see 515022)",515111,"(code change, see 515022)",Prepress Technicians and Workers
+,826,,826,,8260,(includes 8255),8260,(includes 8255),,,,,,,515023,,515023,,515023,(includes 515112),515023,(includes 515112),,,,,,,Printing Machine Operators
+,,,,,,,,,8255,"(split, see 8240; code change, see 8260)",8255," (see 8240, 8260)",8255," (see 8240, 8260)",,,,,,,,,515112,"(split, see 515021; code change, see 515023)",515112,"(see 515021; code change, see 515023)",515112,"(see 515021; code change, see 515023)",Printing Press Operators
+,,,,,,,,,8256,"(split, see 8240, code change, see 8230)",8256," (see 8230, 8240)",8256," (see 8230, 8240)",,,,,,,,,515113,"(split, see 515021; code change, see 515010)",515113,"(see 515021; code change, see 515010)",515113,"(see 515021; code change, see 515010)",Print Binding and Finishing Workers
+,830,,830,,8300,,8300,,8300,,8300,,8300,,516011,,516011,,516011,,516011,,516011,,516011,,516011,,Laundry and Dry-Cleaning Workers
+,831,,831,,8310,,8310,,8310,,8310,,8310,,516021,,516021,,516021,,516021,,516021,,516021,,516021,,"Pressers, Textile, Garment, and Related Materials"
+,832,,832,,8320,,8320,,8320,,8320,,8320,,516031,,516031,,516031,,516031,,516031,,516031,,516031,,Sewing Machine Operators
+,833,,833,,8330,,8330,,8330,(included in Shoe and Leather Workers),,,,,516041,,516041,,516041,,516041,,516041,(included in 516040),,,,,Shoe and Leather Workers and Repairers
+,,,,,,,,,,,8330," (collapsed, includes 8340 and ""Shoe and Leather Workers and Repairers"")",,,,,,,,,,,,,516040,"(collapsed, includes 516041, 516042)",,,Shoe and Leather Workers
+,,,,,,,,,,,,,8335," (code change, see 8330; includes 8340 and ""Shoe and Leather Workers and Repairers"")",,,,,,,,,,,,,516040,"(occ code change; includes 516041, 516042) ",Shoe and Leather Workers
+,834,,834,,8340,,8340,,8340,(included in Shoe and Leather Workers),,,,,516042,,516042,,516042,,516042,,516042,(included in 516040),,,,,Shoe Machine Operators and Tenders
+,835,,835,,8350,,8350,,8350,,8350,,8350,,516050,,516050,,516050,,516050,,516050,,516050,,516050,,"Tailors, Dressmakers, and Sewers"
+,,,,,,,,,,,,,8365," (collapsed, includes 8360, 8400, 8410, 8420)",,,,,,,,,,,,,516060,"(collapsed, includes 516061-516064, 51606X)","Textile Machine Setters, Operators, And Tenders"
+,836,,836,,8360,(included in 8400),,,,,,,,,516061,,516061,,516061,(included in 51606X),,,,,,,,,Textile Bleaching and Dyeing Machine Operators and Tenders
+,840,,840,,8400,"(included in Textile bleaching and dyeing, and cutting machine setters, operators, and tenders)",,,,,,,,,516062,,516062,,516062,(included in 51606X),,,,,,,,,"Textile Cutting Machine Setters, Operators, and Tenders"
+,,,,,,,8400,"(collapsed, includes 8360 and ""Textile Cutting Machine Setters, Operators, and Tenders"")",8400,"(includes 8360 and ""Textile Cutting Machine Setters, Operators, and Tenders"")",8400," (included in 8365; includes 8360 and ""Textile Cutting Machine Setters, Operators, and Tenders"")",,,,,,,,,51606X,"(collapsed, includes 516061, 516062)",51606X,"(includes 516061, 516062)",51606X,"(included in 516060; includes 516061, 516062)",,,"Textile bleaching and dyeing, and cutting machine setters, operators, and tenders"
+,841,,841,,8410,,8410,,8410,,8410, (included in 8365),,,516063,,516063,,516063,,516063,,516063,,516063,(included in 516060),,,"Textile Knitting and Weaving Machine Setters, Operators, and Tenders"
+,842,,842,,8420,,8420,,8420,,8420, (included in 8365),,,516064,,516064,,516064,,516064,,516064,,516064,(included in 516060),,,"Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders"
+,843,(included in 846),,,8430,(included in 8460),,,,,,,,,516091,(included in 51609X),,,516091,(included in 51609X),,,,,,,,,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers"
+,844,(included in 846),,,8440,(included in 8460),,,,,,,,,516092,(included in 51609X),,,516092,(included in 501609X,,,,,,,,,Fabric and Apparel Patternmakers
+,845,,845,,8450,,8450,,8450,,8450,,8450,,516093,,516093,,516093,,516093,,516093,,516093,,516093,,Upholsterers
+,846,,,,8460,"(included in Miscellaneous textile, apparel, and furnishings workers except upholsterers)",,,,,,,,,516099,(included in 51609X),,,516099,(included in 51609X),,,,,,,,,"Textile, Apparel, and Furnishings Workers, All Other"
+,,,846," (includes 843, 844)",,,8460,"(collapsed, includes 8430, 8440, and ""Textile, Apparel, and Furnishings Workers, All Other"")",8460,"(includes 8430, 8440, and ""Textile, Apparel, and Furnishings Workers, All Other"")",8460," (includes 8430, 8440, and ""Textile, Apparel, and Furnishings Workers, All Other"")",,,,,51609X," (includes 516091, 516092, 516099)",,,51609X,"(collapsed, includes 516091, 516092, 516099)",51609X,"(includes 516091, 516092, 516099)",51609X,"(includes 516091, 516092, 516099, and ""Other Textile, Apparel, And Furnishings Workers"")",,,"Miscellaneous textile, apparel, and furnishings workers except upholsterers"
+,,,,,,,,,,,,,8465," (title and code change, see 8460; includes 8430, 8440, 8460)",,,,,,,,,,,,,51609X,"(title change, see Miscellaneous textile, apparel, and furnishings workers except upholsterers; includes 516091, 516092, 516099)","Other Textile, Apparel, And Furnishings Workers"
+,850,,850,,8500,,8500,,8500,,8500,,8500,,517011,,517011,,517011,,517011,,517011,,517011,,517011,,Cabinetmakers and Bench Carpenters
+,851,,851,,8510,,8510,,8510,,8510,,8510,,517021,,517021,,517021,,517021,,517021,,517021,,517021,,Furniture Finishers
+,852,(included in 855),,,8520,(included in 8550),,,,,,,,,517030,(included in 5170XX),,,517030,(included in 5170XX),,,,,,,,,"Model Makers and Patternmakers, Wood"
+,853,,853,,8530,,8530,,8530,,8530,,8530,,517041,,517041,,517041,,517041,,517041,,517041,,517041,,"Sawing Machine Setters, Operators, and Tenders, Wood"
+,854,,854,,8540,,8540,,8540,,8540,,8540,,517042,,517042,,517042,,517042,,517042,,517042,,517042,,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing"
+,855,,,,8550,(included in Miscellaneous woodworkers including model makers and patternmakers),,,,,,,,,517099,(included in 5170XX),,,517099,(included in 5170XX),,,,,,,,,"Woodworkers, All Other"
+,,,855, (includes 852),,,8550,"(collapsed, includes 8520 and ""Woodworkers, All Other"")",8550,"(includes 8520 and ""Woodworkers, All Other"")",8550," (includes 8520 and ""Woodworkers, All Other"")",,,,,5170XX," (includes 517030, 517099)",,,5170XX,"(collapsed, includes 517030, 517099)",5170XX,"(includes 517030, 517099)",5170XX,"(includes 517030, 517099)",,,Miscellaneous woodworkers including model makers and patternmakers
+,,,,,,,,,,,,,8555," (title and code change, see 8550; includes 8520, 8550)",,,,,,,,,,,,,5170XX,"(title change, see 5170XX; includes 517030, 517099)",Other Woodworkers
+,860,,860,,8600,,8600,,8600,,8600,,8600,,518010,,518010,,518010,,518010,,518010,,518010,,518010,,"Power Plant Operators, Distributors, and Dispatchers"
+,861,,861,,8610,,8610,,8610,,8610,,8610,,518021,,518021,,518021,,518021,,518021,,518021,,518021,,Stationary Engineers and Boiler Operators
+,862,,862,,8620,,8620,,8620,,8620,,8620,,518031,,518031,,518031,,518031,,518031,,518031,,518031,,Water and Wastewater Treatment Plant and System Operators
+,863,,863,,8630,,8630,,8630,,8630,,8630,,518090,,518090,,518090,,518090,,518090,,518090,,518090,,Miscellaneous Plant and System Operators
+,864,,864,,8640,,8640,,8640,,8640,,8640,,519010,,519010,,519010,,519010,,519010,,519010,,519010,,"Chemical Processing Machine Setters, Operators, and Tenders"
+,865,,865,,8650,,8650,,8650,,8650,,8650,,519020,,519020,,519020,,519020,,519020,,519020,,519020,,"Crushing, Grinding, Polishing, Mixing, and Blending Workers"
+,871,,871,,8710,,8710,,8710,,8710,,8710,,519030,,519030,,519030,,519030,,519030,,519030,,519030,,Cutting Workers
+,872,,872,,8720,,8720,,8720,,8720,,8720,,519041,,519041,,519041,,519041,,519041,,519041,,519041,,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders"
+,873,,873,,8730,,8730,,8730,,8730,,8730,,519051,,519051,,519051,,519051,,519051,,519051,,519051,,"Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders"
+,874,,874,,8740,,8740,,8740,,8740,,8740,,519061,,519061,,519061,,519061,,519061,,519061,,519061,,"Inspectors, Testers, Sorters, Samplers, and Weighers"
+,875,,875,,8750,,8750,,8750,,8750,,8750,,519071,,519071,,519071,,519071,,519071,,519071,,519071,,Jewelers and Precious Stone and Metal Workers
+,876,,876,,8760,,8760,,8760,,8760,,8760,,519080,,519080,,519080,,519080,,519080,,519080,,519080,,"Medical, Dental, and Ophthalmic Laboratory Technicians"
+,880,,880,,8800,,8800,,8800,,8800,,8800,,519111,,519111,,519111,,519111,,519111,,519111,,519111,,Packaging and Filling Machine Operators and Tenders
+,881,,881,,8810,,8810,,8810,,8810,,8810,,519120,,519120,,519120,,519120,,519120,,519120,,519120,,Painting Workers
+,883,,883,,8830,,8830,,8830,,8830,,8830,,519130,,519130,,519130,,519130,,519151,,519151,,519151,,Photographic Process Workers and Processing Machine Operators
+,884,(included in 896),,,8840,(included in 8960),,,,,,,,,519141,(included in 5191XX),,,519141,(included in 5191XX),,,,,,,,,Semiconductor Processors
+,885,,885,,8850,(includes Adhesive Bonding Machine Operators and Tenders),8850,(includes Adhesive Bonding Machine Operators and Tenders),,,,,,,519191,,519191,,519191,(includes Adhesive Bonding Machine Operators and Tenders),519191,(includes Adhesive Bonding Machine Operators and Tenders),,,,,,,Cementing and Gluing Machine Operators and Tenders
+,,,,,,,,,8850,"(title change, see Cementing and Gluing Machine Operators and Tenders)",8850, (see Cementing and Gluing Machine Operators and Tenders),8850, (see Cementing and Gluing Machine Operators and Tenders),,,,,,,,,519191,"(title change, see Cementing and Gluing Machine Operators and Tenders)",519191,(see Cementing and Gluing Machine Operators and Tenders),519191,(see Cementing and Gluing Machine Operators and Tenders),Adhesive Bonding Machine Operators and Tenders
+,886,,886,,8860,,8860,,8860,(included in 8965),,,,,519192,,519192,,519192,,519192,,519192,(included in 5191XX),,,,,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders"
+,890,(included in 896),,,8900,(included in 8960),,,,,,,,,519193,(included in 5191XX),,,519193,(included in 5191XX),,,,,,,,,Cooling and Freezing Equipment Operators and Tenders
+,891,,891,,8910,,8910,,8910,,8910,,8910,,519194,,519194,,519194,,519194,,519194,,519194,,519194,,Etchers and Engravers
+,892,,892,,8920,,8920,,8920,,8920,,8920,,519195,,519195,,519195,,519195,,519195,,519195,,519195,,"Molders, Shapers, and Casters, Except Metal and Plastic"
+,893,,893,,8930,,8930,,8930,,8930,,8930,,519196,,519196,,519196,,519196,,519196,,519196,,519196,,"Paper Goods Machine Setters, Operators, and Tenders"
+,894,,894,,8940,,8940,,8940,,8940,,8940,,519197,,519197,,519197,,519197,,519197,,519197,,519197,,Tire Builders
+,895,,895,,8950,,8950,,8950,,8950,,8950,,519198,,519198,,519198,,519198,,519198,,519198,,519198,,Helpers--Production Workers
+,896,,,,8960,(included in Other production workers including semiconductor processors and cooling and freezing equipment operators),,,,,,,,,519199,(included in 5191XX),,,519199,(included in 5191XX; includes 513099),,,,,,,,,"Production Workers, All Other"
+,,,896," (includes 884, 890)",,,8960,"(collapsed, includes 7855, 8840, 8900, and ""Production Workers, All Other"")",,,,,,,,,5191XX," (includes 519141, 519193, 519199)",,,5191XX,"(collapsed, includes 519141, 519193, 519199)",,,,,,,Other production workers including semiconductor processors and cooling and freezing equipment operators
+,,,,,,,,,8965,"(split, see 8960; includes 8840, 8900, 8960)",8965," (see 8960; includes 8860, 8990)",,,,,,,,,,,5191XX,"(split, see ""Other Production Workers Including Semiconductor Processors and Cooling and Freezing Equipment Operators"")",5191XX,"(see ""Other production workers including semiconductor processors and cooling and freezing equipment operators""; includes 519141, 519193, 519199)",,,"Micellaneous Production Workers, Including Semiconductor Processors"
+,,,,,,,,,,,,,8990," (split, see 8965)",,,,,,,,,,,,,5191XX,"(split, see ""Micellaneous Production Workers, Including Semiconductor Processors"")","Miscellaneous Production Workers, Including Equipment Operators and Tenders"
+Transportation Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,900,,900,,9000,(includes 9005),9000,(includes 9005),9000,(includes 9005),9000, (includes 9005),,,531000,,531000,,531000,(includes Supervisors of Transportation and Material Moving Workers),531000,(includes Supervisors of Transportation and Material Moving Workers),531000,(includes Supervisors of Transportation and Material Moving Workers),531000,(includes Supervisors of Transportation and Material Moving Workers),,,Supervisors of Transportation and Material Moving Workers
+,,,,,,,,,,,,,9005," (split, see 4320; code change, see 9000)",,,,,,,,,,,,,531000,"(split, see 391021)",Supervisors of Transportation and Material Moving Workers
+,903,,903,,9030,,9030,,9030,,9030,,9030,,532010,,532010,,532010,,532010,,532010,,532010,,532010,,Aircraft Pilots and Flight Engineers
+,904,,904,,9040,,9040,,9040,,9040,,9040,,532020,,532020,,532020,,532020,,532020,,532020,,532020,,Air Traffic Controllers and Airfield Operations Specialists
+,,,,,,,,,9050,"(split, see 4550)",9050, (see 4550),9050, (see 4550),,,,,,,,,532031,"(split, see 396030)",532031,(see 396030),532031,(see 396030),Flight Attendants
+,911,(included in 915),,,,,9110,,9110,,9110,,9110,,533011,(included in 5330XX),,,,,533011,,533011,,533011,,533011,,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians"
+,912,,912,,9120,"(includes 9121, 9122, 9141)",9120,"(includes 9121, 9122, 9141)",9120,"(includes 9121, 9122, 9141)",9120," (includes 9121, 9122, 9141)",,,533020,,533020,,533020,"(includes 533051, 533052, 533053)",533020,"(includes 533051, 533052, 533053)",533020,"(includes 533051, 533052, 533053)",533020,"(includes 533051, 533052, 533053)",,,Bus Drivers
+,,,,,,,,,,,,,9121," (split, see 9120)",,,,,,,,,,,,,533051,"(split, see 533020)","Bus Drivers, School"
+,,,,,,,,,,,,,9122," (split, see 9120)",,,,,,,,,,,,,533052,"(split, see 533020)","Bus Drivers, Transit And Intercity"
+,913,,913,,9130,,9130,,9130,,9130,,9130,,533030,,533030,,533030,,533030,,533030,,533030,,533030,,Driver/Sales Workers and Truck Drivers
+,914,,914,,9140,"(includes 9141, 9142)",9140,"(includes 9141, 9142)",9140,"(includes 9141, 9142)",9140," (includes 9141, 9142)",,,533041,,533041,,533041,"(includes 533053, 533054)",533041,"(includes 533053, 533054)",533041,"(includes 533053, 533054)",533041,"(includes 533053, 533054)",,,Taxi Drivers and Chauffeurs
+,,,,,,,,,,,,,9141," (split, see 9140)",,,,,,,,,,,,,533053,"(split, see 533041)",Shuttle Drivers and Chauffeurs
+,,,,,,,,,,,,,9142," (split, see 9140)",,,,,,,,,,,,,533054,"(split, see 533041)",Taxi Drivers
+,915,,915, (includes 911),9150,,9150,,9150,,9150,,9150,,533099,(included in 5330XX),5330XX," (includes 533011, 533099)",533099,,533099,,533099,,533099,,533099,,"Motor Vehicle Operators, All Other"
+,920,,920,,9200,"(includes 9210, 9265)",9200,"(includes 9210, 9265)",9200,"(includes 9210, 9265)",9200," (includes 9210, 9265)",,,534010,,534010,,534010,"(includes 5340XX and ""Locomotive Engineers and Operators"")",534010,"(includes 5340XX and ""Locomotive Engineers and Operators"")",534010,"(includes 5340XX and ""Locomotive Engineers and Operators"")",534010,"(includes 5340XX and ""Locomotive Engineers and Operators"")",,,Locomotive Engineers and Operators
+,,,,,,,,,,,,,9210," (split, see 9200)",,,,,,,,,,,,,534010,"(split, see Locomotive Engineers and Operators)",Locomotive Engineers and Operators
+,923,,923,,9230,,9230,,9230,(included in 9260),,,,,534021,,534021,,534021,,534021,,534021,(included in 5340XX),,,,,"Railroad Brake, Signal, and Switch Operators"
+,924,,924,,9240,,9240,,9240,,9240,,9240,,534031,,534031,,534031,,534031,,534031,,534031,,534031,,Railroad Conductors and Yardmasters
+,926,,926,,9260,,9260,,9260,,9260, (included in 9265; includes 9230),,,5340XX,,5340XX,,5340XX,,5340XX,,5340XX,,5340XX,"(included in ""Other Rail Transportation Workers""; includes 534021)",,,"Subway, Streetcar, and Other Rail Transportation Workers"
+,,,,,,,,,,,,,9265," (split, see 9200; collapsed, includes 9230, 9260)",,,,,,,,,,,,,5340XX,"(split, see 534010; collapsed, includes 534031 and 5340XX)",Other Rail Transportation Workers
+,930,,930,,9300,"(included in Sailors and Marine Oilers, and Ship Engineers)",,,,,,,,,535011,,535011,,535011,(included in 5350XX),,,,,,,,,Sailors and Marine Oilers
+,,,,,,,9300,"(collapsed, includes 9330 and ""Sailors and Marine Oilers"")",9300,"(includes 9330 and ""Sailors and Marine Oilers)",9300," (includes 9330 and ""Sailors and Marine Oilers)",9300," (includes 9330 and ""Sailors and Marine Oilers)",,,,,,,5350XX,"(collapsed, includes 535011, 535031)",5350XX,"(includes 535011, 535031)",5350XX,"(includes 535011, 535031)",5350XX,"(includes 535011, 535031)","Sailors and marine oilers, and ship engineers"
+,931,,931,,9310,,9310,,9310,,9310,,9310,,535020,,535020,,535020,,535020,,535020,,535020,,535020,,Ship and Boat Captains and Operators
+,933,,933,,9330,(included in Ship Engineers),,,,,,,,,535031,,535031,,535031,(included in 5350XX),,,,,,,,,Ship Engineers
+,934,(included in 942),,,9340,(included in 9420),,,,,,,,,536011,(included in 5360XX),,,536011,(included in 5360XX),,,,,,,,,Bridge and Lock Tenders
+,935,,935,,9350,,9350,,9350,,9350,,9350,,536021,,536021,,536021,,536021,,536021,,536021,,536021,,Parking Lot Attendants
+,936,,936,,9360,(includes Automotive and Watercraft Service Attendants),9360,(includes Automotive and Watercraft Service Attendants),,,,,,,536031,,536031,,536031,"(includes ""Automotive and Watercraft Service Attendants"" and ""Transportation Service Attendants"")",536031,"(includes ""Automotive and Watercraft Service Attendants"" and ""Transportation Service Attendants"")",,,,,,,Service Station Attendants
+,,,,,,,,,9360,"(title change, see Service Station Attendants)",9360, (see Service Station Attendants),,,,,,,,,,,536031,"(title change, see Service Station Attendants)",536031,(see Service Station Attendants),,,Automotive and Watercraft Service Attendants
+,,,,,,,,,,,,,9365," (title and code change, see 9360)",,,,,,,,,,,,,536030,"(title and code change, see 536031)",Transportation Service Attendants
+,941,,941,,9410,,9410,,9410,,9410,,9410,,536051,,536051,,536051,,536051,,536051,,536051,,536051,,Transportation Inspectors
+,,,,,,,,,9415,"(split, see 4550; includes Passenger Attendants)",9415, (see 4550; includes Passenger Attendants),,,,,,,,,,,536061,"(split, see 396030; includes Passenger Attendants)",536061,(see 396030; includes Passenger Attendants),,,"Transportation Attendants, Except Flight Attendants"
+,,,,,,,,,,,,,9415," (title change, see Transportation Attendants, Except Flight Attendants)",,,,,,,,,,,,,536061,"(title change, see ""Transportation Attendants, Except Flight Attendants; see 396030)",Passenger Attendants
+,942,,,,9420,(included in Miscellaneous transportation workers including bridge and lock tenders and traffic technicians),,,,,,,,,5360XX,(included in 5360XX),,,5360XX,(included in Miscellaneous transportation workers including bridge and lock tenders and traffic technicians),,,,,,,,,Other transportation workers
+,,,942, (includes 934),,,9420,"(collapsed, includes 9340 and ""Other Transportation Workers"")",9420,"(includes 9340 and ""Other Transportation Workers"")",9420," (includes 9340 and ""Other Transportation Workers"")",,,,,5360XX," (includes 536011, 5360XX)",,,5360XX,"(collapsed, includes 536011 and ""Other transportation workers"")",5360XX,"(includes 536011 and ""Other transportation workers"")",5360XX,"(includes 536011 and ""Other transportation workers"")",,,Miscellaneous transportation workers including bridge and lock tenders and traffic technicians
+,,,,,,,,,,,,,9430," (title and code change, see 9420; includes 9340",,,,,,,,,,,,,5360XX,"(title change, see ""Miscellaneous transportation workers including bridge and lock tenders and traffic technicians""; includes 536011)",Other transportation workers
+Material Moving Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,950,(included in 975),,,9500,(included in 9560),,,,,,,,,537011,(included in 537XXX),,,537011,(included in 5370XX),,,,,,,,,Conveyor Operators and Tenders
+,951,,951,,9510,,9510,,9510,,9510,,9510,,537021,,537021,,537021,,537021,,537021,,537021,,537021,,Crane and Tower Operators
+,952,,952,,9520,"(includes 9570, 9760, 6850)",9520,"(includes 9570, 9760, 6850)",9520,"(includes 9570, 9760, 6850)",9520," (includes 9570, 9760, 6850)",,,537030,,537030,,537030,"(includes 475040, 5370XX, 5371XX)",537030,"(includes 475040, 5370XX, 5371XX)",537030,"(includes 475040, 5370XX, 5371XX)",537030,"(includes 475040, 5370XX, 5371XX)",,,"Dredge, Excavating, and Loading Machine Operators"
+,956,,956,,9560,(included in 9560),,,,,,,,,537041,,537041,,537041,(included in 5370XX),,,,,,,,,Hoist and Winch Operators
+,,,,,,,9560,"(collapsed, includes 9500, 9560)",9560,"(includes 9500, 9560)",9560," (includes 9500, 9560)",,,,,,,,,5370XX,"(collapsed, includes 537011, 537041)",5370XX,"(includes 537011, 537041)",5370XX,"(includes 537011, 537041)",,,"Conveyor operators and tenders, and hoist and winch operators"
+,,,,,,,,,,,,,9570," (code change, see 9500; split, see 9520; code change, see 9560)",,,,,,,,,,,,,5370XX,"(code change, see 537011; split, see 537030; title change, see Conveyor operators and tenders, and hoist and winch operators)","Conveyor, Dredge, And Hoist And Winch Operators"
+,960,,960,,9600,,9600,,9600,,9600,,9600,,537051,,537051,,537051,,537051,,537051,,537051,,537051,,Industrial Truck and Tractor Operators
+,961,,961,,9610,,9610,,9610,,9610,,9610,,537061,,537061,,537061,,537061,,537061,,537061,,537061,,Cleaners of Vehicles and Equipment
+,962,,962,,9620,,9620,,9620,,9620,,9620,,537062,,537062,,537062,,537062,,537062,,537062,,537062,,"Laborers and Freight, Stock, and Material Movers, Hand"
+,963,,963,,9630,,9630,,9630,,9630,,9630,,537063,,537063,,537063,,537063,,537063,,537063,,537063,,Machine Feeders and Offbearers
+,964,,964,,9640,,9640,,9640,,9640,,9640,,537064,,537064,,537064,,537064,,537064,,537064,,537064,,"Packers and Packagers, Hand"
+,,,,,,,,,,,,,9645," (title and code change, see 5620)",,,,,,,,,,,,,537065,"(title and code change, see 435081)",Stockers And Order Fillers
+,965,,965,,9650,,9650,,9650,,9650,,9650,,537070,,537070,,537070,,537070,,537070,,537070,,537070,,Pumping Station Operators
+,972,,972,,9720,,9720,,9720,,9720,,9720,,537081,,537081,,537081,,537081,,537081,,537081,,537081,,Refuse and Recyclable Material Collectors
+,973,(included in 975),,,9730,(included in 9750),,,,,,,,,537111,(included in 537XXX),,,537111,(included in 5371XX),,,,,,,,,Shuttle Car Operators
+,974,(included in 975),,,9740,(included in 9750),,,,,,,,,537121,(included in 537XXX),,,537121,(included in 5371XX),,,,,,,,,"Tank Car, Truck, and Ship Loaders"
+,975,,,,9750,"(included in Miscellaneous material moving workers including shuttle car operators, and tank car, truck, and ship loaders)",,,,,,,,,537199,(included in 537XXX),,,537199,(included in 5371XX),,,,,,,,,"Material Moving Workers, All Other"
+,,,975," (includes 950, 973, 974)",,,9750,"(collapsed, includes 9730, 9740, and ""Material Moving Workers, All Other"")",9750,"(includes 9730, 9740, and ""Material Moving Workers, All Other"")",9750," (included in 9760; includes 9730, 9740, and ""Material Moving Workers, All Other"")",,,,,537XXX," (includes 537011, 537111, 537121, 537199)",,,5371XX,"(collapsed, includes 537111, 537121, 537199)",5371XX,"(includes 537111, 537121, 537199)",5371XX,"(includes 537111, 537121, 537199)",,,"Miscellaneous material moving workers including shuttle car operators, and tank car, truck, and ship loaders"
+,,,,,,,,,,,,,9760," (collapsed, includes 9750; split, see 9520)",,,,,,,,,,,,,5371XX,"(collapsed, includes Miscellaneous material moving workers including shuttle car operators, and tank car, truck, and ship loaders; split, see 537030)",Other Material Moving Workers
+Military Specific Occupations:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,980,,980,,9800,,9800,,9800,,9800,,9800,,551000,,551010,,551010,,551010,,551010,,551010,,551010,,Military Officer Special and Tactical Operations Leaders
+,981,,981,,9810,,9810,,9810,,9810,,9810,,552000,,552010,,552010,,552010,,552010,,552010,,552010,,First-Line Enlisted Military Supervisors
+,982,,982,,9820,,9820,,9820,,9820,,9825," (code change, see 9820)",553000,,553010,,553010,,553010,,553010,,553010,,553010,,Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members
+,983,,983,,9830,,9830,,9830,,9830,,9830,,559830,,559830,,559830,,559830,,559830,,559830,,559830,,"Military, Rank Not Specified"
+Unemployed:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,992,,992,,9920,,9920,,9920,,9920,,9920,,559920,,559920,,999920,,999920,,999920,,999920,,999920,,"Unemployed, with No Work Experience in the Last 5 Years or Earlier or Never Worked"
